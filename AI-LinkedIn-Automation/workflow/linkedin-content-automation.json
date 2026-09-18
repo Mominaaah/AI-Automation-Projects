@@ -1,0 +1,1044 @@
+{
+  "name": "Linkden Post Automation",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 19
+            },
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        0
+      ],
+      "id": "d1a6ed17-030a-470d-bcc3-759fb961a887",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-3.1-flash-lite",
+          "mode": "list",
+          "cachedResultName": "models/gemini-3.1-flash-lite"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are a professional LinkedIn content editor.\n\nThe previous quality checker reviewed three LinkedIn posts.\n\nQUALITY CHECK RESULT:\n\n{{ JSON.stringify($json) }}\n\nORIGINAL THREE POSTS:\n\n{{ $('LinkedIn Post Generator').item.json.content.parts[0].text }}\n\nYour task is to fix ONLY the posts that have a status of \"REVISE\".\n\nAny post with a status of \"PASS\" must remain unchanged.\n\nFor every post that needs revision:\n- Fix every issue identified by the quality checker.\n- Keep the original topic and intended angle.\n- Keep the writing natural and professional.\n- Do not invent statistics, personal experiences, clients, colleagues, or events.\n- Do not introduce unsupported factual claims.\n- Keep each post approximately 180–250 words.\n- Keep 3–5 relevant hashtags.\n- Do not use excessive emojis.\n- Do not use markdown bold or italic formatting.\n- Do not use asterisks.\n- Do not use backslashes.\n- Avoid generic AI-sounding phrases.\n- Avoid exaggerated claims.\n- Do not copy sentences from the research.\n\nIMPORTANT:\nDo not rewrite posts that already passed.\n\nReturn ONLY the three complete posts using exactly this format:\n\nOPTION 1:\nComplete post here.\n\nOPTION 2:\nComplete post here.\n\nOPTION 3:\nComplete post here."
+            }
+          ]
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1.2,
+      "position": [
+        1520,
+        96
+      ],
+      "id": "8fd61925-0bcc-4ba8-b2aa-6319f21c2d9f",
+      "name": "Revision / Rewriter",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "W234AtvDcgIDlrtL",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "models/gemini-3-flash-preview"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are a LinkedIn content quality reviewer.\n\nHere are the revised LinkedIn posts:\n\n{{ $json.content.parts[0].text }}\n\nReview all three posts for:\n\n1. Factual support and unsupported claims.\n2. No fabricated personal experiences.\n3. Natural and professional LinkedIn writing.\n4. Clear hook and useful content.\n5. Approximately 180–250 words per post.\n6. 3–5 relevant hashtags per post.\n7. No placeholders, markdown artifacts, backslashes, or excessive emojis.\n8. The three options use genuinely different angles.\n9. No copied sentences from research.\n10. No unsupported statistics or exaggerated claims.\n\nDo NOT rewrite the posts.\n\nReturn ONLY valid JSON. Do not use markdown code fences.\n\nUse exactly this structure:\n\n{\n  \"overall_status\": \"PASS\",\n  \"option1\": {\n    \"status\": \"PASS\",\n    \"issues\": []\n  },\n  \"option2\": {\n    \"status\": \"PASS\",\n    \"issues\": []\n  },\n  \"option3\": {\n    \"status\": \"PASS\",\n    \"issues\": []\n  },\n  \"general_feedback\": \"\"\n}\n\nUse \"REVISE\" instead of \"PASS\" when a post still has a meaningful problem."
+            }
+          ]
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1.2,
+      "position": [
+        1520,
+        208
+      ],
+      "id": "aee9f970-3938-436b-8ef9-0b255935ad39",
+      "name": "Quality Checker 2",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "W234AtvDcgIDlrtL",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const text = $json.content.parts[0].text;\n\nconst cleaned = text\n  .replace(/```json/g, '')\n  .replace(/```/g, '')\n  .trim();\n\nconst result = JSON.parse(cleaned);\n\nreturn [\n  {\n    json: result\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1792,
+        208
+      ],
+      "id": "086b7ab5-1589-419b-928a-61e227b0536d",
+      "name": "Parse Quality Check 2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "361cac28-0edc-4180-82a6-e66d17d7b3d2",
+              "leftValue": "={{ $json.overall_status }}",
+              "rightValue": "PASS",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        1920,
+        208
+      ],
+      "id": "98757727-686b-449d-9de4-a8b70ef72acd",
+      "name": "If1"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [\n  {\n    json: {\n      status: \"STOP\",\n      message: \"The posts still need revision after the quality check.\"\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2176,
+        320
+      ],
+      "id": "c8442ce6-8bc3-44c2-98e0-0996bf63ccf3",
+      "name": "Revision Limit"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "5e584acd-763d-4e74-99d4-cfcaa274424a",
+              "leftValue": "={{ $json.selection }}",
+              "rightValue": "1",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        2752,
+        0
+      ],
+      "id": "f394694e-4ae5-42f3-940e-038a8cfb4262",
+      "name": "Is Option 1?"
+    },
+    {
+      "parameters": {
+        "jsCode": "const postText = $('LinkedIn Post Generator').item.json.content.parts[0].text;\n\nconst match = postText.match(\n  /OPTION 1:\\s*([\\s\\S]*?)(?=\\nOPTION 2:|$)/\n);\n\nreturn [\n  {\n    json: {\n      selected_option: \"1\",\n      selected_post: match ? match[1].trim() : \"\"\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2944,
+        -144
+      ],
+      "id": "b7f982a6-c5cc-4f4a-bd67-4ac4749ae04c",
+      "name": "Select Option 1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "b9f7a2be-a03e-4145-b7a8-2aa9a67158fc",
+              "leftValue": "={{ $json.selection }}",
+              "rightValue": "2",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        2896,
+        96
+      ],
+      "id": "29f5db3e-7134-478d-b51d-af858bca7ee0",
+      "name": "Is Option 2?"
+    },
+    {
+      "parameters": {
+        "jsCode": "const postText = $('LinkedIn Post Generator').item.json.content.parts[0].text;\n\nconst match = postText.match(\n  /OPTION 2:\\s*([\\s\\S]*?)(?=\\nOPTION 3:|$)/\n);\n\nreturn [\n  {\n    json: {\n      selected_option: \"2\",\n      selected_post: match ? match[1].trim() : \"\"\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3120,
+        0
+      ],
+      "id": "1260190f-ca5a-49c6-8da3-917779cd4513",
+      "name": "Select Option 2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "3e819cc4-f8a2-448f-93b7-5d0823ab6f55",
+              "leftValue": "={{ $json.selection\n}}",
+              "rightValue": "3",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        3120,
+        224
+      ],
+      "id": "9a5573a8-2a13-4eec-a5be-2465bc5292b4",
+      "name": "Is Option 3?"
+    },
+    {
+      "parameters": {
+        "jsCode": "const postText = $('LinkedIn Post Generator').item.json.content.parts[0].text;\n\nconst match = postText.match(\n  /OPTION 3:\\s*([\\s\\S]*?)(?=\\nOPTION 3:|$)/\n);\n\nreturn [\n  {\n    json: {\n      selected_option: \"3\",\n      selected_post: match ? match[1].trim() : \"\"\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3344,
+        128
+      ],
+      "id": "b11a4ffd-cad1-4ef4-95ff-6a8ca2997f39",
+      "name": "Option 3"
+    },
+    {
+      "parameters": {
+        "jsCode": "const messages = $input.all();\n\nif (messages.length === 0) {\n  return [\n    {\n      json: {\n        decision: \"NONE\"\n      }\n    }\n  ];\n}\n\nconst message = messages[0].json;\n\nconst text = [\n  message.text,\n  message.snippet,\n  message.body,\n  message.payload?.body?.data\n]\n  .filter(Boolean)\n  .join(\"\\n\")\n  .toUpperCase();\n\nlet decision = \"NONE\";\n\nif (/\\bAPPROVE\\b/.test(text)) {\n  decision = \"APPROVE\";\n} else if (/\\bREJECT\\b/.test(text)) {\n  decision = \"REJECT\";\n}\n\nreturn [\n  {\n    json: {\n      decision\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        4288,
+        -128
+      ],
+      "id": "fe056528-45be-410d-938c-778227f5f030",
+      "name": "Extract Final Approval"
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "limit": 5,
+        "filters": {
+          "q": "in:inbox from:me newer_than:1d"
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        4112,
+        -128
+      ],
+      "id": "47971cb5-db3f-4286-b9ec-97a879a04ede",
+      "name": "Final LinkedIn Post Approval",
+      "webhookId": "0283548f-7ae8-4b14-adb1-943a4338e4e7",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "4V9FNmkjBNroXMXv",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "625355cb-bc73-4862-af30-fc47d4120895",
+              "leftValue": "={{ $json.decision }}",
+              "rightValue": "APPROVE",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        4496,
+        -112
+      ],
+      "id": "d9ea9f32-a535-4e18-ada9-8e52aa9c1c5e",
+      "name": "Extract Final Approval2"
+    },
+    {
+      "parameters": {
+        "person": "5stYYphXE4",
+        "text": "={{ $('Merge Selected Post').item.json.selected_post }}",
+        "additionalFields": {
+          "visibility": "PUBLIC"
+        }
+      },
+      "type": "n8n-nodes-base.linkedIn",
+      "typeVersion": 1,
+      "position": [
+        4704,
+        -128
+      ],
+      "id": "229a3df7-ff86-4247-802d-2eb8cc06e8d7",
+      "name": "Create a post",
+      "credentials": {
+        "linkedInOAuth2Api": {
+          "id": "9OrvqXZ2dyfZUeDx",
+          "name": "LinkedIn account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-3.1-flash-lite",
+          "mode": "list",
+          "cachedResultName": "models/gemini-3.1-flash-lite"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an AI content strategist responsible for planning high-quality LinkedIn content.\n\nYour job is to choose ONE strong topic for today's LinkedIn post.\n\nThe content should focus on:\n- AI automation\n- AI agents\n- business automation\n- productivity\n- technology\n- software development\n- data and analytics\n- future of work\n\nChoose a topic that is:\n- relevant to professionals\n- useful and educational\n- specific rather than generic\n- suitable for a LinkedIn audience\n- capable of generating meaningful discussion\n\nAvoid:\n- clickbait\n- fake statistics\n- exaggerated claims\n- generic \"AI will change everything\" topics\n- unsupported claims\n\nReturn the result in exactly this format:\n\nTopic:\n[one specific topic]\n\nContent angle:\n[main idea or perspective]\n\nTarget audience:\n[who should care about this]\n\nWhy it matters:\n[2-3 sentences]\n\nPotential example:\n[one practical business or real-world example]"
+            }
+          ]
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1.2,
+      "position": [
+        144,
+        0
+      ],
+      "id": "7af3c5e5-775e-4ed3-a5b1-e353874805fe",
+      "name": "AI Topic Planner",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "W234AtvDcgIDlrtL",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "query": "={{ $json.content.parts[0].text }}",
+        "options": {
+          "topic": "general",
+          "search_depth": "basic",
+          "max_results": 5,
+          "include_answer": "basic"
+        }
+      },
+      "type": "@tavily/n8n-nodes-tavily.tavily",
+      "typeVersion": 1,
+      "position": [
+        400,
+        0
+      ],
+      "id": "3c06d2ba-ac15-4c4a-bfc9-29d6f3ef4039",
+      "name": "Web Research - Tavily",
+      "credentials": {
+        "tavilyApi": {
+          "id": "2mkYf7hFP9Vpzr3l",
+          "name": "Tavily account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-3.1-flash-lite",
+          "mode": "list",
+          "cachedResultName": "models/gemini-3.1-flash-lite"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an expert LinkedIn content writer specializing in AI,\nautomation, technology, business, and productivity.\n\nCONTENT STRATEGY FROM THE FIRST GEMINI NODE:\n\n{{ $('AI Topic Planner').item.json.content.parts[0].text }}\n\nWEB RESEARCH FROM TAVILY:\n\n{{ $('Web Research - Tavily').item.json.answer }}\n\nSEARCH RESULTS:\n\n{{ JSON.stringify($('Web Research - Tavily').item.json.results) }}\n\nUse the content strategy and web research as reference material.\n\nDo not copy text directly from the research.\nDo not invent statistics, facts, examples, or claims.\nOnly use claims that are supported by the research or are general explanations of the topic.\n\nCreate THREE genuinely different LinkedIn post options.\n\nOPTION 1 — EDUCATIONAL\nCreate an insight-driven post that teaches the reader something useful.\n\nOPTION 2 — PRACTICAL STORY\nCreate a realistic hypothetical business or workplace scenario that makes the topic easy to understand.\n\nDo not present the scenario as your personal experience.\nDo not invent personal experiences, colleagues, clients, conversations, or events.\nDo not use phrases such as \"I watched\", \"I worked with\", \"my client\", \"my colleague\", or similar unless they are explicitly provided in the input.\n\nOPTION 3 — THOUGHT-PROVOKING\nPresent an interesting perspective or challenge a common assumption.\n\nRequirements for every post:\n\n- 180–250 words\n- Write like a real professional sharing their own thoughts on LinkedIn\n- Natural, conversational writing\n- Vary sentence length and paragraph length\n- Avoid repetitive sentence structures\n- Avoid generic AI phrases such as \"In today's rapidly evolving world\", \"The future of\", \"game changer\", \"unlock\", \"revolutionize\", \"seamless\", and \"it's important to note\"\n- Avoid exaggerated claims\n- Avoid corporate buzzword overload\n- Do not sound like an advertisement\n- Do not make every paragraph follow the same structure\n- Do not use overly polished or robotic language\n- Do not force a dramatic hook if it feels unnatural\n- Use contractions naturally when appropriate, such as \"it's\", \"we're\", \"don't\", and \"you'll\"\n- Use specific, realistic hypothetical examples when appropriate\n- Never present a fictional scenario as a real personal experience\n- No fake statistics\n- No unsupported claims\n- No excessive emojis\n- No clickbait\n- Do not copy sentences from the research\n- Do not use backslashes\n- Do not use asterisks for emphasis\n- Do not use Markdown bold or italic formatting\n- Avoid excessive use of em dashes or long dashes\n- Avoid unnecessary numbered lists unless they genuinely improve the post\n- Do not use phrases such as \"[post]\" or other placeholders\n- End naturally with a question that encourages discussion\n- Add 3–5 relevant hashtags\n\nBefore returning the posts, silently edit them once for naturalness.\n\nRemove:\n- robotic wording\n- repetitive sentence patterns\n- unnecessary dashes\n- asterisks\n- backslashes\n- generic AI-sounding phrases\n- unnecessary headings inside the posts\n- overly perfect or formulaic transitions\n\nThe final posts should read like something a knowledgeable professional would naturally write after thinking about the topic, not like an AI-generated template.\n\nReturn ONLY the three posts using exactly this format:\n\nOPTION 1:\nWrite the complete post here.\n\nOPTION 2:\nWrite the complete post here.\n\nOPTION 3:\nWrite the complete post here.\n\nDo not include placeholder text such as \"[post]\"."
+            }
+          ]
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1.2,
+      "position": [
+        544,
+        0
+      ],
+      "id": "90859bd5-2304-4dd4-982d-4c9c9339d370",
+      "name": "LinkedIn Post Generator",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "W234AtvDcgIDlrtL",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-3.1-flash-lite",
+          "mode": "list",
+          "cachedResultName": "models/gemini-3.1-flash-lite"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are a LinkedIn content quality reviewer.\n\nHere are the three posts generated by the previous Gemini node:\n\n{{ $('LinkedIn Post Generator').item.json.content.parts[0].text }}\n\nHere is the research used to create the posts:\n\n{{ $('Web Research - Tavily').item.json.answer }}\n\nReview all three posts for:\n\n1. Factual support. Flag claims that are not supported by the research or are not clearly general knowledge.\n2. No fabricated personal experiences.\n3. Natural and professional LinkedIn writing.\n4. Clear hook and useful content.\n5. Approximately 180–250 words per post.\n6. 3–5 relevant hashtags per post.\n7. No placeholders, markdown artifacts, backslashes, or excessive emojis.\n8. The three options genuinely use different angles.\n9. No copied sentences from the research.\n10. No unsupported statistics or exaggerated claims.\n\nDo NOT rewrite the posts.\n\nReturn ONLY valid JSON. Do not use markdown code fences.\n\nUse exactly this structure:\n\n{\n  \"overall_status\": \"PASS\",\n  \"option1\": {\n    \"status\": \"PASS\",\n    \"issues\": []\n  },\n  \"option2\": {\n    \"status\": \"PASS\",\n    \"issues\": []\n  },\n  \"option3\": {\n    \"status\": \"PASS\",\n    \"issues\": []\n  },\n  \"general_feedback\": \"\"\n}\n\nUse \"REVISE\" instead of \"PASS\" when a post has a meaningful problem."
+            }
+          ]
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1.2,
+      "position": [
+        832,
+        0
+      ],
+      "id": "bf2d0917-e95c-4be0-8260-453bef050272",
+      "name": "AI Quality Checker",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "W234AtvDcgIDlrtL",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const text = $json.content.parts[0].text;\n\nconst cleaned = text\n  .replace(/```json/g, '')\n  .replace(/```/g, '')\n  .trim();\n\nconst result = JSON.parse(cleaned);\n\nreturn [\n  {\n    json: result\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1136,
+        0
+      ],
+      "id": "1679da19-88e4-4aa5-a239-c7193e01bd6f",
+      "name": "Parse Quality Result"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "fb94afa1-11f1-4ae7-a03c-97385a6378aa",
+              "leftValue": "={{ $json.overall_status }}",
+              "rightValue": "PASS",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        1360,
+        0
+      ],
+      "id": "e58df411-1995-4e27-a250-864627dc8efd",
+      "name": "Quality Check Passed?"
+    },
+    {
+      "parameters": {
+        "sendTo": "m0mna22101@gmail.com",
+        "subject": "LinkedIn Posts Ready for Approval",
+        "message": "=Your LinkedIn posts are ready for review.  Please choose ONE option to publish.  ====================  OPTION 1  {{ $('LinkedIn Post Generator').item.json.content.parts[0].text }}  ====================  QUALITY CHECK  The posts have passed the AI quality check.  Please review the three options and select the one you want to publish.",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        2032,
+        -80
+      ],
+      "id": "8f870db0-96a3-401b-81e3-5f7635d7cc71",
+      "name": "Post Selection Approval",
+      "webhookId": "e8f3ff72-c3c7-40df-9e10-3c9bd2f07e79",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "4V9FNmkjBNroXMXv",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "amount": 1,
+        "unit": "minutes"
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        2208,
+        0
+      ],
+      "id": "da9d0813-d09a-4c68-bf94-34bd8b429994",
+      "name": "Wait for Post Selection",
+      "webhookId": "ee25cd1f-3d75-4ace-ac14-9821dfbb0fd9"
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "limit": 5,
+        "filters": {
+          "q": "in:inbox from:me newer_than:1d"
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        2400,
+        0
+      ],
+      "id": "78411e0d-b456-4186-8987-c17c5dae251f",
+      "name": "Get Selection Response",
+      "webhookId": "e5d64548-7dad-47aa-a462-dcb78ef3b7d9",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "4V9FNmkjBNroXMXv",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const messages = $input.all();\n\nif (messages.length === 0) {\n  return [\n    {\n      json: {\n        selection: \"NONE\"\n      }\n    }\n  ];\n}\n\nconst message = messages[0].json;\n\n// Gmail commonly provides the actual reply in text/plain.\n// Check all likely fields.\nconst text = [\n  message.text,\n  message.snippet,\n  message.body,\n  message.payload?.body?.data\n]\n  .filter(Boolean)\n  .join(\"\\n\");\n\n// Look specifically for a standalone 1, 2, or 3.\n// The first standalone number is treated as the selection.\nconst matches = text.match(/\\b[123]\\b/g);\n\nlet selection = \"NONE\";\n\nif (matches && matches.length > 0) {\n  selection = matches[0];\n}\n\nreturn [\n  {\n    json: {\n      selection\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2592,
+        0
+      ],
+      "id": "6f9dd093-88ee-4097-890b-8c8dd7609055",
+      "name": "Extract Post Selection"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [\n  {\n    json: {\n      status: \"INVALID\",\n      message: \"Approval response must be exactly 1, 2, or 3.\"\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3344,
+        320
+      ],
+      "id": "d56307de-07bb-4ba7-b1cf-e0fc8053629f",
+      "name": "Invalid Selection"
+    },
+    {
+      "parameters": {
+        "numberInputs": 3
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        3584,
+        -128
+      ],
+      "id": "4b3324d6-5a63-44bb-a574-d092696bcbb8",
+      "name": "Merge Selected Post"
+    },
+    {
+      "parameters": {
+        "resume": "webhook",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        3936,
+        -128
+      ],
+      "id": "79cec6c5-6afc-49d0-8172-ce06dc6d17c0",
+      "name": "Wait for Final Approval",
+      "webhookId": "2f1ed3c9-675e-4969-8a2b-cf090879d5f1"
+    },
+    {
+      "parameters": {
+        "sendTo": "m0mna22101@gmail.com",
+        "subject": "Final LinkedIn Post Approval",
+        "emailType": "text",
+        "message": "=Your selected LinkedIn post is ready for final approval.  ====================  SELECTED OPTION  {{ $json.selected_option }}  ====================  POST  {{ $json.selected_post }}  ====================  Please reply with:  APPROVE  or  REJECT",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        3760,
+        -128
+      ],
+      "id": "ebd5791e-6c95-4d34-a660-880af1d91d24",
+      "name": "Final Post Approval",
+      "webhookId": "f95f0b92-4d3e-4c9e-aa56-a10c744f4249",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "4V9FNmkjBNroXMXv",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "AI Topic Planner",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Revision / Rewriter": {
+      "main": [
+        [
+          {
+            "node": "Quality Checker 2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Quality Checker 2": {
+      "main": [
+        [
+          {
+            "node": "Parse Quality Check 2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse Quality Check 2": {
+      "main": [
+        [
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "Post Selection Approval",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Revision Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Is Option 1?": {
+      "main": [
+        [
+          {
+            "node": "Select Option 1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Is Option 2?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Is Option 2?": {
+      "main": [
+        [
+          {
+            "node": "Select Option 2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Is Option 3?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Is Option 3?": {
+      "main": [
+        [
+          {
+            "node": "Option 3",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Invalid Selection",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Select Option 1": {
+      "main": [
+        [
+          {
+            "node": "Merge Selected Post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Select Option 2": {
+      "main": [
+        [
+          {
+            "node": "Merge Selected Post",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Option 3": {
+      "main": [
+        [
+          {
+            "node": "Merge Selected Post",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "Final LinkedIn Post Approval": {
+      "main": [
+        [
+          {
+            "node": "Extract Final Approval",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Final Approval": {
+      "main": [
+        [
+          {
+            "node": "Extract Final Approval2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Final Approval2": {
+      "main": [
+        [
+          {
+            "node": "Create a post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Topic Planner": {
+      "main": [
+        [
+          {
+            "node": "Web Research - Tavily",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Web Research - Tavily": {
+      "main": [
+        [
+          {
+            "node": "LinkedIn Post Generator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "LinkedIn Post Generator": {
+      "main": [
+        [
+          {
+            "node": "AI Quality Checker",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Quality Checker": {
+      "main": [
+        [
+          {
+            "node": "Parse Quality Result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse Quality Result": {
+      "main": [
+        [
+          {
+            "node": "Quality Check Passed?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Quality Check Passed?": {
+      "main": [
+        [
+          {
+            "node": "Post Selection Approval",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Revision / Rewriter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Post Selection Approval": {
+      "main": [
+        [
+          {
+            "node": "Wait for Post Selection",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait for Post Selection": {
+      "main": [
+        [
+          {
+            "node": "Get Selection Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Selection Response": {
+      "main": [
+        [
+          {
+            "node": "Extract Post Selection",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Post Selection": {
+      "main": [
+        [
+          {
+            "node": "Is Option 1?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge Selected Post": {
+      "main": [
+        [
+          {
+            "node": "Final Post Approval",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait for Final Approval": {
+      "main": [
+        [
+          {
+            "node": "Final LinkedIn Post Approval",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Final Post Approval": {
+      "main": [
+        [
+          {
+            "node": "Wait for Final Approval",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "3b884e42-b176-4255-9e7d-f8f5cd6af650",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "8753073b840813bef7cceaa981314feffab3ef09e2b6fda62b2b09cb97984f02"
+  },
+  "nodeGroups": [],
+  "id": "sHIxEvmVCGsOpp5Z",
+  "tags": []
+}
