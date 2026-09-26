@@ -1,0 +1,304 @@
+validation_id,record_id,validation_rule,issue_type,severity,field_name,actual_value,expected_condition,status,validation_timestamp
+1,11,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+2,133,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+3,242,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+4,286,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+5,386,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+6,436,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+7,462,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+8,511,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+9,539,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+10,603,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+11,1099,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+12,1339,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+13,1370,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+14,1501,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+15,1553,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+16,1641,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+17,1643,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+18,1784,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+19,1797,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+20,1798,V001,required_field_missing,HIGH,district,nan,Required field must contain a valid value,FAIL,2026-09-26T23:45:17
+21,5,V002,completion_exceeds_enrollment,HIGH,participants_completed,59,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+22,26,V002,completion_exceeds_enrollment,HIGH,participants_completed,74,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+23,171,V002,completion_exceeds_enrollment,HIGH,participants_completed,78,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+24,223,V002,completion_exceeds_enrollment,HIGH,participants_completed,55,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+25,248,V002,completion_exceeds_enrollment,HIGH,participants_completed,40,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+26,252,V002,completion_exceeds_enrollment,HIGH,participants_completed,109,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+27,282,V002,completion_exceeds_enrollment,HIGH,participants_completed,43,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+28,430,V002,completion_exceeds_enrollment,HIGH,participants_completed,109,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+29,582,V002,completion_exceeds_enrollment,HIGH,participants_completed,47,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+30,769,V002,completion_exceeds_enrollment,HIGH,participants_completed,48,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+31,826,V002,completion_exceeds_enrollment,HIGH,participants_completed,54,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+32,853,V002,completion_exceeds_enrollment,HIGH,participants_completed,40,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+33,863,V002,completion_exceeds_enrollment,HIGH,participants_completed,40,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+34,978,V002,completion_exceeds_enrollment,HIGH,participants_completed,38,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+35,1100,V002,completion_exceeds_enrollment,HIGH,participants_completed,24,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+36,1290,V002,completion_exceeds_enrollment,HIGH,participants_completed,89,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+37,1304,V002,completion_exceeds_enrollment,HIGH,participants_completed,11,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+38,1382,V002,completion_exceeds_enrollment,HIGH,participants_completed,35,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+39,1477,V002,completion_exceeds_enrollment,HIGH,participants_completed,66,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+40,1616,V002,completion_exceeds_enrollment,HIGH,participants_completed,95,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+41,1695,V002,completion_exceeds_enrollment,HIGH,participants_completed,53,participants_completed <= participants_enrolled,FAIL,2026-09-26T23:45:17
+42,41,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,33,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+43,223,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,1,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+44,582,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,0,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+45,769,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,19,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+46,853,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,14,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+47,978,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,2,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+48,1100,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,3,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+49,1304,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,5,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+50,1382,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,0,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+51,1477,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,8,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+52,1695,V003,dropout_exceeds_enrollment,HIGH,participants_dropped,0,participants_dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+53,86,V004,employment_outcomes_exceed_completed,HIGH,employment_outcomes,87,employment_outcomes <= participants_completed,FAIL,2026-09-26T23:45:17
+54,1,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,249224,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+55,6,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,145064,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+56,17,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,211388,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+57,22,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,50382,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+58,28,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,69360,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+59,35,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,66009,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+60,50,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,189948,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+61,70,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,251645,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+62,101,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,207276,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+63,121,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,173578,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+64,123,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,88521,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+65,124,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,205853,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+66,131,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,176848,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+67,137,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,172096,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+68,153,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,99529,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+69,157,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,175073,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+70,184,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,211811,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+71,198,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,88898,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+72,201,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,248086,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+73,221,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,254260,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+74,223,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,186569,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+75,227,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,89703,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+76,235,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,114861,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+77,236,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,206503,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+78,238,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,154158,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+79,243,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,173951,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+80,250,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,121513,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+81,266,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,153482,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+82,268,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,120879,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+83,284,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,515250,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+84,288,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,117931,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+85,289,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,187390,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+86,291,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,65778,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+87,308,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,195218,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+88,331,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,165889,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+89,338,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,243222,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+90,353,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,68033,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+91,358,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,251400,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+92,359,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,138675,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+93,376,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,184639,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+94,393,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,145277,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+95,395,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,217604,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+96,400,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,243341,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+97,404,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,236919,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+98,407,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,204285,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+99,413,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,96681,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+100,422,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,89714,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+101,424,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,131805,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+102,435,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,137952,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+103,459,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,184085,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+104,469,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,240652,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+105,477,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,97713,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+106,486,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,76436,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+107,500,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,173184,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+108,506,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,59323,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+109,508,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,224997,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+110,512,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,99432,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+111,531,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,124562,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+112,540,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,114564,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+113,551,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,113549,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+114,552,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,161463,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+115,561,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,235201,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+116,586,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,144185,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+117,592,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,130999,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+118,593,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,162766,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+119,599,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,177620,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+120,605,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,80935,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+121,612,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,125597,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+122,639,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,174918,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+123,651,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,76514,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+124,667,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,236860,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+125,684,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,204977,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+126,708,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,239241,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+127,710,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,197621,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+128,713,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,217815,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+129,714,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,54175,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+130,728,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,246544,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+131,760,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,189751,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+132,761,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,168686,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+133,780,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,163813,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+134,788,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,620820,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+135,796,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,218376,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+136,812,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,77159,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+137,820,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,199767,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+138,828,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,151473,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+139,834,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,143061,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+140,841,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,249694,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+141,858,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,75794,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+142,864,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,74238,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+143,887,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,132910,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+144,891,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,151736,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+145,908,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,116359,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+146,914,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,256971,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+147,933,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,210529,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+148,945,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,138849,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+149,952,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,666207,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+150,978,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,198301,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+151,988,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,140432,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+152,1014,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,153735,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+153,1017,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,81501,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+154,1027,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,120966,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+155,1042,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,218461,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+156,1046,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,224942,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+157,1054,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,134982,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+158,1055,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,198033,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+159,1083,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,70570,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+160,1093,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,63011,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+161,1096,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,206066,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+162,1103,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,110201,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+163,1105,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,129822,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+164,1107,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,191145,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+165,1122,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,244537,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+166,1126,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,153752,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+167,1163,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,173423,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+168,1176,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,144132,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+169,1180,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,679590,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+170,1208,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,179742,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+171,1213,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,153098,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+172,1214,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,164389,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+173,1226,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,149509,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+174,1236,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,109922,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+175,1243,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,204592,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+176,1252,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,120910,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+177,1258,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,198108,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+178,1264,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,117755,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+179,1265,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,56810,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+180,1277,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,124741,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+181,1278,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,255833,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+182,1285,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,167367,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+183,1286,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,149386,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+184,1312,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,114674,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+185,1313,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,140253,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+186,1351,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,186181,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+187,1359,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,126143,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+188,1367,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,98272,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+189,1383,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,106575,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+190,1395,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,247076,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+191,1396,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,252701,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+192,1401,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,248229,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+193,1402,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,253560,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+194,1403,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,78308,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+195,1418,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,112311,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+196,1422,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,116691,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+197,1427,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,73649,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+198,1436,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,111532,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+199,1443,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,232461,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+200,1457,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,166277,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+201,1463,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,169719,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+202,1464,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,107802,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+203,1475,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,122065,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+204,1482,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,243374,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+205,1490,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,147959,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+206,1493,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,150428,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+207,1519,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,247607,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+208,1521,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,240070,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+209,1525,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,388611,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+210,1528,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,196655,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+211,1530,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,215703,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+212,1534,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,249159,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+213,1540,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,86542,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+214,1546,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,91184,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+215,1571,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,150521,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+216,1594,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,271551,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+217,1596,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,173313,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+218,1619,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,108698,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+219,1644,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,662694,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+220,1651,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,101881,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+221,1663,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,587610,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+222,1698,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,123107,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+223,1704,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,128391,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+224,1716,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,134766,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+225,1720,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,162677,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+226,1722,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,163069,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+227,1742,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,205386,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+228,1758,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,141247,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+229,1787,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,151292,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+230,1226,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,149509,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+231,592,V005,budget_spent_exceeds_allocated,HIGH,budget_spent,130999,budget_spent <= budget_allocated,FAIL,2026-09-26T23:45:17
+232,176,V006,invalid_date,HIGH,submission_date,2025-99-99,Field must contain a valid calendar date,FAIL,2026-09-26T23:45:17
+233,146,V007,unknown_district,HIGH,district,District ZZZ,District must exist in the training center reference data,FAIL,2026-09-26T23:45:17
+234,71,V008,duplicate_monitoring_record,HIGH,record_id,71,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+235,163,V008,duplicate_monitoring_record,HIGH,record_id,163,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+236,248,V008,duplicate_monitoring_record,HIGH,record_id,248,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+237,251,V008,duplicate_monitoring_record,HIGH,record_id,251,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+238,323,V008,duplicate_monitoring_record,HIGH,record_id,323,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+239,592,V008,duplicate_monitoring_record,HIGH,record_id,592,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+240,870,V008,duplicate_monitoring_record,HIGH,record_id,870,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+241,902,V008,duplicate_monitoring_record,HIGH,record_id,902,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+242,910,V008,duplicate_monitoring_record,HIGH,record_id,910,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+243,944,V008,duplicate_monitoring_record,HIGH,record_id,944,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+244,1005,V008,duplicate_monitoring_record,HIGH,record_id,1005,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+245,1226,V008,duplicate_monitoring_record,HIGH,record_id,1226,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+246,1272,V008,duplicate_monitoring_record,HIGH,record_id,1272,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+247,1592,V008,duplicate_monitoring_record,HIGH,record_id,1592,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+248,1660,V008,duplicate_monitoring_record,HIGH,record_id,1660,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+249,1663,V008,duplicate_monitoring_record,HIGH,record_id,1663,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+250,1592,V008,duplicate_monitoring_record,HIGH,record_id,1592,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+251,944,V008,duplicate_monitoring_record,HIGH,record_id,944,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+252,870,V008,duplicate_monitoring_record,HIGH,record_id,870,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+253,163,V008,duplicate_monitoring_record,HIGH,record_id,163,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+254,1272,V008,duplicate_monitoring_record,HIGH,record_id,1272,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+255,71,V008,duplicate_monitoring_record,HIGH,record_id,71,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+256,248,V008,duplicate_monitoring_record,HIGH,record_id,248,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+257,323,V008,duplicate_monitoring_record,HIGH,record_id,323,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+258,1660,V008,duplicate_monitoring_record,HIGH,record_id,1660,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+259,1005,V008,duplicate_monitoring_record,HIGH,record_id,1005,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+260,1663,V008,duplicate_monitoring_record,HIGH,record_id,1663,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+261,910,V008,duplicate_monitoring_record,HIGH,record_id,910,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+262,1226,V008,duplicate_monitoring_record,HIGH,record_id,1226,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+263,902,V008,duplicate_monitoring_record,HIGH,record_id,902,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+264,592,V008,duplicate_monitoring_record,HIGH,record_id,592,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+265,251,V008,duplicate_monitoring_record,HIGH,record_id,251,record_id + reporting_month + training_center_id + program_type should uniquely identify a monitoring record,FAIL,2026-09-26T23:45:17
+266,5,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=59, in_progress=6, dropped=3, total=68",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+267,26,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=74, in_progress=1, dropped=3, total=78",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+268,41,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=25, in_progress=3, dropped=33, total=61",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+269,56,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=26, in_progress=50, dropped=12, total=88",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+270,71,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=69, in_progress=49, dropped=19, total=137",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+271,171,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=78, in_progress=2, dropped=13, total=93",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+272,223,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=55, in_progress=7, dropped=1, total=63",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+273,248,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=40, in_progress=2, dropped=4, total=46",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+274,252,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=109, in_progress=20, dropped=10, total=139",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+275,282,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=43, in_progress=3, dropped=7, total=53",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+276,430,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=109, in_progress=9, dropped=11, total=129",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+277,582,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=47, in_progress=22, dropped=0, total=69",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+278,769,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=48, in_progress=11, dropped=19, total=78",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+279,826,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=54, in_progress=6, dropped=9, total=69",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+280,853,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=40, in_progress=2, dropped=14, total=56",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+281,863,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=40, in_progress=0, dropped=4, total=44",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+282,978,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=38, in_progress=1, dropped=2, total=41",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+283,1100,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=24, in_progress=5, dropped=3, total=32",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+284,1290,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=89, in_progress=8, dropped=14, total=111",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+285,1304,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=11, in_progress=4, dropped=5, total=20",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+286,1382,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=35, in_progress=9, dropped=0, total=44",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+287,1477,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=66, in_progress=5, dropped=8, total=79",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+288,1616,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=95, in_progress=7, dropped=12, total=114",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+289,1695,V009,participant_components_exceed_enrollment,HIGH,participant_status_counts,"completed=53, in_progress=41, dropped=0, total=94",completed + in_progress + dropped <= participants_enrolled,FAIL,2026-09-26T23:45:17
+290,116,V010,invalid_trainer_count,MEDIUM,trainers_count,0,trainers_count must be between 1 and 50,FAIL,2026-09-26T23:45:17
+291,131,V011,unknown_training_center,HIGH,training_center_id,CENTER_999,training_center_id must exist in training_centers reference table,FAIL,2026-09-26T23:45:17
+292,191,V013,negative_participant_value,HIGH,participants_dropped,-3,participants_dropped must be >= 0,FAIL,2026-09-26T23:45:17
+293,223,V013,negative_participant_value,HIGH,participants_enrolled,-5,participants_enrolled must be >= 0,FAIL,2026-09-26T23:45:17
+294,582,V013,negative_participant_value,HIGH,participants_enrolled,-5,participants_enrolled must be >= 0,FAIL,2026-09-26T23:45:17
+295,769,V013,negative_participant_value,HIGH,participants_enrolled,-5,participants_enrolled must be >= 0,FAIL,2026-09-26T23:45:17
+296,853,V013,negative_participant_value,HIGH,participants_enrolled,-5,participants_enrolled must be >= 0,FAIL,2026-09-26T23:45:17
+297,978,V013,negative_participant_value,HIGH,participants_enrolled,-5,participants_enrolled must be >= 0,FAIL,2026-09-26T23:45:17
+298,1100,V013,negative_participant_value,HIGH,participants_enrolled,-5,participants_enrolled must be >= 0,FAIL,2026-09-26T23:45:17
+299,1304,V013,negative_participant_value,HIGH,participants_enrolled,-5,participants_enrolled must be >= 0,FAIL,2026-09-26T23:45:17
+300,1382,V013,negative_participant_value,HIGH,participants_enrolled,-5,participants_enrolled must be >= 0,FAIL,2026-09-26T23:45:17
+301,1477,V013,negative_participant_value,HIGH,participants_enrolled,-5,participants_enrolled must be >= 0,FAIL,2026-09-26T23:45:17
+302,1695,V013,negative_participant_value,HIGH,participants_enrolled,-5,participants_enrolled must be >= 0,FAIL,2026-09-26T23:45:17
+303,206,V014,negative_budget,HIGH,budget_spent,-1000,budget_spent must be >= 0,FAIL,2026-09-26T23:45:17

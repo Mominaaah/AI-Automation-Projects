@@ -1,0 +1,1816 @@
+record_id,month,district,training_center,program_type,participants_enrolled,participants_completed,participants_in_progress,participants_dropped,budget_allocated,budget_spent
+1,2025-04-01,District B,Center 01,Entrepreneurship,48,33,11,4,243061,249224
+2,2025-10-01,District B,Center 18,Digital Skills,74,62,12,0,57811,49100
+3,2025-09-01,District B,Center 07,Vocational Training,97,59,37,1,197127,123795
+4,2025-04-01,District D,Center 18,Career Readiness,77,44,16,17,51703,50828
+5,2025-05-01,District C,Center 14,Entrepreneurship,39,59,6,3,138236,124970
+6,2025-02-01,District B,Center 03,Career Readiness,65,36,2,27,140165,145064
+7,2025-09-01,District E,Center 02,Career Readiness,35,30,2,3,70656,46362
+8,2025-10-01,District E,Center 20,Entrepreneurship,44,27,15,2,62012,39793
+9,2025-04-01,District D,Center 10,Digital Skills,32,21,5,6,122869,99816
+10,2025-06-01,District H,Center 12,Vocational Training,65,46,13,6,225682,156987
+11,2025-09-01,,Center 03,Vocational Training,51,40,9,2,171178,106087
+12,2025-11-01,District G,Center 09,Vocational Training,61,40,20,1,110043,80681
+13,2025-05-01,District A,Center 11,Career Readiness,28,20,5,3,198682,187275
+14,2025-07-01,District F,Center 07,Career Readiness,78,49,25,4,119436,96398
+15,2025-12-01,District C,Center 08,Entrepreneurship,94,73,8,13,202969,116346
+16,2025-03-01,District G,Center 12,Vocational Training,85,67,3,15,73831,46902
+17,2025-11-01,District A,Center 04,Vocational Training,40,23,4,13,206345,211388
+18,2025-10-01,District B,Center 13,Career Readiness,79,73,2,4,115906,110597
+19,2025-11-01,District A,Center 04,Entrepreneurship,63,42,18,3,126939,76015
+20,2025-01-01,District G,Center 06,Career Readiness,53,43,2,8,249743,192321
+21,2025-11-01,District C,Center 17,Digital Skills,58,34,4,20,183080,146022
+22,2025-03-01,District D,Center 05,Entrepreneurship,89,50,6,33,50149,50382
+23,2025-02-01,District F,Center 16,Digital Skills,66,43,14,9,112770,99379
+24,2025-02-01,District A,Center 08,Digital Skills,82,55,1,26,68143,55198
+25,2025-09-01,District C,Center 05,Career Readiness,41,31,6,4,188326,120985
+26,2025-12-01,District G,Center 07,Vocational Training,59,55,1,3,226078,211963
+27,2025-02-01,District F,Center 15,Career Readiness,51,47,3,1,66784,66611
+28,2025-10-01,District F,Center 01,Vocational Training,48,37,11,0,68610,69360
+29,2025-01-01,District A,Center 08,Digital Skills,62,36,24,2,184782,119737
+30,2025-04-01,District D,Center 09,Career Readiness,89,50,31,8,239622,170770
+31,2025-07-01,District H,Center 08,Career Readiness,44,31,12,1,75409,51706
+32,2025-07-01,District G,Center 12,Career Readiness,79,69,10,0,226518,164990
+33,2025-12-01,District B,Center 02,Career Readiness,63,41,19,3,115183,94605
+34,2025-03-01,District D,Center 07,Career Readiness,74,44,25,5,123018,117002
+35,2025-08-01,District H,Center 08,Digital Skills,90,52,32,6,63261,66009
+36,2025-03-01,District A,Center 03,Vocational Training,72,61,4,7,176185,114407
+37,2025-03-01,District D,Center 13,Digital Skills,68,37,31,0,152346,145906
+38,2025-07-01,District E,Center 15,Entrepreneurship,91,75,1,15,90579,82834
+39,2025-01-01,District D,Center 10,Vocational Training,94,80,3,11,192133,112786
+40,2025-01-01,District A,Center 11,Digital Skills,94,65,14,15,181819,110534
+41,2025-03-01,District C,Center 02,Digital Skills,28,25,3,0,227002,195596
+42,2025-10-01,District D,Center 13,Digital Skills,51,34,16,1,212367,123550
+43,2025-05-01,District B,Center 14,Entrepreneurship,46,31,5,10,112570,80216
+44,2025-11-01,District E,Center 13,Vocational Training,58,48,3,7,132883,115445
+45,2025-10-01,District B,Center 01,Career Readiness,92,83,8,1,69204,54401
+46,2025-03-01,District D,Center 17,Entrepreneurship,64,38,24,2,114037,103388
+47,2025-08-01,District F,Center 10,Vocational Training,89,76,2,11,129303,107404
+48,2025-11-01,District A,Center 18,Entrepreneurship,33,28,4,1,119328,95092
+49,2025-05-01,District B,Center 04,Vocational Training,56,42,5,9,105215,80360
+50,2025-09-01,District F,Center 07,Entrepreneurship,82,45,21,16,63316,189948
+51,2025-01-01,District B,Center 14,Entrepreneurship,20,11,4,5,84293,73183
+52,2025-09-01,District E,Center 06,Career Readiness,74,50,7,17,52534,42252
+53,2025-09-01,District B,Center 03,Vocational Training,24,21,1,2,202701,136751
+54,2025-01-01,District C,Center 14,Vocational Training,59,42,6,11,60458,56091
+55,2025-11-01,District F,Center 07,Vocational Training,33,21,7,5,196770,115797
+56,2025-04-01,District G,Center 20,Vocational Training,40,26,2,12,96413,60799
+57,2025-12-01,District G,Center 01,Vocational Training,62,57,2,3,225612,215247
+58,2025-12-01,District D,Center 09,Vocational Training,33,26,1,6,60151,59292
+59,2025-08-01,District H,Center 08,Vocational Training,64,55,5,4,109662,70543
+60,2025-07-01,District D,Center 01,Vocational Training,62,56,4,2,68198,55899
+61,2025-11-01,District E,Center 12,Career Readiness,88,76,7,5,57235,57123
+62,2025-10-01,District B,Center 09,Vocational Training,53,35,17,1,78417,47444
+63,2025-07-01,District G,Center 12,Entrepreneurship,97,62,3,32,80315,61324
+64,2025-05-01,District G,Center 19,Vocational Training,25,21,1,3,50443,49452
+65,2025-02-01,District D,Center 12,Career Readiness,62,34,9,19,132291,106543
+66,2025-11-01,District B,Center 10,Entrepreneurship,72,51,11,10,155486,102784
+67,2025-04-01,District E,Center 18,Vocational Training,73,43,9,21,149390,107382
+68,2025-07-01,District C,Center 20,Entrepreneurship,90,83,7,0,129658,92264
+69,2025-10-01,District E,Center 07,Career Readiness,97,73,4,20,134475,121230
+70,2025-11-01,District H,Center 15,Career Readiness,47,32,0,15,242927,251645
+71,2025-09-01,District C,Center 03,Entrepreneurship,99,92,2,5,74480,50340
+72,2025-04-01,District D,Center 10,Vocational Training,38,28,10,0,62114,43507
+73,2025-08-01,District D,Center 16,Digital Skills,73,48,5,20,200908,114204
+74,2025-07-01,District D,Center 13,Career Readiness,51,40,9,2,221981,177882
+75,2025-04-01,District A,Center 04,Career Readiness,42,23,3,16,171778,118410
+76,2025-02-01,District A,Center 18,Vocational Training,78,71,5,2,171803,115070
+77,2025-09-01,District F,Center 15,Career Readiness,77,46,21,10,244944,194663
+78,2025-04-01,District H,Center 15,Entrepreneurship,55,51,0,4,177034,118794
+79,2025-02-01,District D,Center 09,Career Readiness,56,45,8,3,121228,112840
+80,2025-03-01,District F,Center 11,Digital Skills,39,25,11,3,150410,137491
+81,2025-07-01,District C,Center 07,Digital Skills,72,50,12,10,192242,166510
+82,2025-04-01,District H,Center 14,Digital Skills,73,58,3,12,203112,166122
+83,2025-08-01,District A,Center 19,Career Readiness,20,11,4,5,128279,124129
+84,2025-08-01,District G,Center 14,Vocational Training,48,32,8,8,164251,105655
+85,2025-06-01,District H,Center 01,Career Readiness,71,40,21,10,172523,145858
+86,2025-07-01,District C,Center 20,Digital Skills,95,77,0,18,223801,124946
+87,2025-03-01,District A,Center 03,Career Readiness,79,59,15,5,63181,41904
+88,2025-04-01,District E,Center 13,Entrepreneurship,78,63,5,10,138473,88232
+89,2025-05-01,District G,Center 09,Career Readiness,30,24,3,3,55081,40945
+90,2025-11-01,District A,Center 12,Vocational Training,28,25,3,0,247717,153277
+91,2025-01-01,District A,Center 08,Vocational Training,99,67,23,9,112533,68277
+92,2025-10-01,District C,Center 16,Digital Skills,47,43,1,3,233360,230715
+93,2025-10-01,District E,Center 12,Vocational Training,97,63,27,7,92930,81777
+94,2025-05-01,District E,Center 04,Digital Skills,93,81,2,10,148384,122802
+95,2025-10-01,District G,Center 07,Digital Skills,100,76,17,7,76712,51468
+96,2025-10-01,District E,Center 20,Digital Skills,25,14,6,5,189655,189390
+97,2025-09-01,District G,Center 12,Digital Skills,63,57,6,0,160115,138747
+98,2025-06-01,District H,Center 04,Career Readiness,78,53,3,22,90105,65290
+99,2025-10-01,District G,Center 06,Entrepreneurship,88,73,0,15,171863,171614
+100,2025-06-01,District G,Center 19,Entrepreneurship,51,46,5,0,123119,115724
+101,2025-10-01,District H,Center 08,Career Readiness,98,79,7,12,138184,81814
+102,2025-03-01,District A,Center 16,Entrepreneurship,82,50,19,13,143015,142911
+103,2025-10-01,District E,Center 11,Entrepreneurship,55,43,4,8,52661,29205
+104,2025-12-01,District D,Center 03,Vocational Training,72,42,15,15,195536,172414
+105,2025-08-01,District D,Center 16,Career Readiness,22,12,9,1,127132,80144
+106,2025-05-01,District D,Center 13,Vocational Training,94,72,11,11,174062,155950
+107,2025-06-01,District F,Center 14,Entrepreneurship,78,63,7,8,130379,86328
+108,2025-12-01,District E,Center 08,Digital Skills,44,36,3,5,81340,54385
+109,2025-12-01,District C,Center 07,Vocational Training,81,55,18,8,239945,221528
+110,2025-05-01,District E,Center 04,Vocational Training,49,39,5,5,97039,94575
+111,2025-05-01,District E,Center 01,Vocational Training,25,20,5,0,195059,162709
+112,2025-02-01,District E,Center 05,Career Readiness,21,12,0,9,124537,91392
+113,2025-06-01,District H,Center 16,Career Readiness,43,28,14,1,116185,78075
+114,2025-07-01,District H,Center 04,Digital Skills,82,77,5,0,201262,150251
+115,2025-10-01,District A,Center 05,Vocational Training,58,52,6,0,115061,99593
+116,2025-10-01,District B,Center 18,Career Readiness,96,83,1,12,212114,169970
+117,2025-08-01,District D,Center 17,Career Readiness,76,59,8,9,204278,162658
+118,2025-10-01,District G,Center 10,Digital Skills,32,20,0,12,104470,95195
+119,2025-03-01,District D,Center 09,Digital Skills,50,33,12,5,194701,109452
+120,2025-07-01,District B,Center 06,Digital Skills,77,62,0,15,126351,80682
+121,2025-12-01,District A,Center 08,Entrepreneurship,56,51,0,5,169021,173578
+122,2025-11-01,District B,Center 08,Entrepreneurship,95,87,5,3,161447,118676
+123,2025-11-01,District B,Center 18,Vocational Training,39,21,10,8,87286,88521
+124,2025-05-01,District B,Center 02,Vocational Training,96,69,4,23,199214,205853
+125,2025-08-01,District E,Center 15,Digital Skills,58,54,1,3,121367,118515
+126,2025-10-01,District H,Center 15,Digital Skills,25,16,3,6,242553,180107
+127,2025-01-01,District F,Center 20,Entrepreneurship,31,27,3,1,226763,160652
+128,2025-03-01,District A,Center 09,Digital Skills,80,49,3,28,122917,101824
+129,2025-11-01,District C,Center 19,Career Readiness,82,75,6,1,173210,155545
+130,2025-06-01,District F,Center 14,Entrepreneurship,33,25,6,2,136456,81680
+131,2025-11-01,District G,Center 16,Entrepreneurship,71,56,14,1,169229,176848
+132,2025-06-01,District B,Center 11,Entrepreneurship,34,20,2,12,155952,126190
+133,2025-07-01,,Center 18,Career Readiness,26,23,2,1,185905,171104
+134,2025-11-01,District F,Center 20,Career Readiness,76,62,2,12,63529,57255
+135,2025-05-01,District D,Center 09,Vocational Training,76,52,2,22,177064,123377
+136,2025-12-01,District B,Center 01,Vocational Training,40,34,4,2,194399,185662
+137,2025-02-01,District A,Center 18,Career Readiness,48,43,5,0,170965,172096
+138,2025-12-01,District B,Center 05,Career Readiness,57,43,6,8,234919,188113
+139,2025-08-01,District E,Center 14,Career Readiness,51,44,0,7,194510,170192
+140,2025-10-01,District C,Center 13,Vocational Training,85,70,11,4,68300,64741
+141,2025-09-01,District E,Center 14,Entrepreneurship,54,48,0,6,50672,36433
+142,2025-03-01,District E,Center 10,Career Readiness,77,53,7,17,176967,105647
+143,2025-08-01,District F,Center 11,Career Readiness,61,47,1,13,99454,56487
+144,2025-04-01,District D,Center 19,Career Readiness,72,53,18,1,133408,109570
+145,2025-11-01,District H,Center 13,Career Readiness,39,25,7,7,59704,50474
+146,2025-02-01,District C,Center 17,Entrepreneurship,76,42,28,6,187874,106839
+147,2025-07-01,District H,Center 01,Vocational Training,39,34,5,0,173074,126360
+148,2025-11-01,District E,Center 11,Career Readiness,30,18,7,5,226778,183944
+149,2025-09-01,District G,Center 11,Career Readiness,24,20,0,4,67936,44695
+150,2025-12-01,District D,Center 10,Vocational Training,31,24,1,6,75806,44928
+151,2025-12-01,District B,Center 15,Vocational Training,58,33,25,0,62056,50617
+152,2025-06-01,District F,Center 02,Entrepreneurship,67,51,3,13,88160,76585
+153,2025-10-01,District D,Center 17,Career Readiness,43,36,5,2,95893,99529
+154,2025-10-01,District B,Center 20,Career Readiness,50,37,6,7,202871,144338
+155,2025-11-01,District C,Center 08,Career Readiness,52,45,0,7,116932,80147
+156,2025-11-01,District A,Center 15,Entrepreneurship,89,64,20,5,69362,40870
+157,2025-11-01,District H,Center 12,Entrepreneurship,74,41,17,16,169756,175073
+158,2025-08-01,District E,Center 07,Career Readiness,33,29,3,1,149972,134672
+159,2025-12-01,District F,Center 19,Entrepreneurship,57,40,17,0,222550,141685
+160,2025-10-01,District G,Center 09,Digital Skills,26,15,2,9,245342,165635
+161,2025-10-01,District H,Center 10,Vocational Training,65,50,8,7,216885,196779
+162,2025-11-01,District D,Center 20,Entrepreneurship,37,30,6,1,214484,147986
+163,2025-01-01,District A,Center 10,Career Readiness,94,87,2,5,241983,222369
+164,2025-06-01,District C,Center 03,Entrepreneurship,73,56,12,5,102637,87842
+165,2025-09-01,District C,Center 18,Entrepreneurship,84,60,16,8,93134,62759
+166,2025-12-01,District E,Center 16,Entrepreneurship,63,43,17,3,172770,160490
+167,2025-11-01,District B,Center 05,Vocational Training,70,38,9,23,73672,44795
+168,2025-09-01,District G,Center 01,Entrepreneurship,35,19,2,14,146622,83627
+169,2025-11-01,District E,Center 19,Career Readiness,67,59,7,1,226904,204628
+170,2025-10-01,District D,Center 16,Digital Skills,91,67,14,10,209929,125730
+171,2025-12-01,District D,Center 03,Career Readiness,58,78,2,13,80585,63399
+172,2025-05-01,District C,Center 02,Digital Skills,83,51,25,7,75478,57886
+173,2025-07-01,District D,Center 18,Vocational Training,78,55,12,11,225763,193687
+174,2025-07-01,District G,Center 19,Vocational Training,32,25,0,7,211389,121052
+175,2025-12-01,District G,Center 09,Digital Skills,67,46,15,6,166230,143444
+176,2025-02-01,District H,Center 08,Entrepreneurship,67,50,0,17,219037,214271
+177,2025-05-01,District F,Center 02,Career Readiness,44,35,8,1,169201,106844
+178,2025-01-01,District B,Center 07,Digital Skills,62,35,20,7,83010,72319
+179,2025-10-01,District D,Center 03,Vocational Training,47,26,14,7,136129,114741
+180,2025-05-01,District C,Center 20,Digital Skills,38,35,2,1,191614,160522
+181,2025-11-01,District E,Center 06,Digital Skills,23,16,5,2,53895,46977
+182,2025-01-01,District F,Center 08,Entrepreneurship,42,30,8,4,63736,52442
+183,2025-12-01,District C,Center 14,Digital Skills,28,25,0,3,167512,124470
+184,2025-08-01,District F,Center 17,Digital Skills,84,78,5,1,211246,211811
+185,2025-08-01,District A,Center 17,Entrepreneurship,23,14,9,0,175562,102647
+186,2025-08-01,District G,Center 14,Digital Skills,76,44,28,4,71178,39796
+187,2025-02-01,District F,Center 20,Vocational Training,36,21,7,8,213661,190479
+188,2025-08-01,District F,Center 13,Entrepreneurship,84,48,9,27,75999,53920
+189,2025-07-01,District B,Center 18,Vocational Training,77,68,6,3,158478,89006
+190,2025-07-01,District F,Center 15,Career Readiness,32,28,2,2,161873,111842
+191,2025-03-01,District F,Center 09,Entrepreneurship,80,47,29,4,73914,66402
+192,2025-02-01,District B,Center 03,Career Readiness,67,53,2,12,84108,83160
+193,2025-11-01,District A,Center 19,Entrepreneurship,35,29,3,3,142693,135806
+194,2025-10-01,District G,Center 02,Entrepreneurship,59,39,9,11,77158,49282
+195,2025-04-01,District D,Center 05,Career Readiness,33,28,3,2,195821,186699
+196,2025-10-01,District F,Center 04,Entrepreneurship,48,45,0,3,197053,149032
+197,2025-01-01,District A,Center 20,Entrepreneurship,43,30,9,4,234208,219735
+198,2025-01-01,District E,Center 11,Entrepreneurship,43,29,1,13,87552,88898
+199,2025-12-01,District G,Center 03,Vocational Training,23,20,3,0,245588,187751
+200,2025-08-01,District D,Center 13,Career Readiness,63,53,8,2,147007,136315
+201,2025-01-01,District E,Center 11,Digital Skills,39,23,11,5,247770,248086
+202,2025-08-01,District A,Center 03,Entrepreneurship,74,55,4,15,209141,201450
+203,2025-04-01,District H,Center 14,Entrepreneurship,85,57,25,3,140484,140169
+204,2025-11-01,District G,Center 04,Entrepreneurship,95,67,13,15,188132,104492
+205,2025-07-01,District E,Center 02,Vocational Training,96,87,9,0,52015,30982
+206,2025-03-01,District D,Center 10,Vocational Training,52,35,8,9,136015,139419
+207,2025-12-01,District B,Center 01,Career Readiness,75,69,5,1,83865,70171
+208,2025-09-01,District G,Center 18,Vocational Training,91,73,7,11,68894,53339
+209,2025-01-01,District G,Center 02,Career Readiness,78,52,24,2,132066,94339
+210,2025-12-01,District G,Center 19,Career Readiness,73,59,10,4,80192,74272
+211,2025-03-01,District G,Center 01,Entrepreneurship,99,85,7,7,230777,218040
+212,2025-02-01,District F,Center 03,Career Readiness,51,29,9,13,204369,162925
+213,2025-07-01,District G,Center 17,Digital Skills,59,33,3,23,139001,114643
+214,2025-02-01,District D,Center 11,Vocational Training,85,61,4,20,79891,79399
+215,2025-12-01,District D,Center 12,Entrepreneurship,38,26,9,3,76949,46826
+216,2025-03-01,District C,Center 09,Vocational Training,97,58,30,9,249285,232023
+217,2025-08-01,District B,Center 06,Career Readiness,92,73,1,18,167677,100700
+218,2025-08-01,District F,Center 11,Vocational Training,28,16,5,7,165922,149410
+219,2025-06-01,District E,Center 09,Digital Skills,84,48,32,4,131371,126238
+220,2025-01-01,District H,Center 15,Digital Skills,67,55,8,4,70114,41414
+221,2025-08-01,District B,Center 20,Career Readiness,94,54,5,35,243703,254260
+222,2025-06-01,District A,Center 15,Vocational Training,97,67,15,15,181430,133409
+223,2025-02-01,District C,Center 02,Career Readiness,-5,55,7,1,182264,186569
+224,2025-12-01,District C,Center 02,Vocational Training,76,71,2,3,187381,173643
+225,2025-05-01,District C,Center 12,Entrepreneurship,69,48,8,13,138700,82075
+226,2025-06-01,District A,Center 11,Digital Skills,32,27,1,4,227833,188919
+227,2025-12-01,District G,Center 10,Entrepreneurship,97,69,1,27,89419,89703
+228,2025-06-01,District F,Center 03,Vocational Training,59,35,4,20,233102,185622
+229,2025-05-01,District G,Center 05,Digital Skills,91,50,17,24,218687,171522
+230,2025-11-01,District F,Center 05,Digital Skills,74,42,0,32,144851,88273
+231,2025-03-01,District A,Center 12,Entrepreneurship,47,28,9,10,177473,155218
+232,2025-03-01,District D,Center 08,Vocational Training,29,24,3,2,76513,64399
+233,2025-10-01,District A,Center 11,Vocational Training,68,63,4,1,92532,68236
+234,2025-12-01,District C,Center 20,Vocational Training,76,50,25,1,157704,155227
+235,2025-10-01,District F,Center 08,Career Readiness,56,35,7,14,111342,114861
+236,2025-04-01,District D,Center 10,Career Readiness,67,37,9,21,199532,206503
+237,2025-07-01,District H,Center 15,Entrepreneurship,84,47,4,33,159749,159041
+238,2025-05-01,District C,Center 07,Vocational Training,26,19,0,7,147311,154158
+239,2025-05-01,District B,Center 17,Digital Skills,30,17,1,12,92024,76097
+240,2025-07-01,District E,Center 15,Vocational Training,31,29,2,0,168260,136551
+241,2025-01-01,District F,Center 01,Career Readiness,70,56,6,8,148031,132913
+242,2025-06-01,,Center 13,Digital Skills,48,35,13,0,133541,115349
+243,2025-03-01,District B,Center 11,Vocational Training,24,18,4,2,173851,173951
+244,2025-10-01,District C,Center 16,Career Readiness,20,11,8,1,54981,37963
+245,2025-09-01,District E,Center 07,Vocational Training,97,90,1,6,79146,78760
+246,2025-02-01,District E,Center 08,Entrepreneurship,26,19,4,3,160054,137657
+247,2025-08-01,District H,Center 03,Digital Skills,96,63,32,1,215663,138900
+248,2025-07-01,District D,Center 05,Entrepreneurship,20,40,2,4,142488,103542
+249,2025-03-01,District D,Center 19,Career Readiness,30,23,2,5,67741,39890
+250,2025-01-01,District A,Center 13,Career Readiness,69,64,3,2,116492,121513
+251,2025-06-01,District A,Center 12,Digital Skills,50,41,8,1,202542,165689
+252,2025-06-01,District F,Center 05,Digital Skills,89,109,20,10,218505,209086
+253,2025-11-01,District C,Center 15,Career Readiness,43,35,6,2,66541,42007
+254,2025-04-01,District H,Center 02,Entrepreneurship,25,22,2,1,60985,58622
+255,2025-09-01,District F,Center 10,Career Readiness,80,74,4,2,59599,54405
+256,2025-01-01,District D,Center 10,Entrepreneurship,62,49,9,4,82630,62726
+257,2025-12-01,District F,Center 14,Career Readiness,76,70,3,3,138876,136519
+258,2025-06-01,District C,Center 16,Career Readiness,86,48,21,17,71656,40355
+259,2025-10-01,District G,Center 03,Career Readiness,43,30,5,8,127009,121328
+260,2025-06-01,District F,Center 04,Digital Skills,57,53,2,2,166894,104343
+261,2025-06-01,District G,Center 06,Career Readiness,77,60,16,1,240530,178099
+262,2025-05-01,District F,Center 20,Career Readiness,27,25,2,0,225946,219407
+263,2025-01-01,District G,Center 12,Vocational Training,38,33,1,4,227756,178639
+264,2025-02-01,District H,Center 02,Vocational Training,50,35,4,11,144935,99527
+265,2025-10-01,District G,Center 19,Digital Skills,39,22,3,14,147246,144648
+266,2025-10-01,District F,Center 15,Digital Skills,37,32,1,4,146193,153482
+267,2025-04-01,District G,Center 11,Entrepreneurship,34,32,2,0,242852,201012
+268,2025-09-01,District C,Center 16,Career Readiness,35,30,3,2,118233,120879
+269,2025-12-01,District H,Center 07,Entrepreneurship,82,72,7,3,82148,55340
+270,2025-03-01,District C,Center 03,Career Readiness,76,55,19,2,228763,140593
+271,2025-09-01,District F,Center 12,Digital Skills,89,82,3,4,128631,109733
+272,2025-09-01,District C,Center 06,Entrepreneurship,48,30,15,3,102685,90963
+273,2025-01-01,District C,Center 08,Career Readiness,66,52,6,8,200019,145830
+274,2025-10-01,District F,Center 15,Vocational Training,31,18,12,1,131078,116107
+275,2025-07-01,District G,Center 16,Career Readiness,93,70,21,2,82853,77563
+276,2025-08-01,District F,Center 03,Career Readiness,86,65,10,11,83642,81642
+277,2025-09-01,District C,Center 05,Career Readiness,27,20,6,1,185817,154315
+278,2025-03-01,District C,Center 10,Vocational Training,61,54,4,3,140707,105775
+279,2025-04-01,District E,Center 03,Entrepreneurship,90,54,19,17,82812,46738
+280,2025-09-01,District E,Center 20,Digital Skills,41,34,5,2,94879,81610
+281,2025-01-01,District F,Center 19,Digital Skills,30,24,6,0,218153,143213
+282,2025-10-01,District E,Center 07,Career Readiness,23,43,3,7,214407,119483
+283,2025-04-01,District E,Center 10,Career Readiness,71,49,13,9,168893,142707
+284,2025-08-01,District B,Center 02,Vocational Training,73,51,7,15,171750,515250
+285,2025-06-01,District D,Center 11,Vocational Training,60,54,1,5,140536,101766
+286,2025-09-01,,Center 05,Entrepreneurship,91,68,20,3,133654,125878
+287,2025-05-01,District D,Center 15,Digital Skills,77,54,16,7,86930,74850
+288,2025-07-01,District B,Center 02,Entrepreneurship,98,87,5,6,115082,117931
+289,2025-04-01,District C,Center 11,Entrepreneurship,40,24,1,15,184932,187390
+290,2025-08-01,District H,Center 16,Entrepreneurship,22,16,6,0,153086,103964
+291,2025-10-01,District H,Center 08,Vocational Training,65,47,17,1,63248,65778
+292,2025-05-01,District E,Center 16,Career Readiness,88,65,23,0,78179,55849
+293,2025-12-01,District G,Center 05,Entrepreneurship,66,53,1,12,155710,104337
+294,2025-01-01,District F,Center 02,Career Readiness,92,53,4,35,101027,62075
+295,2025-02-01,District F,Center 18,Entrepreneurship,69,41,12,16,168057,105195
+296,2025-03-01,District E,Center 20,Digital Skills,32,19,7,6,147831,128677
+297,2025-03-01,District F,Center 18,Entrepreneurship,45,28,1,16,155221,112198
+298,2025-03-01,District A,Center 02,Digital Skills,62,56,0,6,174189,137083
+299,2025-06-01,District H,Center 05,Vocational Training,98,80,8,10,92598,58907
+300,2025-10-01,District G,Center 20,Entrepreneurship,63,39,8,16,183618,104742
+301,2025-08-01,District H,Center 19,Entrepreneurship,22,13,4,5,136832,94317
+302,2025-12-01,District B,Center 14,Entrepreneurship,100,62,37,1,206476,122719
+303,2025-12-01,District H,Center 09,Vocational Training,26,15,2,9,175946,137306
+304,2025-03-01,District C,Center 17,Career Readiness,51,32,18,1,200095,146496
+305,2025-08-01,District B,Center 07,Digital Skills,60,45,2,13,89696,80295
+306,2025-09-01,District G,Center 07,Career Readiness,98,55,13,30,242895,230678
+307,2025-09-01,District A,Center 05,Vocational Training,61,48,3,10,175402,103641
+308,2025-08-01,District G,Center 11,Vocational Training,88,79,4,5,193202,195218
+309,2025-04-01,District F,Center 09,Career Readiness,51,29,14,8,196299,135139
+310,2025-05-01,District E,Center 08,Entrepreneurship,46,40,1,5,234808,216993
+311,2025-06-01,District H,Center 11,Career Readiness,91,56,18,17,125442,82123
+312,2025-07-01,District B,Center 19,Career Readiness,64,44,16,4,126140,99935
+313,2025-06-01,District A,Center 10,Digital Skills,76,60,8,8,245910,180610
+314,2025-09-01,District H,Center 07,Vocational Training,54,39,7,8,85985,79427
+315,2025-04-01,District B,Center 20,Vocational Training,26,14,2,10,189209,127946
+316,2025-02-01,District D,Center 08,Digital Skills,72,60,7,5,238051,237480
+317,2025-01-01,District H,Center 04,Vocational Training,90,67,18,5,156668,127849
+318,2025-05-01,District H,Center 16,Vocational Training,61,36,16,9,219318,169687
+319,2025-09-01,District A,Center 03,Vocational Training,24,18,5,1,159546,107092
+320,2025-08-01,District C,Center 02,Career Readiness,43,28,6,9,59821,44186
+321,2025-06-01,District A,Center 10,Digital Skills,56,31,11,14,218116,155089
+322,2025-05-01,District H,Center 05,Career Readiness,44,27,14,3,136686,97559
+323,2025-12-01,District C,Center 15,Entrepreneurship,43,25,18,0,243099,241947
+324,2025-03-01,District F,Center 10,Vocational Training,98,77,1,20,156296,139033
+325,2025-02-01,District G,Center 17,Entrepreneurship,71,61,0,10,75004,59944
+326,2025-06-01,District C,Center 05,Career Readiness,51,29,22,0,118363,96886
+327,2025-05-01,District G,Center 08,Career Readiness,62,48,10,4,202688,187024
+328,2025-12-01,District A,Center 09,Entrepreneurship,50,36,14,0,225056,138137
+329,2025-03-01,District B,Center 15,Entrepreneurship,71,47,3,21,181732,132944
+330,2025-06-01,District E,Center 04,Entrepreneurship,98,79,12,7,107443,89756
+331,2025-08-01,District C,Center 16,Vocational Training,97,67,19,11,159011,165889
+332,2025-04-01,District H,Center 18,Vocational Training,96,76,18,2,187758,125537
+333,2025-02-01,District H,Center 17,Entrepreneurship,92,54,31,7,66189,41462
+334,2025-03-01,District D,Center 19,Vocational Training,61,39,6,16,165825,104526
+335,2025-02-01,District B,Center 07,Career Readiness,85,53,4,28,64584,44727
+336,2025-08-01,District H,Center 05,Career Readiness,92,56,33,3,196485,196167
+337,2025-07-01,District H,Center 10,Digital Skills,52,30,22,0,245508,199415
+338,2025-01-01,District D,Center 19,Digital Skills,74,52,11,11,233601,243222
+339,2025-02-01,District B,Center 18,Digital Skills,80,47,31,2,125259,93809
+340,2025-11-01,District G,Center 06,Vocational Training,73,68,3,2,150264,147672
+341,2025-02-01,District H,Center 13,Career Readiness,89,78,9,2,221320,150265
+342,2025-09-01,District F,Center 04,Vocational Training,70,43,11,16,83383,73737
+343,2025-05-01,District D,Center 01,Digital Skills,79,72,1,6,189443,156931
+344,2025-08-01,District G,Center 08,Vocational Training,64,49,11,4,122259,84357
+345,2025-11-01,District D,Center 04,Digital Skills,73,62,2,9,54101,34815
+346,2025-02-01,District D,Center 07,Digital Skills,96,65,29,2,167031,127397
+347,2025-07-01,District A,Center 08,Digital Skills,76,57,12,7,191494,128531
+348,2025-09-01,District D,Center 02,Vocational Training,57,33,17,7,241762,206781
+349,2025-04-01,District F,Center 19,Entrepreneurship,58,38,16,4,223070,187516
+350,2025-05-01,District D,Center 14,Entrepreneurship,27,16,3,8,205101,162146
+351,2025-01-01,District C,Center 14,Career Readiness,64,48,4,12,187484,107974
+352,2025-03-01,District F,Center 14,Career Readiness,58,39,7,12,98202,60610
+353,2025-05-01,District H,Center 08,Vocational Training,38,21,3,14,65105,68033
+354,2025-07-01,District G,Center 14,Vocational Training,51,34,9,8,103303,98647
+355,2025-06-01,District F,Center 03,Career Readiness,31,20,3,8,239945,213731
+356,2025-07-01,District D,Center 02,Entrepreneurship,97,82,14,1,69079,58566
+357,2025-08-01,District D,Center 19,Vocational Training,46,33,0,13,137284,103775
+358,2025-04-01,District E,Center 01,Vocational Training,35,24,0,11,247743,251400
+359,2025-07-01,District H,Center 08,Vocational Training,50,44,2,4,134309,138675
+360,2025-09-01,District E,Center 13,Career Readiness,65,38,18,9,118566,108539
+361,2025-08-01,District F,Center 17,Career Readiness,32,29,0,3,249656,159933
+362,2025-06-01,District F,Center 07,Entrepreneurship,72,41,29,2,197462,181775
+363,2025-05-01,District D,Center 05,Digital Skills,90,70,2,18,201818,195948
+364,2025-04-01,District G,Center 10,Vocational Training,62,37,18,7,149572,141739
+365,2025-05-01,District D,Center 16,Entrepreneurship,82,51,0,31,170803,107918
+366,2025-03-01,District C,Center 12,Vocational Training,89,54,4,31,98247,94050
+367,2025-02-01,District A,Center 17,Digital Skills,26,21,5,0,158106,128308
+368,2025-12-01,District C,Center 08,Digital Skills,39,27,12,0,107336,106112
+369,2025-10-01,District H,Center 12,Digital Skills,98,69,0,29,176669,169301
+370,2025-09-01,District H,Center 01,Digital Skills,90,65,12,13,53106,39217
+371,2025-09-01,District A,Center 17,Entrepreneurship,56,41,15,0,181652,127281
+372,2025-02-01,District G,Center 06,Digital Skills,87,73,12,2,113168,90688
+373,2025-06-01,District D,Center 20,Entrepreneurship,54,34,8,12,70714,70698
+374,2025-10-01,District F,Center 13,Career Readiness,51,35,9,7,128636,105710
+375,2025-07-01,District B,Center 02,Digital Skills,68,62,3,3,194887,168015
+376,2025-12-01,District H,Center 02,Digital Skills,41,24,15,2,181034,184639
+377,2025-09-01,District G,Center 11,Digital Skills,25,20,4,1,105421,75634
+378,2025-02-01,District H,Center 09,Digital Skills,55,33,5,17,197720,187243
+379,2025-01-01,District A,Center 06,Entrepreneurship,46,36,1,9,87798,71707
+380,2025-03-01,District G,Center 03,Entrepreneurship,92,83,6,3,198555,187495
+381,2025-07-01,District G,Center 18,Entrepreneurship,37,22,13,2,181279,127957
+382,2025-07-01,District F,Center 02,Digital Skills,49,31,16,2,139284,128416
+383,2025-11-01,District G,Center 11,Digital Skills,54,30,10,14,178608,149127
+384,2025-07-01,District D,Center 12,Career Readiness,43,36,1,6,72464,71622
+385,2025-02-01,District E,Center 08,Digital Skills,54,37,13,4,149614,143723
+386,2025-06-01,,Center 13,Entrepreneurship,33,19,13,1,51361,49985
+387,2025-05-01,District E,Center 15,Entrepreneurship,33,19,12,2,72884,54564
+388,2025-09-01,District C,Center 14,Career Readiness,91,79,4,8,156966,98097
+389,2025-06-01,District B,Center 01,Digital Skills,90,57,28,5,206480,188129
+390,2025-05-01,District F,Center 13,Digital Skills,72,60,6,6,72203,62858
+391,2025-11-01,District D,Center 19,Vocational Training,68,56,10,2,86396,70962
+392,2025-08-01,District E,Center 10,Entrepreneurship,38,24,13,1,93832,67826
+393,2025-05-01,District G,Center 09,Career Readiness,81,50,27,4,144666,145277
+394,2025-10-01,District E,Center 08,Career Readiness,98,76,16,6,170025,127591
+395,2025-01-01,District B,Center 05,Entrepreneurship,70,51,9,10,212579,217604
+396,2025-06-01,District G,Center 11,Career Readiness,75,45,4,26,220665,186045
+397,2025-10-01,District C,Center 10,Entrepreneurship,45,33,5,7,132361,113264
+398,2025-05-01,District C,Center 13,Entrepreneurship,82,45,1,36,113550,111967
+399,2025-07-01,District F,Center 13,Entrepreneurship,66,60,6,0,197810,164689
+400,2025-11-01,District D,Center 19,Vocational Training,90,74,16,0,240634,243341
+401,2025-05-01,District H,Center 07,Career Readiness,28,23,2,3,226417,141798
+402,2025-04-01,District H,Center 05,Entrepreneurship,52,40,2,10,90407,77149
+403,2025-08-01,District G,Center 13,Digital Skills,96,69,12,15,202631,186060
+404,2025-09-01,District G,Center 18,Career Readiness,24,22,1,1,233929,236919
+405,2025-11-01,District B,Center 04,Vocational Training,65,47,13,5,219607,133217
+406,2025-06-01,District A,Center 19,Career Readiness,75,70,5,0,52765,51152
+407,2025-09-01,District B,Center 09,Vocational Training,86,51,0,35,202179,204285
+408,2025-07-01,District D,Center 15,Entrepreneurship,79,70,0,9,230993,186970
+409,2025-08-01,District C,Center 12,Digital Skills,33,25,4,4,159045,119204
+410,2025-06-01,District B,Center 04,Vocational Training,59,33,16,10,169362,121533
+411,2025-06-01,District D,Center 17,Career Readiness,80,69,10,1,164862,91055
+412,2025-05-01,District H,Center 11,Digital Skills,25,17,7,1,55920,41888
+413,2025-12-01,District F,Center 04,Vocational Training,51,39,4,8,95731,96681
+414,2025-08-01,District C,Center 11,Career Readiness,49,33,4,12,215087,155610
+415,2025-07-01,District C,Center 06,Career Readiness,23,19,0,4,101727,78951
+416,2025-07-01,District H,Center 19,Career Readiness,20,12,5,3,103945,80684
+417,2025-09-01,District E,Center 03,Digital Skills,43,26,6,11,135454,86445
+418,2025-05-01,District D,Center 15,Digital Skills,82,61,5,16,217538,165212
+419,2025-10-01,District F,Center 20,Career Readiness,70,64,2,4,79945,58455
+420,2025-10-01,District F,Center 12,Career Readiness,42,32,0,10,235070,203601
+421,2025-11-01,District E,Center 20,Digital Skills,37,20,7,10,80896,71331
+422,2025-03-01,District D,Center 10,Digital Skills,67,41,4,22,87056,89714
+423,2025-10-01,District G,Center 14,Vocational Training,69,42,14,13,98694,74742
+424,2025-09-01,District H,Center 18,Vocational Training,41,23,3,15,125716,131805
+425,2025-08-01,District C,Center 06,Entrepreneurship,99,74,24,1,144119,122168
+426,2025-04-01,District A,Center 16,Vocational Training,69,39,0,30,197215,182419
+427,2025-07-01,District H,Center 14,Career Readiness,76,48,13,15,93844,93752
+428,2025-04-01,District B,Center 19,Digital Skills,57,36,20,1,122051,78764
+429,2025-03-01,District D,Center 18,Entrepreneurship,78,44,3,31,194107,152574
+430,2025-05-01,District B,Center 19,Digital Skills,89,109,9,11,192093,111962
+431,2025-07-01,District A,Center 15,Vocational Training,33,28,0,5,221356,171914
+432,2025-08-01,District D,Center 10,Digital Skills,53,40,8,5,72802,56085
+433,2025-04-01,District H,Center 04,Vocational Training,95,67,6,22,141915,117763
+434,2025-04-01,District G,Center 06,Vocational Training,46,28,17,1,199441,127834
+435,2025-10-01,District F,Center 18,Entrepreneurship,88,78,8,2,134843,137952
+436,2025-09-01,,Center 10,Entrepreneurship,32,22,8,2,246632,169034
+437,2025-11-01,District G,Center 02,Entrepreneurship,36,29,5,2,115451,87092
+438,2025-11-01,District C,Center 11,Vocational Training,70,39,0,31,87269,54811
+439,2025-08-01,District E,Center 14,Career Readiness,29,24,0,5,74404,65435
+440,2025-12-01,District G,Center 17,Entrepreneurship,67,37,16,14,177937,117613
+441,2025-12-01,District F,Center 19,Digital Skills,31,19,1,11,170179,150769
+442,2025-04-01,District F,Center 03,Career Readiness,74,41,20,13,179686,108180
+443,2025-06-01,District E,Center 11,Entrepreneurship,90,78,3,9,84234,53848
+444,2025-01-01,District H,Center 11,Digital Skills,32,25,0,7,54268,36310
+445,2025-08-01,District B,Center 06,Career Readiness,20,11,3,6,103036,69197
+446,2025-05-01,District C,Center 10,Vocational Training,31,26,0,5,144485,141284
+447,2025-11-01,District E,Center 03,Entrepreneurship,41,36,5,0,153898,115206
+448,2025-11-01,District E,Center 08,Career Readiness,31,25,1,5,74951,48904
+449,2025-02-01,District A,Center 07,Career Readiness,36,24,3,9,109294,109093
+450,2025-12-01,District H,Center 01,Digital Skills,63,34,3,26,81612,48375
+451,2025-02-01,District G,Center 05,Career Readiness,49,31,6,12,73417,41353
+452,2025-06-01,District B,Center 04,Entrepreneurship,58,36,18,4,150328,126504
+453,2025-09-01,District C,Center 05,Digital Skills,92,66,26,0,209991,209221
+454,2025-12-01,District C,Center 15,Entrepreneurship,47,41,1,5,246154,177454
+455,2025-04-01,District C,Center 14,Career Readiness,31,20,10,1,86703,64146
+456,2025-06-01,District B,Center 19,Career Readiness,74,58,6,10,86655,59274
+457,2025-04-01,District D,Center 09,Digital Skills,90,71,0,19,207288,156441
+458,2025-04-01,District E,Center 01,Entrepreneurship,86,66,1,19,183568,140991
+459,2025-11-01,District D,Center 13,Entrepreneurship,26,17,6,3,179731,184085
+460,2025-08-01,District G,Center 04,Vocational Training,96,82,13,1,188487,116872
+461,2025-03-01,District A,Center 12,Entrepreneurship,69,61,2,6,145790,115715
+462,2025-01-01,,Center 16,Digital Skills,95,86,8,1,53615,50930
+463,2025-01-01,District E,Center 07,Digital Skills,70,50,4,16,125101,70211
+464,2025-02-01,District G,Center 14,Career Readiness,88,57,22,9,122736,100743
+465,2025-09-01,District B,Center 10,Digital Skills,46,36,8,2,190611,129414
+466,2025-05-01,District F,Center 13,Digital Skills,75,45,7,23,112557,108894
+467,2025-07-01,District A,Center 08,Digital Skills,34,32,1,1,210509,171111
+468,2025-02-01,District A,Center 10,Vocational Training,21,12,7,2,233893,160486
+469,2025-06-01,District A,Center 06,Career Readiness,86,47,6,33,238944,240652
+470,2025-03-01,District E,Center 06,Entrepreneurship,54,32,19,3,57695,48363
+471,2025-09-01,District F,Center 14,Entrepreneurship,28,18,6,4,236731,195797
+472,2025-09-01,District B,Center 16,Career Readiness,66,53,13,0,180969,174611
+473,2025-05-01,District C,Center 12,Vocational Training,33,20,4,9,226716,125940
+474,2025-01-01,District B,Center 08,Digital Skills,21,12,6,3,62053,62053
+475,2025-03-01,District H,Center 12,Career Readiness,42,37,5,0,194930,165438
+476,2025-04-01,District G,Center 08,Entrepreneurship,73,57,6,10,121108,106880
+477,2025-02-01,District B,Center 19,Entrepreneurship,84,52,29,3,97014,97713
+478,2025-07-01,District D,Center 17,Digital Skills,28,20,1,7,124005,91958
+479,2025-09-01,District E,Center 11,Digital Skills,78,59,19,0,146709,84135
+480,2025-12-01,District D,Center 10,Entrepreneurship,99,61,23,15,171615,157717
+481,2025-04-01,District F,Center 19,Career Readiness,89,51,23,15,89470,76190
+482,2025-04-01,District A,Center 14,Digital Skills,89,57,10,22,216708,161371
+483,2025-11-01,District A,Center 11,Digital Skills,68,45,0,23,240635,175142
+484,2025-09-01,District E,Center 04,Vocational Training,50,41,3,6,178982,125029
+485,2025-02-01,District A,Center 05,Entrepreneurship,25,19,5,1,186251,146770
+486,2025-12-01,District G,Center 12,Career Readiness,30,24,2,4,75054,76436
+487,2025-10-01,District C,Center 13,Digital Skills,92,77,14,1,164028,107843
+488,2025-05-01,District C,Center 08,Entrepreneurship,60,33,2,25,153010,104220
+489,2025-05-01,District F,Center 11,Career Readiness,49,38,10,1,103139,59378
+490,2025-03-01,District C,Center 19,Digital Skills,33,24,7,2,167851,142408
+491,2025-02-01,District H,Center 11,Career Readiness,88,60,17,11,104430,97689
+492,2025-05-01,District H,Center 10,Career Readiness,35,20,13,2,91317,53655
+493,2025-04-01,District E,Center 20,Digital Skills,61,51,8,2,73910,58961
+494,2025-09-01,District D,Center 12,Career Readiness,26,21,0,5,128339,98489
+495,2025-07-01,District E,Center 06,Digital Skills,77,49,11,17,246104,236149
+496,2025-02-01,District D,Center 04,Career Readiness,37,32,5,0,53134,47679
+497,2025-04-01,District A,Center 08,Vocational Training,71,46,14,11,229905,194296
+498,2025-02-01,District B,Center 19,Entrepreneurship,22,15,6,1,101839,60674
+499,2025-06-01,District H,Center 05,Digital Skills,35,32,3,0,170847,105653
+500,2025-12-01,District A,Center 06,Career Readiness,70,65,2,3,57728,173184
+501,2025-06-01,District G,Center 14,Vocational Training,47,29,13,5,122084,100224
+502,2025-01-01,District E,Center 15,Vocational Training,98,88,1,9,211736,193973
+503,2025-07-01,District D,Center 10,Career Readiness,90,78,5,7,65985,58026
+504,2025-03-01,District B,Center 09,Career Readiness,73,60,10,3,218467,212917
+505,2025-07-01,District D,Center 18,Digital Skills,65,42,8,15,192742,153174
+506,2025-07-01,District H,Center 12,Entrepreneurship,54,34,15,5,56832,59323
+507,2025-01-01,District F,Center 20,Vocational Training,55,51,4,0,173649,98930
+508,2025-03-01,District F,Center 19,Vocational Training,32,26,5,1,222193,224997
+509,2025-04-01,District D,Center 09,Digital Skills,93,57,12,24,143009,119265
+510,2025-10-01,District C,Center 06,Vocational Training,60,54,0,6,243489,138051
+511,2025-12-01,,Center 19,Digital Skills,65,53,3,9,197746,138160
+512,2025-08-01,District C,Center 19,Vocational Training,89,81,4,4,96021,99432
+513,2025-01-01,District H,Center 02,Digital Skills,49,45,0,4,107359,84503
+514,2025-01-01,District A,Center 17,Career Readiness,62,55,4,3,84207,81872
+515,2025-01-01,District F,Center 06,Entrepreneurship,22,14,6,2,203776,196533
+516,2025-02-01,District C,Center 04,Entrepreneurship,67,37,8,22,223575,189621
+517,2025-06-01,District G,Center 19,Digital Skills,58,37,11,10,85769,52343
+518,2025-11-01,District C,Center 14,Career Readiness,60,34,21,5,235383,211407
+519,2025-07-01,District F,Center 08,Vocational Training,59,40,10,9,83383,76077
+520,2025-10-01,District C,Center 01,Career Readiness,24,13,9,2,207912,147127
+521,2025-11-01,District F,Center 20,Vocational Training,92,70,19,3,180071,170232
+522,2025-04-01,District C,Center 11,Digital Skills,64,43,11,10,94010,81125
+523,2025-01-01,District B,Center 11,Career Readiness,53,47,5,1,115415,99018
+524,2025-02-01,District B,Center 12,Entrepreneurship,20,12,8,0,151171,84988
+525,2025-07-01,District H,Center 14,Vocational Training,83,74,3,6,142073,79651
+526,2025-10-01,District G,Center 04,Career Readiness,48,43,4,1,168302,137076
+527,2025-01-01,District B,Center 02,Entrepreneurship,60,55,3,2,77453,73533
+528,2025-07-01,District B,Center 11,Vocational Training,40,37,3,0,193404,140286
+529,2025-12-01,District B,Center 11,Career Readiness,23,19,1,3,221346,166223
+530,2025-03-01,District C,Center 20,Career Readiness,26,19,6,1,136794,118156
+531,2025-12-01,District D,Center 07,Career Readiness,90,80,2,8,119537,124562
+532,2025-02-01,District E,Center 10,Vocational Training,26,22,1,3,199886,151690
+533,2025-06-01,District H,Center 05,Digital Skills,20,14,3,3,72971,67045
+534,2025-04-01,District E,Center 20,Career Readiness,32,20,12,0,104251,63096
+535,2025-08-01,District C,Center 10,Digital Skills,34,23,7,4,154193,106951
+536,2025-02-01,District H,Center 16,Entrepreneurship,89,59,18,12,98465,65656
+537,2025-03-01,District F,Center 13,Entrepreneurship,77,43,32,2,119021,66525
+538,2025-04-01,District H,Center 15,Entrepreneurship,54,51,3,0,89617,68457
+539,2025-09-01,,Center 03,Entrepreneurship,72,50,4,18,109641,97561
+540,2025-09-01,District A,Center 13,Career Readiness,80,50,12,18,111772,114564
+541,2025-07-01,District H,Center 10,Digital Skills,24,20,0,4,199741,118787
+542,2025-03-01,District C,Center 04,Career Readiness,41,29,9,3,100521,99471
+543,2025-02-01,District C,Center 02,Career Readiness,75,69,5,1,214423,168043
+544,2025-06-01,District C,Center 20,Entrepreneurship,28,22,6,0,151737,96127
+545,2025-05-01,District G,Center 18,Entrepreneurship,86,81,2,3,53241,35449
+546,2025-03-01,District G,Center 04,Career Readiness,38,35,3,0,77691,67965
+547,2025-07-01,District B,Center 10,Entrepreneurship,53,42,5,6,221648,178724
+548,2025-01-01,District H,Center 19,Career Readiness,42,26,8,8,155637,99337
+549,2025-01-01,District C,Center 20,Career Readiness,70,44,16,10,231014,148592
+550,2025-05-01,District D,Center 02,Career Readiness,67,57,10,0,138569,100471
+551,2025-08-01,District E,Center 10,Entrepreneurship,32,18,1,13,109757,113549
+552,2025-06-01,District C,Center 10,Career Readiness,54,48,1,5,159254,161463
+553,2025-04-01,District B,Center 07,Career Readiness,72,68,1,3,249096,158661
+554,2025-02-01,District F,Center 02,Vocational Training,59,41,2,16,155744,144704
+555,2025-03-01,District C,Center 17,Digital Skills,44,36,5,3,65106,40818
+556,2025-01-01,District D,Center 02,Career Readiness,66,57,6,3,121821,80672
+557,2025-11-01,District F,Center 15,Career Readiness,35,22,3,10,58011,47481
+558,2025-10-01,District D,Center 12,Career Readiness,77,60,12,5,174408,146510
+559,2025-05-01,District F,Center 12,Vocational Training,31,18,9,4,57195,56550
+560,2025-10-01,District G,Center 02,Vocational Training,47,30,10,7,219706,135065
+561,2025-11-01,District D,Center 07,Entrepreneurship,72,65,7,0,228834,235201
+562,2025-11-01,District A,Center 16,Vocational Training,42,37,1,4,52218,49855
+563,2025-12-01,District D,Center 09,Entrepreneurship,55,44,5,6,148690,122732
+564,2025-04-01,District F,Center 15,Entrepreneurship,79,46,14,19,227522,171603
+565,2025-01-01,District G,Center 19,Digital Skills,85,59,5,21,148102,100691
+566,2025-08-01,District E,Center 10,Digital Skills,28,23,3,2,122478,97729
+567,2025-11-01,District F,Center 09,Entrepreneurship,58,33,19,6,89303,58948
+568,2025-11-01,District D,Center 02,Career Readiness,60,49,1,10,86681,50974
+569,2025-05-01,District A,Center 16,Entrepreneurship,73,65,2,6,151783,121058
+570,2025-06-01,District A,Center 19,Vocational Training,48,35,3,10,190151,160906
+571,2025-03-01,District H,Center 12,Entrepreneurship,91,80,9,2,127013,91945
+572,2025-12-01,District B,Center 16,Vocational Training,53,43,2,8,249994,208211
+573,2025-04-01,District C,Center 11,Digital Skills,65,42,16,7,245090,242471
+574,2025-06-01,District E,Center 14,Entrepreneurship,53,46,3,4,171572,150850
+575,2025-11-01,District B,Center 16,Digital Skills,94,83,2,9,212700,209221
+576,2025-09-01,District B,Center 16,Vocational Training,35,29,0,6,228440,221245
+577,2025-07-01,District G,Center 17,Entrepreneurship,26,21,4,1,86009,76554
+578,2025-10-01,District D,Center 11,Career Readiness,78,62,12,4,132938,123148
+579,2025-06-01,District C,Center 03,Career Readiness,100,61,28,11,132159,130894
+580,2025-05-01,District A,Center 01,Career Readiness,46,41,4,1,201068,113527
+581,2025-03-01,District C,Center 16,Digital Skills,98,86,6,6,216064,132757
+582,2025-08-01,District G,Center 13,Career Readiness,-5,47,22,0,59889,55202
+583,2025-06-01,District D,Center 12,Digital Skills,87,53,22,12,54696,52452
+584,2025-12-01,District A,Center 08,Vocational Training,64,56,4,4,83798,67351
+585,2025-03-01,District B,Center 13,Entrepreneurship,28,15,0,13,61984,42987
+586,2025-12-01,District E,Center 10,Career Readiness,86,68,2,16,138561,144185
+587,2025-08-01,District G,Center 05,Entrepreneurship,65,52,1,12,99394,67578
+588,2025-04-01,District C,Center 13,Digital Skills,48,38,8,2,105362,86396
+589,2025-02-01,District A,Center 19,Vocational Training,66,56,0,10,59794,36085
+590,2025-10-01,District G,Center 09,Digital Skills,26,22,4,0,221328,181629
+591,2025-07-01,District A,Center 02,Digital Skills,76,71,2,3,82399,59404
+592,2025-04-01,District E,Center 16,Vocational Training,100,80,20,0,128935,130999
+593,2025-10-01,District G,Center 04,Entrepreneurship,97,57,32,8,159792,162766
+594,2025-05-01,District B,Center 17,Digital Skills,34,28,0,6,77856,45461
+595,2025-05-01,District H,Center 07,Vocational Training,86,57,23,6,143827,130031
+596,2025-01-01,District G,Center 10,Vocational Training,90,51,8,31,104445,87847
+597,2025-01-01,District H,Center 11,Vocational Training,21,14,6,1,78948,67931
+598,2025-09-01,District H,Center 05,Digital Skills,29,16,2,11,239681,236269
+599,2025-08-01,District B,Center 09,Vocational Training,57,53,2,2,171707,177620
+600,2025-01-01,District A,Center 04,Vocational Training,57,48,4,5,227410,139866
+601,2025-02-01,District F,Center 14,Digital Skills,25,21,4,0,86279,48514
+602,2025-08-01,District C,Center 11,Entrepreneurship,99,55,27,17,242169,172377
+603,2025-03-01,,Center 12,Entrepreneurship,34,25,3,6,154923,144884
+604,2025-12-01,District H,Center 09,Career Readiness,81,66,2,13,220091,170119
+605,2025-12-01,District C,Center 04,Vocational Training,27,17,8,2,77187,80935
+606,2025-10-01,District G,Center 19,Career Readiness,76,54,17,5,210254,163092
+607,2025-11-01,District G,Center 12,Digital Skills,36,22,7,7,177958,168598
+608,2025-01-01,District B,Center 14,Career Readiness,28,23,3,2,221697,146405
+609,2025-11-01,District F,Center 01,Vocational Training,63,36,11,16,187128,166590
+610,2025-08-01,District B,Center 14,Vocational Training,64,51,3,10,227286,156061
+611,2025-01-01,District G,Center 05,Digital Skills,40,37,0,3,179980,112582
+612,2025-06-01,District C,Center 03,Career Readiness,50,36,9,5,122917,125597
+613,2025-09-01,District A,Center 17,Vocational Training,68,48,8,12,111603,97012
+614,2025-10-01,District B,Center 15,Career Readiness,77,54,21,2,180667,124137
+615,2025-08-01,District H,Center 11,Digital Skills,22,20,2,0,155759,117546
+616,2025-02-01,District G,Center 02,Digital Skills,97,88,0,9,217126,144383
+617,2025-11-01,District E,Center 17,Vocational Training,78,49,19,10,145248,82147
+618,2025-06-01,District A,Center 08,Career Readiness,91,73,3,15,237867,174656
+619,2025-02-01,District F,Center 15,Digital Skills,48,42,6,0,139484,109718
+620,2025-12-01,District F,Center 10,Entrepreneurship,33,30,3,0,93032,59797
+621,2025-02-01,District H,Center 05,Career Readiness,52,46,2,4,101359,95104
+622,2025-04-01,District D,Center 04,Career Readiness,78,66,0,12,99959,97199
+623,2025-01-01,District F,Center 04,Career Readiness,95,81,13,1,168097,145086
+624,2025-08-01,District H,Center 19,Vocational Training,20,12,0,8,242994,137598
+625,2025-10-01,District A,Center 18,Career Readiness,81,74,5,2,231355,198577
+626,2025-07-01,District C,Center 05,Digital Skills,96,83,4,9,134369,106253
+627,2025-05-01,District G,Center 14,Vocational Training,70,41,19,10,127115,77869
+628,2025-07-01,District H,Center 05,Vocational Training,97,79,2,16,128358,98213
+629,2025-04-01,District F,Center 18,Vocational Training,46,28,9,9,229991,183026
+630,2025-09-01,District F,Center 05,Vocational Training,89,51,18,20,236214,198652
+631,2025-10-01,District B,Center 12,Career Readiness,93,61,6,26,226748,215133
+632,2025-09-01,District E,Center 14,Digital Skills,33,22,11,0,149842,116518
+633,2025-04-01,District C,Center 02,Digital Skills,54,29,1,24,92188,54042
+634,2025-01-01,District E,Center 09,Vocational Training,57,40,11,6,247550,195556
+635,2025-02-01,District A,Center 12,Career Readiness,98,77,0,21,243853,169680
+636,2025-04-01,District D,Center 18,Career Readiness,85,70,6,9,231649,227030
+637,2025-07-01,District A,Center 13,Career Readiness,60,51,1,8,64103,36526
+638,2025-10-01,District A,Center 09,Vocational Training,76,56,13,7,216143,130218
+639,2025-12-01,District F,Center 19,Vocational Training,44,28,7,9,167654,174918
+640,2025-03-01,District C,Center 03,Vocational Training,85,51,27,7,148880,119021
+641,2025-09-01,District A,Center 14,Entrepreneurship,53,42,9,2,92186,83081
+642,2025-08-01,District E,Center 01,Entrepreneurship,39,30,9,0,90292,50101
+643,2025-11-01,District F,Center 20,Digital Skills,98,66,13,19,178594,144456
+644,2025-09-01,District F,Center 03,Entrepreneurship,48,28,15,5,186473,135251
+645,2025-07-01,District B,Center 17,Vocational Training,89,50,5,34,155753,91783
+646,2025-04-01,District B,Center 12,Vocational Training,62,43,9,10,144580,89113
+647,2025-09-01,District E,Center 07,Career Readiness,21,16,5,0,225358,201635
+648,2025-11-01,District F,Center 15,Vocational Training,98,85,4,9,113917,74054
+649,2025-02-01,District A,Center 11,Career Readiness,69,42,19,8,191619,115409
+650,2025-09-01,District E,Center 01,Entrepreneurship,85,68,3,14,177612,160425
+651,2025-06-01,District A,Center 10,Vocational Training,85,47,33,5,75154,76514
+652,2025-11-01,District C,Center 18,Digital Skills,28,15,10,3,225724,185239
+653,2025-04-01,District D,Center 14,Digital Skills,88,73,2,13,219492,216305
+654,2025-08-01,District B,Center 05,Digital Skills,62,51,11,0,72943,69358
+655,2025-05-01,District B,Center 02,Vocational Training,91,62,27,2,200722,192173
+656,2025-07-01,District D,Center 09,Career Readiness,77,44,8,25,163514,163090
+657,2025-11-01,District F,Center 01,Career Readiness,35,26,1,8,51546,49414
+658,2025-12-01,District B,Center 19,Digital Skills,29,21,3,5,181815,158504
+659,2025-10-01,District B,Center 10,Entrepreneurship,31,23,4,4,164734,150862
+660,2025-08-01,District G,Center 13,Digital Skills,40,23,0,17,107636,62447
+661,2025-11-01,District C,Center 13,Entrepreneurship,38,24,10,4,227547,143302
+662,2025-02-01,District F,Center 01,Vocational Training,25,22,3,0,200134,132009
+663,2025-05-01,District G,Center 18,Digital Skills,46,43,1,2,105505,75799
+664,2025-03-01,District G,Center 17,Vocational Training,43,26,10,7,211712,200035
+665,2025-03-01,District E,Center 07,Digital Skills,92,74,17,1,246881,197282
+666,2025-05-01,District H,Center 18,Digital Skills,28,21,3,4,75743,68895
+667,2025-06-01,District D,Center 19,Career Readiness,65,41,20,4,225976,236860
+668,2025-10-01,District D,Center 04,Entrepreneurship,28,26,2,0,133305,116663
+669,2025-10-01,District H,Center 15,Entrepreneurship,59,37,0,22,203136,180814
+670,2025-06-01,District C,Center 19,Entrepreneurship,74,42,22,10,51266,28982
+671,2025-12-01,District F,Center 08,Vocational Training,75,48,19,8,144237,112694
+672,2025-08-01,District C,Center 11,Career Readiness,77,69,3,5,130077,118836
+673,2025-03-01,District H,Center 18,Digital Skills,97,82,13,2,123561,94245
+674,2025-05-01,District C,Center 18,Vocational Training,100,68,28,4,240690,177032
+675,2025-10-01,District B,Center 01,Digital Skills,94,88,3,3,204674,116675
+676,2025-09-01,District D,Center 02,Entrepreneurship,89,79,3,7,221418,185844
+677,2025-04-01,District C,Center 12,Career Readiness,95,68,4,23,126283,115249
+678,2025-07-01,District C,Center 15,Digital Skills,66,49,1,16,52776,52074
+679,2025-09-01,District D,Center 20,Vocational Training,37,33,1,3,91739,69800
+680,2025-12-01,District C,Center 19,Vocational Training,81,53,17,11,60595,51273
+681,2025-02-01,District D,Center 16,Vocational Training,53,48,3,2,111346,72968
+682,2025-07-01,District A,Center 07,Entrepreneurship,80,63,3,14,62173,53828
+683,2025-12-01,District A,Center 11,Digital Skills,86,72,4,10,121695,74937
+684,2025-07-01,District E,Center 19,Vocational Training,68,56,7,5,204056,204977
+685,2025-07-01,District B,Center 17,Entrepreneurship,48,29,3,16,156389,104588
+686,2025-08-01,District F,Center 12,Career Readiness,97,91,6,0,181553,116282
+687,2025-04-01,District C,Center 15,Vocational Training,29,25,0,4,218683,174102
+688,2025-03-01,District E,Center 07,Vocational Training,40,25,4,11,207816,204776
+689,2025-06-01,District B,Center 08,Career Readiness,34,24,3,7,227007,183287
+690,2025-10-01,District H,Center 16,Vocational Training,40,27,3,10,157714,133501
+691,2025-03-01,District A,Center 08,Digital Skills,93,57,26,10,85317,63607
+692,2025-01-01,District A,Center 19,Vocational Training,41,38,1,2,97195,66001
+693,2025-12-01,District G,Center 20,Digital Skills,56,45,10,1,106778,76089
+694,2025-08-01,District H,Center 20,Career Readiness,41,35,5,1,157680,97042
+695,2025-10-01,District C,Center 19,Vocational Training,85,79,4,2,93967,73002
+696,2025-04-01,District F,Center 15,Digital Skills,68,43,13,12,84658,49672
+697,2025-09-01,District B,Center 01,Vocational Training,84,51,7,26,89206,72246
+698,2025-10-01,District B,Center 06,Career Readiness,96,65,29,2,189311,182579
+699,2025-11-01,District B,Center 03,Career Readiness,36,26,1,9,191370,129051
+700,2025-06-01,District A,Center 14,Career Readiness,25,19,1,5,188888,170639
+701,2025-07-01,District G,Center 08,Career Readiness,64,39,7,18,244351,154872
+702,2025-05-01,District B,Center 14,Vocational Training,81,45,22,14,71972,66084
+703,2025-05-01,District E,Center 20,Career Readiness,44,35,9,0,235899,185726
+704,2025-09-01,District A,Center 19,Digital Skills,20,17,0,3,221585,211133
+705,2025-06-01,District D,Center 11,Career Readiness,33,25,6,2,161692,159126
+706,2025-10-01,District E,Center 09,Career Readiness,66,41,6,19,122236,74070
+707,2025-09-01,District G,Center 07,Career Readiness,91,59,2,30,96850,56031
+708,2025-05-01,District F,Center 18,Career Readiness,59,44,4,11,234941,239241
+709,2025-12-01,District G,Center 05,Digital Skills,49,27,8,14,233320,142571
+710,2025-09-01,District C,Center 04,Vocational Training,71,51,10,10,194330,197621
+711,2025-11-01,District A,Center 06,Career Readiness,20,13,6,1,88096,70795
+712,2025-02-01,District H,Center 20,Career Readiness,28,15,9,4,108135,67494
+713,2025-12-01,District F,Center 03,Digital Skills,69,65,1,3,210947,217815
+714,2025-03-01,District E,Center 20,Digital Skills,83,45,10,28,52807,54175
+715,2025-04-01,District D,Center 17,Entrepreneurship,24,19,1,4,183837,180888
+716,2025-11-01,District D,Center 20,Vocational Training,24,17,2,5,112719,91054
+717,2025-05-01,District A,Center 06,Digital Skills,71,52,8,11,225547,199255
+718,2025-09-01,District G,Center 13,Vocational Training,21,12,8,1,73636,41603
+719,2025-06-01,District E,Center 18,Entrepreneurship,55,37,11,7,208954,188547
+720,2025-10-01,District D,Center 15,Career Readiness,20,12,4,4,95884,85021
+721,2025-09-01,District G,Center 17,Digital Skills,29,27,0,2,127136,75893
+722,2025-09-01,District F,Center 04,Entrepreneurship,93,76,9,8,231978,179058
+723,2025-04-01,District H,Center 13,Career Readiness,63,56,0,7,228675,146026
+724,2025-08-01,District H,Center 19,Digital Skills,34,28,4,2,67708,65612
+725,2025-06-01,District G,Center 08,Vocational Training,72,66,4,2,185398,165305
+726,2025-05-01,District A,Center 09,Vocational Training,31,23,2,6,226605,194636
+727,2025-08-01,District F,Center 03,Vocational Training,60,53,2,5,107295,89624
+728,2025-08-01,District E,Center 06,Vocational Training,45,25,13,7,242788,246544
+729,2025-04-01,District D,Center 09,Vocational Training,45,37,5,3,212161,188453
+730,2025-02-01,District F,Center 05,Digital Skills,30,19,1,10,223912,196917
+731,2025-09-01,District H,Center 20,Digital Skills,25,17,1,7,147306,128983
+732,2025-08-01,District F,Center 16,Entrepreneurship,43,25,2,16,123470,108520
+733,2025-01-01,District G,Center 08,Vocational Training,87,82,2,3,175388,100691
+734,2025-07-01,District A,Center 17,Entrepreneurship,42,39,0,3,81553,61446
+735,2025-01-01,District H,Center 11,Digital Skills,46,41,2,3,202307,190409
+736,2025-10-01,District B,Center 11,Entrepreneurship,53,41,10,2,193802,178147
+737,2025-08-01,District E,Center 08,Entrepreneurship,98,88,5,5,145924,109745
+738,2025-04-01,District C,Center 16,Career Readiness,73,49,2,22,247183,218459
+739,2025-05-01,District F,Center 12,Career Readiness,77,67,8,2,199791,186033
+740,2025-02-01,District C,Center 19,Vocational Training,54,46,5,3,195579,150163
+741,2025-03-01,District G,Center 13,Vocational Training,39,34,2,3,52553,32062
+742,2025-03-01,District C,Center 14,Career Readiness,100,76,8,16,189980,105036
+743,2025-05-01,District F,Center 16,Entrepreneurship,91,61,3,27,198854,145805
+744,2025-12-01,District A,Center 13,Digital Skills,40,28,12,0,106483,95593
+745,2025-08-01,District E,Center 16,Digital Skills,62,43,11,8,144624,111989
+746,2025-06-01,District F,Center 18,Entrepreneurship,22,14,2,6,81781,60242
+747,2025-10-01,District F,Center 20,Vocational Training,93,59,0,34,95754,56169
+748,2025-11-01,District E,Center 12,Entrepreneurship,85,67,3,15,243075,214904
+749,2025-10-01,District H,Center 03,Career Readiness,56,44,5,7,215599,168543
+750,2025-07-01,District C,Center 06,Entrepreneurship,100,70,11,19,199851,196187
+751,2025-03-01,District G,Center 03,Digital Skills,63,47,9,7,132177,104365
+752,2025-10-01,District F,Center 10,Entrepreneurship,70,39,14,17,166627,120075
+753,2025-07-01,District F,Center 19,Career Readiness,41,28,11,2,56055,42008
+754,2025-12-01,District C,Center 08,Entrepreneurship,30,23,4,3,93754,76578
+755,2025-02-01,District G,Center 04,Digital Skills,80,63,0,17,64110,59778
+756,2025-02-01,District A,Center 13,Digital Skills,53,46,5,2,72101,65544
+757,2025-04-01,District G,Center 10,Vocational Training,56,52,1,3,214228,119778
+758,2025-01-01,District C,Center 05,Vocational Training,24,15,4,5,135249,74898
+759,2025-09-01,District H,Center 15,Entrepreneurship,76,61,11,4,232877,232647
+760,2025-11-01,District C,Center 19,Career Readiness,92,59,6,27,187221,189751
+761,2025-09-01,District E,Center 12,Career Readiness,49,28,19,2,165831,168686
+762,2025-05-01,District E,Center 12,Career Readiness,39,26,9,4,52767,31697
+763,2025-06-01,District A,Center 17,Vocational Training,56,41,0,15,190272,129078
+764,2025-05-01,District A,Center 16,Career Readiness,21,13,2,6,126787,89213
+765,2025-04-01,District D,Center 01,Entrepreneurship,72,62,2,8,164584,134889
+766,2025-12-01,District G,Center 08,Vocational Training,69,46,11,12,107826,92209
+767,2025-11-01,District E,Center 03,Career Readiness,50,41,1,8,210750,144640
+768,2025-07-01,District E,Center 10,Entrepreneurship,44,31,0,13,67947,41511
+769,2025-02-01,District C,Center 05,Entrepreneurship,-5,48,11,19,168690,150228
+770,2025-04-01,District E,Center 20,Career Readiness,61,37,24,0,89885,73038
+771,2025-03-01,District A,Center 18,Digital Skills,33,27,4,2,120567,72754
+772,2025-04-01,District C,Center 15,Digital Skills,31,24,5,2,53860,36532
+773,2025-07-01,District H,Center 07,Entrepreneurship,59,55,1,3,147359,116674
+774,2025-02-01,District H,Center 02,Entrepreneurship,38,33,5,0,119862,98899
+775,2025-03-01,District G,Center 03,Career Readiness,44,24,12,8,150028,130010
+776,2025-07-01,District A,Center 04,Vocational Training,76,70,5,1,243362,207053
+777,2025-12-01,District A,Center 07,Career Readiness,32,28,0,4,224589,222815
+778,2025-11-01,District D,Center 16,Career Readiness,59,37,12,10,91579,60077
+779,2025-05-01,District A,Center 18,Digital Skills,81,64,8,9,102094,77133
+780,2025-02-01,District F,Center 02,Vocational Training,50,44,1,5,163812,163813
+781,2025-05-01,District F,Center 01,Vocational Training,94,64,27,3,153758,102777
+782,2025-10-01,District D,Center 01,Digital Skills,80,68,1,11,206293,141806
+783,2025-04-01,District C,Center 12,Digital Skills,40,35,2,3,73960,56347
+784,2025-06-01,District F,Center 02,Digital Skills,39,31,0,8,78152,46716
+785,2025-06-01,District C,Center 16,Vocational Training,91,72,8,11,165007,128026
+786,2025-06-01,District D,Center 01,Career Readiness,37,29,4,4,60351,38262
+787,2025-09-01,District H,Center 15,Entrepreneurship,82,69,10,3,198557,194863
+788,2025-06-01,District C,Center 18,Entrepreneurship,79,50,21,8,206940,620820
+789,2025-08-01,District C,Center 03,Vocational Training,57,31,0,26,119035,103677
+790,2025-11-01,District F,Center 15,Digital Skills,84,66,6,12,242323,199516
+791,2025-10-01,District C,Center 01,Entrepreneurship,50,32,8,10,239006,178167
+792,2025-04-01,District B,Center 18,Career Readiness,87,68,4,15,194563,155335
+793,2025-06-01,District C,Center 20,Entrepreneurship,72,68,2,2,78957,48812
+794,2025-01-01,District B,Center 17,Digital Skills,36,29,5,2,58198,43774
+795,2025-04-01,District D,Center 04,Career Readiness,32,23,9,0,199687,181475
+796,2025-01-01,District G,Center 16,Entrepreneurship,66,54,9,3,208847,218376
+797,2025-11-01,District B,Center 01,Vocational Training,82,49,28,5,172698,103973
+798,2025-06-01,District A,Center 12,Career Readiness,27,22,1,4,119681,100435
+799,2025-02-01,District A,Center 03,Entrepreneurship,47,31,0,16,75459,44498
+800,2025-04-01,District B,Center 08,Career Readiness,44,25,3,16,222196,221550
+801,2025-09-01,District D,Center 19,Vocational Training,91,57,8,26,245587,174780
+802,2025-11-01,District B,Center 19,Entrepreneurship,78,49,7,22,224389,163242
+803,2025-03-01,District G,Center 04,Vocational Training,90,51,14,25,182302,147578
+804,2025-06-01,District F,Center 06,Career Readiness,60,34,9,17,135106,128374
+805,2025-12-01,District F,Center 14,Career Readiness,61,39,3,19,113103,92745
+806,2025-06-01,District D,Center 13,Entrepreneurship,77,69,1,7,154094,134899
+807,2025-10-01,District A,Center 02,Entrepreneurship,22,16,2,4,85411,60826
+808,2025-04-01,District E,Center 01,Entrepreneurship,47,32,5,10,55688,49269
+809,2025-02-01,District E,Center 18,Vocational Training,24,22,1,1,143233,126176
+810,2025-06-01,District C,Center 05,Entrepreneurship,94,72,15,7,111078,101672
+811,2025-10-01,District E,Center 10,Digital Skills,71,52,1,18,106999,62067
+812,2025-03-01,District B,Center 11,Career Readiness,82,63,1,18,74999,77159
+813,2025-02-01,District E,Center 02,Career Readiness,27,16,6,5,141207,126380
+814,2025-04-01,District G,Center 14,Digital Skills,97,61,36,0,216169,176807
+815,2025-09-01,District G,Center 02,Entrepreneurship,25,14,6,5,191539,148478
+816,2025-03-01,District C,Center 11,Vocational Training,26,22,1,3,166815,120738
+817,2025-05-01,District B,Center 08,Career Readiness,70,57,11,2,84652,80226
+818,2025-10-01,District F,Center 03,Career Readiness,26,23,0,3,118827,79295
+819,2025-12-01,District B,Center 13,Career Readiness,36,25,9,2,176070,110256
+820,2025-11-01,District D,Center 16,Career Readiness,93,88,4,1,197106,199767
+821,2025-05-01,District D,Center 08,Digital Skills,75,57,8,10,229499,222847
+822,2025-07-01,District B,Center 04,Career Readiness,66,50,5,11,99935,86123
+823,2025-05-01,District F,Center 12,Digital Skills,41,24,6,11,211538,196230
+824,2025-08-01,District H,Center 20,Vocational Training,25,15,7,3,102346,98562
+825,2025-02-01,District F,Center 05,Digital Skills,26,22,3,1,212792,192443
+826,2025-06-01,District C,Center 10,Digital Skills,34,54,6,9,167980,117848
+827,2025-04-01,District H,Center 01,Entrepreneurship,88,57,18,13,103425,75507
+828,2025-10-01,District E,Center 18,Career Readiness,38,22,16,0,148725,151473
+829,2025-01-01,District A,Center 09,Vocational Training,56,43,10,3,232590,163455
+830,2025-11-01,District E,Center 02,Career Readiness,21,14,6,1,151880,117494
+831,2025-01-01,District E,Center 12,Digital Skills,57,45,2,10,151324,122245
+832,2025-06-01,District D,Center 13,Digital Skills,82,75,6,1,98868,78944
+833,2025-09-01,District D,Center 17,Career Readiness,22,20,2,0,114852,112062
+834,2025-07-01,District E,Center 11,Career Readiness,40,25,15,0,140906,143061
+835,2025-04-01,District F,Center 12,Entrepreneurship,84,50,17,17,66255,63520
+836,2025-09-01,District E,Center 13,Digital Skills,55,38,10,7,89769,88780
+837,2025-02-01,District F,Center 13,Vocational Training,68,61,4,3,159401,151903
+838,2025-07-01,District D,Center 19,Vocational Training,59,51,3,5,167747,117815
+839,2025-10-01,District C,Center 07,Vocational Training,89,51,26,12,86204,64781
+840,2025-07-01,District E,Center 17,Vocational Training,38,23,10,5,133229,119569
+841,2025-03-01,District B,Center 18,Digital Skills,60,41,15,4,240599,249694
+842,2025-07-01,District A,Center 11,Career Readiness,58,46,5,7,245457,235943
+843,2025-02-01,District E,Center 05,Vocational Training,36,21,10,5,56867,55786
+844,2025-10-01,District E,Center 20,Vocational Training,49,45,3,1,230191,182663
+845,2025-12-01,District A,Center 12,Digital Skills,81,64,13,4,181681,169400
+846,2025-07-01,District H,Center 12,Vocational Training,82,50,2,30,86048,68948
+847,2025-01-01,District C,Center 07,Vocational Training,72,51,21,0,120741,75244
+848,2025-04-01,District G,Center 08,Vocational Training,28,19,7,2,165155,96464
+849,2025-04-01,District H,Center 11,Career Readiness,74,41,8,25,60964,37650
+850,2025-10-01,District G,Center 11,Career Readiness,93,86,7,0,186485,153806
+851,2025-01-01,District B,Center 15,Career Readiness,51,47,0,4,190999,146352
+852,2025-09-01,District G,Center 02,Career Readiness,100,67,30,3,99768,80120
+853,2025-05-01,District E,Center 15,Career Readiness,-5,40,2,14,93643,56451
+854,2025-12-01,District G,Center 10,Digital Skills,86,69,13,4,171524,112866
+855,2025-03-01,District H,Center 03,Digital Skills,94,74,3,17,85469,74793
+856,2025-08-01,District G,Center 14,Entrepreneurship,23,14,7,2,168929,98092
+857,2025-05-01,District D,Center 15,Digital Skills,61,52,7,2,238317,185863
+858,2025-12-01,District B,Center 03,Digital Skills,77,44,10,23,72362,75794
+859,2025-07-01,District G,Center 17,Vocational Training,90,51,15,24,61509,55205
+860,2025-03-01,District C,Center 11,Vocational Training,38,35,2,1,236658,158463
+861,2025-05-01,District A,Center 14,Entrepreneurship,77,46,13,18,214220,130822
+862,2025-04-01,District C,Center 04,Vocational Training,20,13,3,4,53200,31947
+863,2025-09-01,District H,Center 16,Career Readiness,20,40,0,4,179359,104233
+864,2025-08-01,District D,Center 07,Career Readiness,72,54,4,14,70815,74238
+865,2025-10-01,District A,Center 08,Entrepreneurship,100,87,5,8,104430,89560
+866,2025-01-01,District A,Center 06,Vocational Training,64,43,20,1,88109,75945
+867,2025-06-01,District A,Center 19,Entrepreneurship,31,23,8,0,78544,59932
+868,2025-11-01,District G,Center 06,Vocational Training,56,33,4,19,223257,221761
+869,2025-01-01,District C,Center 15,Entrepreneurship,31,22,5,4,134625,87144
+870,2025-07-01,District F,Center 13,Digital Skills,90,62,26,2,126764,95968
+871,2025-12-01,District H,Center 05,Digital Skills,55,48,2,5,188163,172509
+872,2025-12-01,District G,Center 17,Vocational Training,46,39,7,0,78652,43692
+873,2025-07-01,District B,Center 16,Entrepreneurship,97,69,1,27,132965,105131
+874,2025-03-01,District E,Center 17,Entrepreneurship,98,54,8,36,180127,122469
+875,2025-10-01,District H,Center 16,Vocational Training,49,41,4,4,100739,62312
+876,2025-08-01,District A,Center 04,Digital Skills,100,76,21,3,243322,160008
+877,2025-07-01,District D,Center 20,Career Readiness,25,13,7,5,141658,94995
+878,2025-12-01,District D,Center 01,Vocational Training,56,52,2,2,67782,64444
+879,2025-01-01,District E,Center 10,Entrepreneurship,34,31,1,2,139485,110740
+880,2025-03-01,District G,Center 19,Digital Skills,44,26,8,10,138588,114193
+881,2025-11-01,District H,Center 16,Digital Skills,37,27,3,7,90733,88208
+882,2025-08-01,District H,Center 18,Entrepreneurship,72,42,1,29,244664,194292
+883,2025-10-01,District A,Center 17,Entrepreneurship,60,36,7,17,190479,135685
+884,2025-06-01,District A,Center 07,Entrepreneurship,28,23,4,1,123520,97334
+885,2025-11-01,District A,Center 11,Career Readiness,88,61,1,26,93507,69871
+886,2025-05-01,District G,Center 06,Digital Skills,60,44,15,1,121171,114204
+887,2025-04-01,District G,Center 03,Career Readiness,67,60,0,7,129332,132910
+888,2025-03-01,District D,Center 17,Entrepreneurship,34,29,3,2,59802,42322
+889,2025-09-01,District D,Center 03,Career Readiness,23,18,2,3,181086,139219
+890,2025-08-01,District C,Center 07,Entrepreneurship,87,56,12,19,135809,131793
+891,2025-04-01,District C,Center 04,Vocational Training,24,13,4,7,151603,151736
+892,2025-01-01,District B,Center 01,Entrepreneurship,96,70,24,2,137369,119318
+893,2025-09-01,District H,Center 02,Digital Skills,59,48,11,0,201403,200911
+894,2025-04-01,District E,Center 07,Entrepreneurship,44,35,5,4,122522,104997
+895,2025-05-01,District F,Center 15,Digital Skills,39,22,12,5,121732,98506
+896,2025-04-01,District B,Center 01,Digital Skills,89,54,13,22,194012,178242
+897,2025-12-01,District F,Center 09,Vocational Training,56,42,5,9,114179,101632
+898,2025-10-01,District C,Center 03,Entrepreneurship,63,35,11,17,166299,98514
+899,2025-08-01,District A,Center 05,Digital Skills,26,21,5,0,150558,88233
+900,2025-07-01,District A,Center 03,Career Readiness,42,24,0,18,215011,119557
+901,2025-05-01,District H,Center 20,Entrepreneurship,62,57,4,1,236882,217636
+902,2025-02-01,District B,Center 15,Vocational Training,79,54,22,3,169428,118306
+903,2025-04-01,District E,Center 15,Career Readiness,48,33,11,4,211727,198457
+904,2025-03-01,District E,Center 12,Career Readiness,62,50,0,12,135134,86836
+905,2025-02-01,District H,Center 16,Digital Skills,80,49,24,7,142128,85162
+906,2025-05-01,District H,Center 15,Vocational Training,64,52,3,9,200648,187041
+907,2025-07-01,District C,Center 17,Digital Skills,33,21,7,5,195791,109735
+908,2025-07-01,District B,Center 10,Career Readiness,95,55,14,26,112541,116359
+909,2025-08-01,District D,Center 18,Vocational Training,69,46,21,2,139316,130206
+910,2025-07-01,District D,Center 19,Career Readiness,92,73,9,10,192744,142817
+911,2025-12-01,District D,Center 06,Digital Skills,93,58,4,31,79969,48836
+912,2025-08-01,District H,Center 11,Digital Skills,42,33,5,4,156376,146573
+913,2025-11-01,District B,Center 20,Digital Skills,96,77,7,12,135828,110720
+914,2025-04-01,District H,Center 02,Digital Skills,37,20,17,0,248463,256971
+915,2025-09-01,District C,Center 05,Career Readiness,57,49,2,6,211368,147199
+916,2025-11-01,District H,Center 07,Vocational Training,60,56,2,2,199494,169757
+917,2025-02-01,District E,Center 14,Entrepreneurship,94,73,21,0,210298,194323
+918,2025-01-01,District G,Center 05,Entrepreneurship,67,58,1,8,63927,56143
+919,2025-02-01,District A,Center 18,Entrepreneurship,56,33,23,0,111667,80303
+920,2025-11-01,District G,Center 19,Career Readiness,60,55,0,5,150346,99575
+921,2025-09-01,District G,Center 13,Career Readiness,47,32,10,5,174484,133661
+922,2025-06-01,District C,Center 07,Career Readiness,73,52,17,4,125620,107589
+923,2025-02-01,District C,Center 05,Digital Skills,22,20,2,0,239094,160275
+924,2025-02-01,District H,Center 14,Vocational Training,37,22,2,13,169545,109989
+925,2025-08-01,District G,Center 20,Vocational Training,85,76,3,6,194716,169968
+926,2025-04-01,District H,Center 13,Entrepreneurship,43,28,2,13,208485,199723
+927,2025-12-01,District A,Center 19,Career Readiness,50,44,1,5,181525,176670
+928,2025-01-01,District E,Center 14,Entrepreneurship,24,22,0,2,176685,119460
+929,2025-12-01,District F,Center 04,Career Readiness,30,25,4,1,241413,188367
+930,2025-09-01,District E,Center 15,Digital Skills,98,86,11,1,114285,104484
+931,2025-10-01,District H,Center 03,Entrepreneurship,26,22,2,2,190255,167059
+932,2025-09-01,District A,Center 16,Career Readiness,80,49,10,21,160366,131903
+933,2025-03-01,District F,Center 10,Entrepreneurship,24,22,0,2,206666,210529
+934,2025-01-01,District E,Center 19,Entrepreneurship,100,56,14,30,201556,127465
+935,2025-11-01,District C,Center 19,Digital Skills,57,34,0,23,213660,195069
+936,2025-02-01,District A,Center 10,Career Readiness,36,31,1,4,70148,46070
+937,2025-10-01,District E,Center 09,Vocational Training,55,41,10,4,117359,113879
+938,2025-10-01,District A,Center 04,Vocational Training,39,32,0,7,146932,120648
+939,2025-08-01,District C,Center 09,Vocational Training,43,33,2,8,58674,47184
+940,2025-10-01,District F,Center 03,Vocational Training,39,26,0,13,180009,149859
+941,2025-11-01,District G,Center 13,Vocational Training,76,62,3,11,217136,214239
+942,2025-01-01,District C,Center 07,Entrepreneurship,53,42,10,1,63768,59339
+943,2025-08-01,District C,Center 15,Career Readiness,58,35,8,15,245598,191757
+944,2025-08-01,District D,Center 13,Career Readiness,53,29,20,4,189052,127296
+945,2025-08-01,District G,Center 01,Entrepreneurship,68,57,1,10,132755,138849
+946,2025-07-01,District A,Center 04,Entrepreneurship,98,57,0,41,121457,91183
+947,2025-02-01,District F,Center 09,Entrepreneurship,52,45,1,6,170876,111414
+948,2025-09-01,District D,Center 19,Vocational Training,63,48,10,5,132121,121093
+949,2025-01-01,District A,Center 01,Digital Skills,72,57,12,3,187694,120877
+950,2025-04-01,District B,Center 15,Entrepreneurship,56,38,10,8,100614,94767
+951,2025-01-01,District A,Center 01,Digital Skills,96,74,1,21,106839,59040
+952,2025-10-01,District B,Center 04,Digital Skills,36,30,3,3,222069,666207
+953,2025-05-01,District C,Center 04,Vocational Training,57,48,2,7,223140,145317
+954,2025-07-01,District B,Center 15,Entrepreneurship,61,56,3,2,92458,67861
+955,2025-07-01,District B,Center 09,Digital Skills,69,46,13,10,65744,41053
+956,2025-08-01,District E,Center 09,Vocational Training,28,18,3,7,102604,101406
+957,2025-02-01,District G,Center 06,Career Readiness,38,36,0,2,163050,119703
+958,2025-08-01,District D,Center 20,Digital Skills,53,38,12,3,59138,53876
+959,2025-08-01,District B,Center 03,Entrepreneurship,22,19,0,3,89021,75358
+960,2025-05-01,District A,Center 02,Career Readiness,39,27,1,11,136463,103208
+961,2025-09-01,District G,Center 19,Digital Skills,82,67,0,15,164309,90634
+962,2025-01-01,District G,Center 03,Vocational Training,69,55,3,11,176370,128352
+963,2025-06-01,District B,Center 19,Entrepreneurship,58,50,2,6,64468,38454
+964,2025-02-01,District B,Center 12,Entrepreneurship,78,61,8,9,219814,173759
+965,2025-07-01,District D,Center 06,Digital Skills,44,35,5,4,232421,135368
+966,2025-08-01,District G,Center 04,Entrepreneurship,30,23,0,7,242760,201670
+967,2025-04-01,District D,Center 05,Digital Skills,23,17,1,5,205437,174979
+968,2025-02-01,District D,Center 16,Career Readiness,89,73,7,9,180989,172391
+969,2025-06-01,District H,Center 01,Digital Skills,27,17,5,5,239008,230051
+970,2025-04-01,District A,Center 13,Digital Skills,86,64,8,14,227754,134039
+971,2025-02-01,District C,Center 19,Vocational Training,24,13,0,11,87117,62473
+972,2025-10-01,District H,Center 01,Career Readiness,25,21,3,1,233840,211354
+973,2025-11-01,District C,Center 01,Vocational Training,26,22,2,2,75504,61055
+974,2025-10-01,District H,Center 20,Vocational Training,28,20,7,1,79931,49855
+975,2025-02-01,District H,Center 20,Vocational Training,45,30,2,13,138432,106178
+976,2025-11-01,District G,Center 11,Digital Skills,93,54,5,34,86000,56786
+977,2025-10-01,District F,Center 07,Digital Skills,42,33,4,5,66573,61102
+978,2025-07-01,District B,Center 09,Vocational Training,-5,38,1,2,195072,198301
+979,2025-10-01,District C,Center 15,Vocational Training,25,20,4,1,76205,57963
+980,2025-08-01,District G,Center 06,Digital Skills,30,24,6,0,51893,48926
+981,2025-07-01,District C,Center 03,Entrepreneurship,80,47,25,8,104043,78547
+982,2025-07-01,District C,Center 09,Career Readiness,50,44,5,1,210048,155838
+983,2025-12-01,District A,Center 20,Vocational Training,83,64,0,19,73074,61666
+984,2025-01-01,District E,Center 12,Career Readiness,91,56,20,15,100306,73335
+985,2025-10-01,District B,Center 17,Digital Skills,66,45,4,17,183048,103074
+986,2025-05-01,District D,Center 15,Vocational Training,26,14,9,3,79538,76821
+987,2025-03-01,District C,Center 16,Career Readiness,40,26,4,10,61302,49595
+988,2025-04-01,District A,Center 12,Entrepreneurship,75,50,17,8,137633,140432
+989,2025-12-01,District H,Center 02,Digital Skills,26,16,2,8,96107,73505
+990,2025-09-01,District C,Center 01,Career Readiness,34,30,4,0,111682,108439
+991,2025-07-01,District H,Center 19,Entrepreneurship,45,28,7,10,110309,104939
+992,2025-02-01,District B,Center 11,Vocational Training,50,36,3,11,158159,125180
+993,2025-02-01,District D,Center 13,Vocational Training,80,48,1,31,64244,37923
+994,2025-10-01,District G,Center 05,Vocational Training,78,65,11,2,151536,120960
+995,2025-12-01,District F,Center 05,Career Readiness,44,31,3,10,144002,131726
+996,2025-03-01,District E,Center 07,Entrepreneurship,24,20,0,4,65637,41315
+997,2025-08-01,District E,Center 05,Digital Skills,78,61,4,13,94879,58604
+998,2025-10-01,District F,Center 08,Entrepreneurship,40,34,0,6,217247,190846
+999,2025-02-01,District C,Center 19,Vocational Training,72,67,1,4,178244,104179
+1000,2025-08-01,District D,Center 19,Career Readiness,55,31,24,0,241369,166808
+1001,2025-06-01,District G,Center 08,Vocational Training,75,49,8,18,108302,72940
+1002,2025-07-01,District C,Center 19,Digital Skills,25,22,3,0,173378,116990
+1003,2025-08-01,District A,Center 14,Career Readiness,32,21,4,7,179836,167193
+1004,2025-12-01,District D,Center 03,Digital Skills,72,52,14,6,84789,79562
+1005,2025-11-01,District F,Center 10,Vocational Training,31,17,14,0,175772,139525
+1006,2025-10-01,District E,Center 06,Career Readiness,94,52,41,1,169233,98379
+1007,2025-03-01,District H,Center 05,Career Readiness,67,61,1,5,171712,106396
+1008,2025-12-01,District A,Center 03,Career Readiness,62,47,14,1,127749,96520
+1009,2025-11-01,District G,Center 09,Vocational Training,30,20,1,9,138000,137988
+1010,2025-01-01,District A,Center 17,Entrepreneurship,34,18,4,12,145837,128612
+1011,2025-06-01,District H,Center 20,Digital Skills,66,61,4,1,219914,182547
+1012,2025-03-01,District B,Center 18,Vocational Training,62,57,4,1,191461,110306
+1013,2025-12-01,District B,Center 16,Vocational Training,48,34,9,5,142461,96884
+1014,2025-05-01,District E,Center 17,Career Readiness,26,21,5,0,147730,153735
+1015,2025-09-01,District F,Center 15,Career Readiness,87,56,24,7,173250,151955
+1016,2025-11-01,District E,Center 15,Entrepreneurship,28,17,8,3,170028,141576
+1017,2025-03-01,District B,Center 03,Career Readiness,56,41,13,2,78669,81501
+1018,2025-12-01,District C,Center 09,Digital Skills,38,30,1,7,89452,64830
+1019,2025-05-01,District D,Center 17,Digital Skills,73,43,9,21,191933,120077
+1020,2025-07-01,District C,Center 16,Entrepreneurship,76,48,5,23,219000,147930
+1021,2025-02-01,District A,Center 10,Vocational Training,22,19,2,1,186215,154672
+1022,2025-11-01,District F,Center 14,Entrepreneurship,61,46,0,15,205545,124844
+1023,2025-10-01,District H,Center 15,Entrepreneurship,36,32,2,2,95019,86600
+1024,2025-06-01,District E,Center 08,Career Readiness,56,32,0,24,62404,56408
+1025,2025-08-01,District C,Center 12,Entrepreneurship,41,31,1,9,92150,54447
+1026,2025-12-01,District E,Center 06,Vocational Training,39,28,9,2,112365,89032
+1027,2025-10-01,District B,Center 02,Entrepreneurship,36,22,7,7,118264,120966
+1028,2025-09-01,District F,Center 06,Vocational Training,24,21,1,2,140137,123952
+1029,2025-09-01,District C,Center 12,Career Readiness,40,29,3,8,129052,97548
+1030,2025-08-01,District B,Center 01,Career Readiness,38,30,1,7,133943,110197
+1031,2025-11-01,District C,Center 01,Entrepreneurship,57,32,10,15,125976,101568
+1032,2025-06-01,District C,Center 19,Career Readiness,34,29,0,5,175562,136871
+1033,2025-05-01,District A,Center 05,Digital Skills,23,13,4,6,211879,199831
+1034,2025-02-01,District D,Center 15,Entrepreneurship,61,38,22,1,209423,142263
+1035,2025-05-01,District D,Center 19,Vocational Training,45,27,18,0,71912,51424
+1036,2025-04-01,District H,Center 03,Career Readiness,82,69,8,5,208117,168510
+1037,2025-03-01,District A,Center 12,Career Readiness,74,46,17,11,151217,149540
+1038,2025-06-01,District F,Center 01,Entrepreneurship,64,57,3,4,166805,164351
+1039,2025-12-01,District B,Center 07,Career Readiness,73,47,1,25,165999,128752
+1040,2025-12-01,District E,Center 06,Career Readiness,73,68,4,1,203925,190875
+1041,2025-05-01,District B,Center 05,Vocational Training,80,44,3,33,137927,80356
+1042,2025-02-01,District B,Center 19,Career Readiness,20,14,3,3,217459,218461
+1043,2025-09-01,District E,Center 14,Vocational Training,79,60,1,18,247982,198114
+1044,2025-07-01,District C,Center 07,Vocational Training,57,33,7,17,178604,156883
+1045,2025-08-01,District A,Center 10,Entrepreneurship,91,79,1,11,171491,126939
+1046,2025-03-01,District D,Center 01,Digital Skills,53,45,4,4,217917,224942
+1047,2025-07-01,District H,Center 04,Entrepreneurship,42,26,1,15,230313,186936
+1048,2025-05-01,District D,Center 01,Digital Skills,83,55,26,2,206995,195905
+1049,2025-10-01,District F,Center 19,Career Readiness,75,58,9,8,214625,186142
+1050,2025-09-01,District H,Center 04,Entrepreneurship,93,80,13,0,118036,88289
+1051,2025-03-01,District C,Center 19,Digital Skills,60,54,3,3,231739,189218
+1052,2025-01-01,District C,Center 12,Vocational Training,54,33,10,11,159973,143647
+1053,2025-05-01,District F,Center 02,Entrepreneurship,87,75,2,10,70139,49685
+1054,2025-10-01,District D,Center 06,Digital Skills,41,36,1,4,134569,134982
+1055,2025-11-01,District F,Center 10,Entrepreneurship,66,43,20,3,190095,198033
+1056,2025-03-01,District F,Center 05,Digital Skills,86,52,16,18,147783,96207
+1057,2025-03-01,District H,Center 14,Entrepreneurship,33,20,10,3,90515,90242
+1058,2025-07-01,District D,Center 07,Digital Skills,78,63,13,2,80556,50432
+1059,2025-06-01,District C,Center 01,Career Readiness,59,42,6,11,86441,74136
+1060,2025-03-01,District H,Center 20,Entrepreneurship,58,33,25,0,245155,242999
+1061,2025-12-01,District B,Center 08,Vocational Training,38,33,0,5,109395,87800
+1062,2025-03-01,District E,Center 05,Vocational Training,30,28,1,1,231093,175371
+1063,2025-08-01,District B,Center 03,Digital Skills,75,70,5,0,101472,89697
+1064,2025-08-01,District B,Center 02,Digital Skills,35,28,3,4,61345,38830
+1065,2025-02-01,District B,Center 10,Digital Skills,35,31,0,4,103844,79310
+1066,2025-01-01,District D,Center 06,Entrepreneurship,31,19,10,2,245611,136634
+1067,2025-06-01,District E,Center 19,Entrepreneurship,40,30,2,8,240986,196090
+1068,2025-02-01,District D,Center 17,Digital Skills,94,78,16,0,188631,187712
+1069,2025-03-01,District D,Center 07,Entrepreneurship,88,51,37,0,240145,219912
+1070,2025-06-01,District B,Center 07,Career Readiness,95,59,25,11,165255,161799
+1071,2025-07-01,District B,Center 06,Entrepreneurship,74,64,7,3,184807,151615
+1072,2025-06-01,District D,Center 14,Digital Skills,35,29,3,3,78918,55808
+1073,2025-12-01,District C,Center 16,Entrepreneurship,56,41,14,1,71560,68756
+1074,2025-07-01,District F,Center 16,Digital Skills,56,41,1,14,207388,151164
+1075,2025-09-01,District E,Center 15,Vocational Training,72,53,10,9,162187,156368
+1076,2025-11-01,District D,Center 03,Career Readiness,67,45,17,5,53351,33978
+1077,2025-08-01,District H,Center 04,Career Readiness,86,71,13,2,81252,78244
+1078,2025-12-01,District C,Center 13,Career Readiness,95,56,33,6,244361,163706
+1079,2025-04-01,District C,Center 03,Entrepreneurship,63,38,19,6,205965,149112
+1080,2025-07-01,District G,Center 04,Vocational Training,83,60,15,8,237038,219121
+1081,2025-08-01,District E,Center 13,Entrepreneurship,97,78,7,12,177017,152316
+1082,2025-02-01,District E,Center 05,Career Readiness,35,24,7,4,178277,173057
+1083,2025-01-01,District H,Center 08,Vocational Training,32,23,9,0,67885,70570
+1084,2025-07-01,District H,Center 01,Vocational Training,97,77,10,10,90038,55205
+1085,2025-02-01,District E,Center 20,Digital Skills,86,70,1,15,172164,122675
+1086,2025-08-01,District D,Center 10,Career Readiness,84,69,7,8,192196,112400
+1087,2025-01-01,District F,Center 18,Digital Skills,75,46,1,28,81230,79432
+1088,2025-07-01,District G,Center 15,Entrepreneurship,76,48,14,14,59432,57561
+1089,2025-12-01,District A,Center 06,Entrepreneurship,41,27,7,7,162900,141957
+1090,2025-08-01,District C,Center 10,Career Readiness,34,28,2,4,226953,182998
+1091,2025-08-01,District H,Center 18,Career Readiness,91,61,3,27,90975,59708
+1092,2025-08-01,District A,Center 13,Entrepreneurship,95,53,18,24,211727,148626
+1093,2025-01-01,District F,Center 10,Entrepreneurship,23,18,1,4,61827,63011
+1094,2025-12-01,District C,Center 12,Entrepreneurship,94,84,10,0,213880,199556
+1095,2025-07-01,District F,Center 13,Digital Skills,64,55,4,5,157984,139419
+1096,2025-04-01,District F,Center 02,Vocational Training,50,32,9,9,205328,206066
+1097,2025-02-01,District B,Center 03,Entrepreneurship,63,51,10,2,55167,45800
+1098,2025-11-01,District F,Center 02,Career Readiness,74,43,5,26,119892,92739
+1099,2025-06-01,,Center 16,Digital Skills,68,49,1,18,152315,149616
+1100,2025-08-01,District F,Center 19,Digital Skills,-5,24,5,3,138071,102200
+1101,2025-03-01,District H,Center 17,Entrepreneurship,98,92,4,2,145245,87925
+1102,2025-11-01,District G,Center 07,Career Readiness,29,20,1,8,106119,60595
+1103,2025-05-01,District E,Center 09,Digital Skills,93,78,3,12,109214,110201
+1104,2025-10-01,District B,Center 19,Digital Skills,63,41,14,8,67634,66225
+1105,2025-06-01,District H,Center 14,Vocational Training,29,19,0,10,129127,129822
+1106,2025-04-01,District E,Center 14,Entrepreneurship,73,62,5,6,115867,110357
+1107,2025-01-01,District H,Center 18,Vocational Training,100,55,0,45,185325,191145
+1108,2025-04-01,District C,Center 19,Career Readiness,79,66,9,4,217228,152575
+1109,2025-09-01,District G,Center 19,Digital Skills,45,39,4,2,171238,118284
+1110,2025-12-01,District C,Center 08,Vocational Training,58,52,0,6,164134,99512
+1111,2025-11-01,District G,Center 11,Digital Skills,46,38,2,6,119975,98421
+1112,2025-11-01,District E,Center 06,Entrepreneurship,96,56,25,15,156395,104932
+1113,2025-04-01,District D,Center 04,Vocational Training,23,12,8,3,131406,103072
+1114,2025-07-01,District H,Center 16,Career Readiness,24,16,5,3,91774,77932
+1115,2025-05-01,District E,Center 05,Digital Skills,55,36,2,17,96133,67289
+1116,2025-01-01,District A,Center 16,Digital Skills,30,25,3,2,207705,119237
+1117,2025-06-01,District E,Center 03,Career Readiness,31,28,0,3,239853,234128
+1118,2025-10-01,District C,Center 08,Digital Skills,84,68,13,3,186828,158170
+1119,2025-04-01,District E,Center 16,Digital Skills,96,87,8,1,132158,84933
+1120,2025-12-01,District F,Center 19,Career Readiness,50,29,8,13,107149,71763
+1121,2025-04-01,District C,Center 04,Vocational Training,55,47,1,7,157053,89101
+1122,2025-08-01,District E,Center 19,Digital Skills,88,68,9,11,233400,244537
+1123,2025-08-01,District B,Center 11,Career Readiness,51,45,4,2,87987,71333
+1124,2025-05-01,District F,Center 16,Entrepreneurship,22,12,0,10,208810,201645
+1125,2025-05-01,District A,Center 02,Vocational Training,90,71,7,12,131072,79621
+1126,2025-08-01,District F,Center 04,Vocational Training,69,40,29,0,153016,153752
+1127,2025-04-01,District E,Center 10,Digital Skills,58,47,8,3,92002,88749
+1128,2025-01-01,District H,Center 11,Career Readiness,55,49,0,6,70996,59344
+1129,2025-06-01,District H,Center 16,Career Readiness,74,56,15,3,92033,70424
+1130,2025-06-01,District E,Center 17,Digital Skills,73,49,5,19,241163,185043
+1131,2025-01-01,District F,Center 15,Digital Skills,43,36,0,7,218060,185560
+1132,2025-04-01,District C,Center 01,Career Readiness,100,90,6,4,132240,102048
+1133,2025-04-01,District B,Center 04,Vocational Training,86,68,14,4,205717,178079
+1134,2025-08-01,District G,Center 11,Career Readiness,37,29,4,4,95476,86054
+1135,2025-02-01,District F,Center 10,Vocational Training,73,47,15,11,97681,78748
+1136,2025-01-01,District G,Center 13,Vocational Training,22,13,1,8,219635,163025
+1137,2025-04-01,District D,Center 03,Career Readiness,53,39,3,11,94238,82563
+1138,2025-10-01,District A,Center 13,Career Readiness,53,49,3,1,73346,62367
+1139,2025-01-01,District F,Center 06,Digital Skills,87,73,8,6,168936,135678
+1140,2025-12-01,District H,Center 04,Vocational Training,46,36,7,3,119783,70128
+1141,2025-03-01,District E,Center 16,Career Readiness,75,48,0,27,104160,76133
+1142,2025-07-01,District D,Center 10,Vocational Training,43,31,6,6,88258,50556
+1143,2025-04-01,District A,Center 10,Entrepreneurship,99,59,12,28,115095,79232
+1144,2025-02-01,District F,Center 19,Career Readiness,21,19,1,1,84918,60773
+1145,2025-12-01,District F,Center 13,Vocational Training,69,51,5,13,242965,157453
+1146,2025-09-01,District E,Center 03,Digital Skills,27,21,6,0,137257,94754
+1147,2025-10-01,District D,Center 16,Entrepreneurship,96,60,34,2,51405,41549
+1148,2025-05-01,District E,Center 17,Career Readiness,70,38,9,23,84665,46890
+1149,2025-05-01,District A,Center 19,Vocational Training,41,26,0,15,138913,78952
+1150,2025-06-01,District H,Center 05,Digital Skills,87,51,9,27,87170,62712
+1151,2025-01-01,District E,Center 04,Entrepreneurship,36,31,2,3,123662,103384
+1152,2025-05-01,District F,Center 14,Entrepreneurship,98,73,1,24,119142,83011
+1153,2025-06-01,District F,Center 14,Vocational Training,82,75,5,2,195666,146457
+1154,2025-03-01,District H,Center 02,Vocational Training,26,15,8,3,98009,84143
+1155,2025-03-01,District A,Center 16,Entrepreneurship,79,47,5,27,80415,58108
+1156,2025-06-01,District H,Center 02,Career Readiness,91,68,8,15,169998,167806
+1157,2025-02-01,District H,Center 04,Vocational Training,64,47,15,2,103407,93183
+1158,2025-12-01,District E,Center 06,Vocational Training,85,80,3,2,197651,121702
+1159,2025-09-01,District D,Center 19,Digital Skills,93,61,21,11,159161,118939
+1160,2025-11-01,District B,Center 08,Career Readiness,32,22,5,5,56805,42916
+1161,2025-06-01,District E,Center 04,Career Readiness,95,86,8,1,134813,122277
+1162,2025-08-01,District C,Center 01,Digital Skills,81,64,3,14,214719,151309
+1163,2025-06-01,District E,Center 20,Digital Skills,25,21,0,4,168777,173423
+1164,2025-04-01,District F,Center 19,Vocational Training,26,22,2,2,134717,74199
+1165,2025-02-01,District A,Center 03,Career Readiness,71,57,10,4,96664,55636
+1166,2025-01-01,District D,Center 13,Digital Skills,46,30,11,5,151843,88032
+1167,2025-02-01,District G,Center 10,Vocational Training,58,45,6,7,163340,145910
+1168,2025-06-01,District E,Center 20,Vocational Training,32,19,0,13,146326,108562
+1169,2025-07-01,District D,Center 16,Career Readiness,80,58,14,8,197602,145143
+1170,2025-06-01,District G,Center 03,Career Readiness,98,58,29,11,163798,124400
+1171,2025-09-01,District G,Center 03,Digital Skills,63,53,3,7,227324,133099
+1172,2025-09-01,District D,Center 05,Career Readiness,100,58,1,41,187541,136414
+1173,2025-07-01,District B,Center 10,Career Readiness,30,27,0,3,128746,113848
+1174,2025-04-01,District C,Center 05,Entrepreneurship,86,70,3,13,127458,93166
+1175,2025-01-01,District A,Center 18,Digital Skills,85,66,16,3,183864,102056
+1176,2025-08-01,District G,Center 14,Digital Skills,92,74,10,8,143181,144132
+1177,2025-09-01,District E,Center 19,Digital Skills,22,17,5,0,244121,240910
+1178,2025-07-01,District H,Center 06,Vocational Training,25,20,5,0,159117,97105
+1179,2025-11-01,District E,Center 11,Career Readiness,77,70,3,4,139478,81346
+1180,2025-02-01,District C,Center 07,Vocational Training,97,74,15,8,226530,679590
+1181,2025-01-01,District B,Center 14,Digital Skills,70,38,25,7,53487,40704
+1182,2025-12-01,District C,Center 16,Career Readiness,71,47,3,21,245099,194363
+1183,2025-12-01,District H,Center 10,Entrepreneurship,70,54,7,9,72973,41731
+1184,2025-04-01,District C,Center 05,Digital Skills,34,20,1,13,54164,44919
+1185,2025-08-01,District D,Center 01,Vocational Training,38,26,2,10,113381,103696
+1186,2025-02-01,District G,Center 18,Vocational Training,58,47,4,7,88840,86423
+1187,2025-02-01,District H,Center 14,Digital Skills,41,33,6,2,243667,186396
+1188,2025-01-01,District H,Center 16,Career Readiness,77,63,5,9,113603,78123
+1189,2025-01-01,District D,Center 10,Career Readiness,62,41,21,0,76912,72642
+1190,2025-12-01,District G,Center 14,Career Readiness,94,68,7,19,241647,229368
+1191,2025-07-01,District E,Center 02,Career Readiness,82,72,2,8,204937,200588
+1192,2025-09-01,District H,Center 08,Digital Skills,22,20,1,1,201100,153940
+1193,2025-05-01,District F,Center 18,Digital Skills,73,49,9,15,80655,67838
+1194,2025-08-01,District H,Center 20,Entrepreneurship,75,52,23,0,92292,78497
+1195,2025-06-01,District E,Center 07,Career Readiness,76,63,10,3,183073,163704
+1196,2025-10-01,District D,Center 19,Entrepreneurship,79,55,20,4,126911,80389
+1197,2025-08-01,District G,Center 14,Entrepreneurship,40,28,3,9,104318,64812
+1198,2025-03-01,District E,Center 03,Career Readiness,42,38,3,1,90976,65770
+1199,2025-08-01,District H,Center 04,Career Readiness,58,35,16,7,104901,59030
+1200,2025-05-01,District A,Center 01,Entrepreneurship,65,52,3,10,91577,79530
+1201,2025-02-01,District C,Center 17,Digital Skills,63,43,7,13,79876,46795
+1202,2025-08-01,District D,Center 04,Vocational Training,53,37,6,10,143124,100989
+1203,2025-03-01,District A,Center 18,Entrepreneurship,85,69,13,3,235179,200581
+1204,2025-02-01,District A,Center 15,Career Readiness,33,22,2,9,209817,138258
+1205,2025-09-01,District B,Center 18,Digital Skills,33,31,2,0,215131,167156
+1206,2025-03-01,District B,Center 07,Entrepreneurship,57,47,3,7,249744,154910
+1207,2025-11-01,District H,Center 04,Vocational Training,66,49,7,10,86116,48549
+1208,2025-07-01,District B,Center 07,Career Readiness,20,15,4,1,174168,179742
+1209,2025-02-01,District F,Center 10,Vocational Training,54,37,6,11,237485,135247
+1210,2025-03-01,District G,Center 12,Vocational Training,87,48,13,26,109816,81702
+1211,2025-07-01,District C,Center 14,Career Readiness,78,47,8,23,57802,32465
+1212,2025-12-01,District H,Center 05,Digital Skills,86,73,12,1,72224,56281
+1213,2025-03-01,District F,Center 11,Career Readiness,75,49,25,1,153092,153098
+1214,2025-11-01,District A,Center 05,Digital Skills,86,51,17,18,159918,164389
+1215,2025-12-01,District G,Center 18,Entrepreneurship,60,40,9,11,52071,51769
+1216,2025-12-01,District E,Center 17,Vocational Training,71,56,1,14,218789,210771
+1217,2025-12-01,District D,Center 18,Career Readiness,64,60,1,3,101719,70613
+1218,2025-09-01,District E,Center 03,Digital Skills,62,57,2,3,240080,178797
+1219,2025-04-01,District C,Center 17,Entrepreneurship,31,21,2,8,194647,140183
+1220,2025-11-01,District E,Center 17,Entrepreneurship,40,30,10,0,57311,35938
+1221,2025-12-01,District E,Center 08,Entrepreneurship,74,57,1,16,78951,64807
+1222,2025-11-01,District A,Center 12,Entrepreneurship,84,71,8,5,82456,79720
+1223,2025-05-01,District A,Center 04,Career Readiness,93,67,3,23,51366,36016
+1224,2025-12-01,District H,Center 11,Vocational Training,94,61,19,14,141838,91813
+1225,2025-12-01,District E,Center 10,Vocational Training,68,38,14,16,243334,175498
+1226,2025-09-01,District D,Center 04,Entrepreneurship,94,61,21,12,144704,149509
+1227,2025-12-01,District H,Center 04,Vocational Training,74,57,4,13,71481,51726
+1228,2025-03-01,District B,Center 02,Career Readiness,80,62,12,6,166959,103447
+1229,2025-10-01,District B,Center 12,Career Readiness,91,66,9,16,153489,132478
+1230,2025-11-01,District E,Center 19,Career Readiness,74,55,5,14,230621,173170
+1231,2025-03-01,District H,Center 14,Vocational Training,84,79,4,1,177078,175335
+1232,2025-12-01,District H,Center 05,Digital Skills,47,37,3,7,174087,145308
+1233,2025-02-01,District A,Center 06,Entrepreneurship,97,77,7,13,78923,51351
+1234,2025-01-01,District B,Center 12,Entrepreneurship,86,60,22,4,80865,46071
+1235,2025-05-01,District F,Center 10,Entrepreneurship,57,42,0,15,57334,47100
+1236,2025-01-01,District C,Center 05,Career Readiness,59,37,13,9,106513,109922
+1237,2025-02-01,District C,Center 16,Digital Skills,90,82,3,5,67711,61689
+1238,2025-10-01,District A,Center 14,Career Readiness,59,45,5,9,168587,166055
+1239,2025-12-01,District F,Center 13,Career Readiness,97,58,31,8,249740,236067
+1240,2025-08-01,District C,Center 17,Career Readiness,77,46,22,9,240805,228067
+1241,2025-07-01,District F,Center 03,Career Readiness,49,32,5,12,138866,137275
+1242,2025-11-01,District A,Center 15,Entrepreneurship,31,28,2,1,235390,146977
+1243,2025-09-01,District A,Center 19,Entrepreneurship,35,25,0,10,196630,204592
+1244,2025-10-01,District B,Center 07,Digital Skills,86,63,17,6,246754,242256
+1245,2025-02-01,District H,Center 17,Digital Skills,88,69,14,5,54973,40551
+1246,2025-12-01,District E,Center 07,Vocational Training,94,62,4,28,72189,47039
+1247,2025-08-01,District F,Center 13,Digital Skills,22,18,2,2,164561,122313
+1248,2025-09-01,District C,Center 14,Digital Skills,60,45,3,12,117417,93483
+1249,2025-09-01,District B,Center 04,Digital Skills,41,32,5,4,87757,86246
+1250,2025-03-01,District C,Center 09,Digital Skills,59,55,1,3,227893,171783
+1251,2025-03-01,District C,Center 02,Entrepreneurship,23,20,3,0,128125,119446
+1252,2025-03-01,District G,Center 04,Entrepreneurship,72,56,6,10,117615,120910
+1253,2025-04-01,District G,Center 04,Digital Skills,50,31,0,19,203624,123117
+1254,2025-02-01,District D,Center 16,Career Readiness,54,48,6,0,133449,102699
+1255,2025-02-01,District H,Center 18,Career Readiness,81,71,10,0,156822,156280
+1256,2025-09-01,District D,Center 01,Entrepreneurship,95,54,35,6,114570,113622
+1257,2025-08-01,District C,Center 10,Career Readiness,30,21,1,8,103335,83207
+1258,2025-04-01,District C,Center 12,Vocational Training,88,70,5,13,195529,198108
+1259,2025-08-01,District H,Center 02,Digital Skills,99,55,26,18,221195,174394
+1260,2025-08-01,District C,Center 01,Digital Skills,54,44,1,9,115769,105506
+1261,2025-10-01,District G,Center 12,Vocational Training,85,70,6,9,61923,38219
+1262,2025-05-01,District C,Center 18,Digital Skills,31,20,5,6,233089,170005
+1263,2025-07-01,District B,Center 05,Entrepreneurship,46,40,2,4,182335,125698
+1264,2025-12-01,District F,Center 11,Entrepreneurship,77,48,21,8,114468,117755
+1265,2025-08-01,District F,Center 11,Vocational Training,96,53,22,21,54161,56810
+1266,2025-01-01,District C,Center 01,Career Readiness,21,17,3,1,158308,152646
+1267,2025-11-01,District H,Center 13,Digital Skills,29,19,2,8,58112,32377
+1268,2025-07-01,District H,Center 04,Entrepreneurship,96,81,4,11,151384,146399
+1269,2025-08-01,District C,Center 01,Digital Skills,67,56,8,3,166543,103494
+1270,2025-05-01,District A,Center 08,Digital Skills,65,55,7,3,73584,68761
+1271,2025-08-01,District E,Center 08,Vocational Training,66,53,13,0,123598,115324
+1272,2025-01-01,District H,Center 20,Vocational Training,45,39,0,6,217362,186236
+1273,2025-10-01,District G,Center 04,Entrepreneurship,84,49,4,31,94689,75165
+1274,2025-02-01,District D,Center 19,Vocational Training,95,55,32,8,245552,185090
+1275,2025-10-01,District B,Center 05,Entrepreneurship,49,34,7,8,100292,58470
+1276,2025-11-01,District A,Center 18,Entrepreneurship,91,62,1,28,168994,102325
+1277,2025-06-01,District A,Center 14,Digital Skills,75,65,4,6,121836,124741
+1278,2025-08-01,District B,Center 17,Career Readiness,66,38,12,16,248972,255833
+1279,2025-05-01,District A,Center 08,Digital Skills,73,55,1,17,167666,117329
+1280,2025-04-01,District F,Center 01,Career Readiness,62,36,24,2,199899,159981
+1281,2025-02-01,District A,Center 08,Career Readiness,51,44,4,3,93117,84135
+1282,2025-11-01,District F,Center 10,Digital Skills,100,57,37,6,57306,33607
+1283,2025-10-01,District H,Center 14,Digital Skills,100,71,0,29,137635,96020
+1284,2025-08-01,District E,Center 08,Digital Skills,50,32,8,10,64269,44377
+1285,2025-02-01,District F,Center 17,Vocational Training,96,83,4,9,164957,167367
+1286,2025-02-01,District B,Center 15,Digital Skills,27,19,8,0,148931,149386
+1287,2025-01-01,District F,Center 03,Vocational Training,76,51,24,1,129028,101702
+1288,2025-11-01,District G,Center 03,Digital Skills,27,17,2,8,63684,55420
+1289,2025-02-01,District E,Center 13,Career Readiness,99,93,0,6,157769,134379
+1290,2025-08-01,District D,Center 20,Digital Skills,69,89,8,14,162225,141769
+1291,2025-08-01,District B,Center 11,Digital Skills,86,51,14,21,204091,202933
+1292,2025-01-01,District D,Center 04,Digital Skills,96,72,2,22,67706,52450
+1293,2025-11-01,District D,Center 19,Vocational Training,85,66,11,8,143163,123462
+1294,2025-03-01,District G,Center 16,Career Readiness,51,29,18,4,61552,54861
+1295,2025-10-01,District A,Center 05,Entrepreneurship,75,48,11,16,220840,200296
+1296,2025-03-01,District F,Center 10,Vocational Training,80,70,6,4,208159,198163
+1297,2025-01-01,District F,Center 10,Entrepreneurship,86,66,2,18,222406,180167
+1298,2025-09-01,District C,Center 02,Vocational Training,91,55,33,3,160640,150627
+1299,2025-11-01,District F,Center 07,Vocational Training,45,29,14,2,139535,111397
+1300,2025-10-01,District D,Center 16,Career Readiness,62,41,3,18,198398,122394
+1301,2025-07-01,District F,Center 20,Entrepreneurship,62,49,11,2,77485,44721
+1302,2025-04-01,District H,Center 02,Career Readiness,20,16,3,1,231723,164243
+1303,2025-04-01,District D,Center 15,Vocational Training,81,44,16,21,244007,196563
+1304,2025-03-01,District G,Center 07,Career Readiness,-5,11,4,5,52593,36188
+1305,2025-09-01,District B,Center 12,Digital Skills,34,28,5,1,126172,73349
+1306,2025-01-01,District H,Center 07,Entrepreneurship,23,20,2,1,101858,56216
+1307,2025-05-01,District E,Center 06,Vocational Training,42,27,5,10,195360,179819
+1308,2025-01-01,District D,Center 06,Vocational Training,42,28,1,13,118626,71287
+1309,2025-07-01,District B,Center 01,Vocational Training,34,23,6,5,105112,72022
+1310,2025-06-01,District E,Center 15,Vocational Training,67,59,6,2,188130,132946
+1311,2025-03-01,District G,Center 03,Digital Skills,36,31,4,1,100248,99840
+1312,2025-10-01,District G,Center 12,Entrepreneurship,74,53,1,20,114107,114674
+1313,2025-09-01,District A,Center 20,Vocational Training,57,39,14,4,135899,140253
+1314,2025-03-01,District D,Center 02,Entrepreneurship,85,49,5,31,104850,93684
+1315,2025-03-01,District B,Center 16,Digital Skills,85,63,10,12,246950,183687
+1316,2025-03-01,District F,Center 16,Career Readiness,61,48,2,11,148010,133494
+1317,2025-05-01,District H,Center 16,Career Readiness,94,51,18,25,217275,137638
+1318,2025-04-01,District A,Center 07,Vocational Training,77,64,0,13,111442,98424
+1319,2025-07-01,District G,Center 07,Entrepreneurship,68,63,1,4,91211,84873
+1320,2025-03-01,District F,Center 09,Digital Skills,30,27,1,2,166524,150083
+1321,2025-08-01,District F,Center 08,Digital Skills,85,56,10,19,138178,83277
+1322,2025-07-01,District G,Center 15,Career Readiness,72,62,5,5,180427,157345
+1323,2025-01-01,District F,Center 09,Career Readiness,42,23,5,14,111286,81241
+1324,2025-02-01,District E,Center 03,Entrepreneurship,57,53,0,4,184425,147576
+1325,2025-02-01,District B,Center 09,Vocational Training,35,25,9,1,144433,112491
+1326,2025-06-01,District A,Center 18,Vocational Training,45,28,7,10,115542,84848
+1327,2025-12-01,District E,Center 09,Vocational Training,97,67,26,4,247232,142449
+1328,2025-05-01,District E,Center 01,Entrepreneurship,64,54,4,6,156367,118565
+1329,2025-07-01,District A,Center 16,Vocational Training,49,43,5,1,239618,233669
+1330,2025-09-01,District D,Center 16,Vocational Training,95,60,0,35,248605,218443
+1331,2025-02-01,District H,Center 15,Entrepreneurship,60,44,10,6,162405,160793
+1332,2025-08-01,District G,Center 07,Career Readiness,91,57,33,1,148225,131758
+1333,2025-05-01,District C,Center 19,Vocational Training,21,16,2,3,222713,155375
+1334,2025-07-01,District F,Center 11,Vocational Training,74,44,9,21,247296,216586
+1335,2025-06-01,District G,Center 18,Entrepreneurship,95,80,15,0,198787,140704
+1336,2025-06-01,District A,Center 05,Vocational Training,92,74,0,18,152468,113979
+1337,2025-02-01,District G,Center 07,Career Readiness,88,73,3,12,99371,64552
+1338,2025-10-01,District H,Center 04,Entrepreneurship,77,69,4,4,74442,51640
+1339,2025-01-01,,Center 04,Vocational Training,97,67,15,15,57035,33025
+1340,2025-07-01,District C,Center 07,Digital Skills,56,33,17,6,111089,89752
+1341,2025-08-01,District E,Center 17,Digital Skills,27,17,5,5,185929,179930
+1342,2025-07-01,District A,Center 06,Entrepreneurship,70,38,22,10,79030,58446
+1343,2025-08-01,District C,Center 18,Career Readiness,28,19,3,6,104127,58276
+1344,2025-07-01,District C,Center 07,Entrepreneurship,80,47,23,10,208258,157614
+1345,2025-09-01,District E,Center 19,Vocational Training,78,58,12,8,102875,77376
+1346,2025-02-01,District A,Center 05,Career Readiness,71,54,10,7,187850,159215
+1347,2025-08-01,District F,Center 19,Career Readiness,79,43,0,36,60245,47114
+1348,2025-06-01,District B,Center 10,Career Readiness,58,54,1,3,210701,170565
+1349,2025-03-01,District C,Center 14,Vocational Training,99,81,5,13,170016,120019
+1350,2025-07-01,District G,Center 06,Digital Skills,25,21,3,1,91400,85592
+1351,2025-11-01,District E,Center 18,Entrepreneurship,28,21,4,3,179364,186181
+1352,2025-06-01,District G,Center 18,Digital Skills,29,17,0,12,77583,43328
+1353,2025-03-01,District F,Center 14,Career Readiness,52,44,5,3,182661,174181
+1354,2025-02-01,District A,Center 15,Digital Skills,79,47,8,24,140087,95650
+1355,2025-01-01,District G,Center 07,Career Readiness,21,11,6,4,80063,55776
+1356,2025-08-01,District C,Center 11,Career Readiness,79,67,11,1,71639,57954
+1357,2025-08-01,District D,Center 15,Vocational Training,55,37,13,5,94718,69700
+1358,2025-03-01,District A,Center 20,Digital Skills,57,31,23,3,190156,133090
+1359,2025-11-01,District G,Center 06,Digital Skills,21,16,0,5,121631,126143
+1360,2025-03-01,District C,Center 15,Entrepreneurship,47,41,1,5,59029,33162
+1361,2025-11-01,District D,Center 15,Digital Skills,86,78,7,1,152398,143497
+1362,2025-10-01,District E,Center 15,Digital Skills,20,17,3,0,148931,116016
+1363,2025-04-01,District D,Center 08,Entrepreneurship,45,31,13,1,54204,38021
+1364,2025-06-01,District G,Center 01,Digital Skills,44,25,17,2,107820,71605
+1365,2025-01-01,District B,Center 06,Vocational Training,73,47,10,16,78228,61959
+1366,2025-10-01,District F,Center 11,Vocational Training,46,39,1,6,162166,127609
+1367,2025-02-01,District B,Center 08,Vocational Training,65,37,18,10,95513,98272
+1368,2025-01-01,District A,Center 13,Entrepreneurship,69,63,5,1,170265,160490
+1369,2025-11-01,District D,Center 03,Entrepreneurship,99,93,4,2,61518,50582
+1370,2025-05-01,,Center 07,Career Readiness,96,89,0,7,76689,45077
+1371,2025-10-01,District C,Center 09,Digital Skills,61,42,7,12,227707,150899
+1372,2025-11-01,District C,Center 11,Vocational Training,60,37,2,21,176387,109430
+1373,2025-10-01,District B,Center 11,Digital Skills,94,75,5,14,150236,141321
+1374,2025-04-01,District D,Center 17,Digital Skills,22,17,1,4,248951,155216
+1375,2025-12-01,District B,Center 10,Vocational Training,74,64,7,3,212467,184416
+1376,2025-06-01,District B,Center 02,Vocational Training,83,58,16,9,102956,91328
+1377,2025-11-01,District C,Center 13,Vocational Training,24,15,6,3,240135,173520
+1378,2025-05-01,District H,Center 11,Vocational Training,60,55,0,5,249358,173366
+1379,2025-11-01,District A,Center 17,Career Readiness,56,41,15,0,110033,109490
+1380,2025-04-01,District F,Center 11,Vocational Training,89,74,14,1,224327,130356
+1381,2025-09-01,District D,Center 08,Career Readiness,61,37,19,5,165962,91929
+1382,2025-02-01,District A,Center 03,Career Readiness,-5,35,9,0,216295,167377
+1383,2025-02-01,District C,Center 07,Vocational Training,42,25,0,17,103575,106575
+1384,2025-07-01,District D,Center 17,Digital Skills,79,60,10,9,93033,62420
+1385,2025-03-01,District D,Center 08,Career Readiness,97,72,18,7,129456,115191
+1386,2025-11-01,District E,Center 19,Career Readiness,45,26,11,8,176136,121067
+1387,2025-07-01,District B,Center 12,Career Readiness,41,35,3,3,165704,129221
+1388,2025-03-01,District G,Center 17,Career Readiness,81,62,19,0,249735,191398
+1389,2025-05-01,District G,Center 14,Digital Skills,96,54,8,34,90055,56993
+1390,2025-08-01,District C,Center 09,Career Readiness,59,42,3,14,124245,81329
+1391,2025-02-01,District G,Center 18,Career Readiness,62,35,23,4,237397,230708
+1392,2025-04-01,District H,Center 07,Vocational Training,20,18,2,0,181255,171570
+1393,2025-07-01,District F,Center 16,Career Readiness,70,62,3,5,150673,101099
+1394,2025-07-01,District H,Center 10,Digital Skills,24,22,2,0,150879,97839
+1395,2025-05-01,District C,Center 07,Career Readiness,64,59,1,4,235893,247076
+1396,2025-11-01,District H,Center 12,Digital Skills,69,57,6,6,242849,252701
+1397,2025-01-01,District D,Center 08,Career Readiness,66,51,15,0,232837,158275
+1398,2025-11-01,District C,Center 09,Career Readiness,38,27,7,4,114858,97259
+1399,2025-02-01,District C,Center 01,Digital Skills,69,39,18,12,235091,202453
+1400,2025-07-01,District B,Center 17,Vocational Training,41,38,0,3,116288,75012
+1401,2025-10-01,District E,Center 17,Career Readiness,59,51,2,6,247253,248229
+1402,2025-03-01,District B,Center 04,Entrepreneurship,54,50,3,1,246159,253560
+1403,2025-03-01,District G,Center 10,Digital Skills,82,62,20,0,75394,78308
+1404,2025-11-01,District B,Center 14,Career Readiness,56,47,3,6,94730,59759
+1405,2025-12-01,District C,Center 12,Vocational Training,37,27,7,3,177525,161399
+1406,2025-08-01,District C,Center 17,Digital Skills,92,59,20,13,98663,85867
+1407,2025-04-01,District D,Center 02,Vocational Training,53,43,4,6,165534,104509
+1408,2025-05-01,District B,Center 06,Digital Skills,30,23,1,6,82684,77376
+1409,2025-01-01,District E,Center 03,Entrepreneurship,94,70,17,7,175277,97463
+1410,2025-01-01,District H,Center 04,Digital Skills,54,29,1,24,51894,37805
+1411,2025-09-01,District A,Center 04,Vocational Training,20,18,1,1,208068,138227
+1412,2025-06-01,District E,Center 16,Career Readiness,97,77,7,13,138224,91371
+1413,2025-04-01,District F,Center 11,Entrepreneurship,66,44,1,21,154456,150443
+1414,2025-06-01,District G,Center 20,Digital Skills,62,52,9,1,50808,30367
+1415,2025-01-01,District H,Center 13,Vocational Training,97,69,25,3,189101,106763
+1416,2025-08-01,District E,Center 08,Entrepreneurship,99,73,5,21,222720,196264
+1417,2025-11-01,District H,Center 17,Career Readiness,44,26,18,0,217267,150879
+1418,2025-01-01,District F,Center 01,Entrepreneurship,61,43,4,14,111225,112311
+1419,2025-06-01,District H,Center 13,Digital Skills,74,70,1,3,222579,127416
+1420,2025-10-01,District B,Center 13,Entrepreneurship,44,37,5,2,186329,137112
+1421,2025-02-01,District A,Center 05,Career Readiness,58,41,0,17,172369,159808
+1422,2025-08-01,District C,Center 15,Digital Skills,89,81,5,3,113794,116691
+1423,2025-02-01,District D,Center 06,Digital Skills,75,58,17,0,92004,67030
+1424,2025-04-01,District F,Center 13,Entrepreneurship,52,44,1,7,225794,152524
+1425,2025-02-01,District B,Center 05,Career Readiness,62,48,1,13,108669,79251
+1426,2025-12-01,District B,Center 11,Career Readiness,68,55,3,10,218323,146319
+1427,2025-05-01,District G,Center 08,Vocational Training,34,21,9,4,72984,73649
+1428,2025-12-01,District B,Center 03,Entrepreneurship,95,56,27,12,245197,196888
+1429,2025-03-01,District B,Center 19,Entrepreneurship,60,38,10,12,201235,114596
+1430,2025-10-01,District A,Center 10,Digital Skills,88,49,27,12,151750,96757
+1431,2025-11-01,District G,Center 11,Entrepreneurship,36,32,0,4,223996,154834
+1432,2025-01-01,District D,Center 04,Career Readiness,88,81,0,7,132818,111674
+1433,2025-08-01,District C,Center 10,Vocational Training,78,56,18,4,207670,174452
+1434,2025-10-01,District E,Center 05,Digital Skills,60,45,6,9,181695,168865
+1435,2025-11-01,District B,Center 09,Career Readiness,47,31,1,15,126413,91842
+1436,2025-03-01,District G,Center 02,Entrepreneurship,46,41,0,5,109001,111532
+1437,2025-12-01,District A,Center 06,Career Readiness,70,63,3,4,222818,169280
+1438,2025-06-01,District C,Center 01,Career Readiness,74,63,1,10,174104,137223
+1439,2025-02-01,District F,Center 13,Career Readiness,87,65,13,9,124020,80903
+1440,2025-02-01,District D,Center 18,Career Readiness,36,28,3,5,247202,158967
+1441,2025-11-01,District A,Center 10,Career Readiness,40,27,4,9,86060,84124
+1442,2025-03-01,District H,Center 16,Entrepreneurship,46,29,11,6,246183,144159
+1443,2025-12-01,District D,Center 01,Entrepreneurship,93,53,34,6,227816,232461
+1444,2025-11-01,District C,Center 13,Career Readiness,41,30,11,0,75178,56737
+1445,2025-01-01,District F,Center 16,Vocational Training,35,30,1,4,220419,213346
+1446,2025-03-01,District F,Center 19,Career Readiness,100,68,7,25,114225,102438
+1447,2025-07-01,District A,Center 04,Vocational Training,82,70,8,4,230350,202091
+1448,2025-08-01,District C,Center 13,Digital Skills,68,41,19,8,215762,213160
+1449,2025-02-01,District H,Center 12,Digital Skills,34,26,7,1,81995,56677
+1450,2025-01-01,District H,Center 17,Vocational Training,95,68,9,18,200111,113820
+1451,2025-10-01,District H,Center 09,Digital Skills,43,25,6,12,176927,165032
+1452,2025-02-01,District G,Center 10,Vocational Training,61,33,26,2,237110,179796
+1453,2025-07-01,District C,Center 13,Digital Skills,91,69,5,17,188959,109089
+1454,2025-04-01,District H,Center 03,Digital Skills,35,32,2,1,207051,137287
+1455,2025-06-01,District C,Center 01,Career Readiness,35,23,12,0,83768,58802
+1456,2025-09-01,District D,Center 06,Digital Skills,52,33,18,1,72180,39752
+1457,2025-06-01,District B,Center 17,Entrepreneurship,89,74,10,5,160900,166277
+1458,2025-01-01,District A,Center 08,Entrepreneurship,86,55,13,18,222794,196398
+1459,2025-12-01,District H,Center 05,Career Readiness,60,50,2,8,142305,138635
+1460,2025-04-01,District D,Center 04,Digital Skills,24,17,4,3,87137,61123
+1461,2025-10-01,District E,Center 07,Vocational Training,90,61,23,6,205132,185913
+1462,2025-12-01,District F,Center 09,Vocational Training,99,86,7,6,69492,44530
+1463,2025-11-01,District E,Center 09,Career Readiness,40,27,7,6,169555,169719
+1464,2025-12-01,District B,Center 09,Career Readiness,38,33,1,4,103415,107802
+1465,2025-12-01,District B,Center 09,Vocational Training,67,57,1,9,222311,165976
+1466,2025-06-01,District C,Center 14,Vocational Training,75,58,5,12,56792,50005
+1467,2025-02-01,District D,Center 03,Entrepreneurship,88,51,30,7,229301,188542
+1468,2025-11-01,District G,Center 03,Entrepreneurship,31,25,4,2,137429,87083
+1469,2025-05-01,District E,Center 05,Vocational Training,21,18,3,0,148869,125330
+1470,2025-02-01,District D,Center 13,Digital Skills,42,39,1,2,204357,116730
+1471,2025-12-01,District H,Center 04,Entrepreneurship,93,61,14,18,194583,165546
+1472,2025-01-01,District E,Center 20,Digital Skills,41,27,9,5,247098,224170
+1473,2025-12-01,District G,Center 06,Entrepreneurship,88,75,5,8,205875,123783
+1474,2025-05-01,District G,Center 16,Vocational Training,21,15,1,5,184628,148523
+1475,2025-07-01,District C,Center 05,Vocational Training,92,64,5,23,120089,122065
+1476,2025-11-01,District A,Center 12,Vocational Training,97,85,6,6,235279,211422
+1477,2025-06-01,District H,Center 06,Career Readiness,-5,66,5,8,125188,97754
+1478,2025-05-01,District E,Center 14,Vocational Training,31,28,1,2,156565,140485
+1479,2025-02-01,District F,Center 03,Digital Skills,50,42,7,1,93283,91496
+1480,2025-09-01,District A,Center 03,Entrepreneurship,83,54,4,25,52803,50349
+1481,2025-08-01,District G,Center 17,Vocational Training,83,52,24,7,156291,112946
+1482,2025-12-01,District A,Center 20,Vocational Training,20,13,1,6,234180,243374
+1483,2025-10-01,District F,Center 08,Digital Skills,77,68,7,2,226821,204271
+1484,2025-06-01,District D,Center 06,Digital Skills,37,31,2,4,142613,118516
+1485,2025-07-01,District A,Center 14,Career Readiness,41,38,1,2,79683,63597
+1486,2025-05-01,District F,Center 08,Digital Skills,58,40,3,15,126951,80171
+1487,2025-12-01,District E,Center 07,Digital Skills,100,86,5,9,153185,140504
+1488,2025-08-01,District D,Center 10,Digital Skills,99,69,3,27,177996,100139
+1489,2025-10-01,District A,Center 12,Digital Skills,78,69,4,5,128210,71247
+1490,2025-06-01,District F,Center 04,Digital Skills,43,35,2,6,142938,147959
+1491,2025-08-01,District A,Center 04,Career Readiness,45,32,12,1,188699,125954
+1492,2025-08-01,District C,Center 14,Digital Skills,20,16,3,1,222132,212927
+1493,2025-07-01,District E,Center 08,Career Readiness,67,51,7,9,145550,150428
+1494,2025-02-01,District G,Center 06,Entrepreneurship,76,43,5,28,92423,74160
+1495,2025-01-01,District C,Center 12,Career Readiness,65,54,0,11,102026,100120
+1496,2025-01-01,District B,Center 07,Entrepreneurship,37,23,8,6,160377,152358
+1497,2025-11-01,District F,Center 02,Vocational Training,45,34,4,7,224389,167905
+1498,2025-08-01,District E,Center 04,Career Readiness,90,54,5,31,228713,224744
+1499,2025-09-01,District C,Center 11,Career Readiness,69,42,23,4,78765,55520
+1500,2025-03-01,District B,Center 01,Vocational Training,64,42,6,16,53577,52811
+1501,2025-07-01,,Center 02,Entrepreneurship,96,78,18,0,163856,155391
+1502,2025-08-01,District H,Center 10,Entrepreneurship,30,19,5,6,114945,99132
+1503,2025-04-01,District C,Center 17,Vocational Training,55,42,1,12,80151,77459
+1504,2025-04-01,District E,Center 08,Career Readiness,80,72,7,1,233800,130011
+1505,2025-04-01,District C,Center 07,Vocational Training,35,28,5,2,155193,89378
+1506,2025-03-01,District A,Center 09,Vocational Training,74,56,18,0,211603,146813
+1507,2025-07-01,District D,Center 03,Digital Skills,72,48,8,16,130332,94683
+1508,2025-07-01,District D,Center 08,Entrepreneurship,81,64,16,1,183657,131686
+1509,2025-02-01,District G,Center 02,Entrepreneurship,54,45,4,5,123546,92939
+1510,2025-06-01,District F,Center 14,Vocational Training,26,15,9,2,60718,57189
+1511,2025-04-01,District A,Center 02,Entrepreneurship,56,37,4,15,123442,94603
+1512,2025-05-01,District B,Center 14,Vocational Training,82,67,4,11,137630,98574
+1513,2025-11-01,District E,Center 04,Digital Skills,21,12,1,8,84159,62021
+1514,2025-12-01,District F,Center 12,Entrepreneurship,95,88,2,5,112456,97934
+1515,2025-02-01,District E,Center 07,Career Readiness,33,27,5,1,215035,186250
+1516,2025-04-01,District B,Center 02,Vocational Training,77,48,0,29,75857,57588
+1517,2025-05-01,District B,Center 18,Entrepreneurship,80,68,0,12,102952,61841
+1518,2025-04-01,District C,Center 02,Vocational Training,73,48,8,17,236542,162778
+1519,2025-06-01,District E,Center 18,Entrepreneurship,77,55,2,20,238042,247607
+1520,2025-08-01,District B,Center 14,Digital Skills,73,42,30,1,93761,75885
+1521,2025-01-01,District E,Center 05,Entrepreneurship,92,57,32,3,231876,240070
+1522,2025-11-01,District D,Center 13,Career Readiness,88,52,4,32,69657,52368
+1523,2025-09-01,District C,Center 15,Career Readiness,69,58,5,6,209178,188736
+1524,2025-01-01,District E,Center 07,Vocational Training,40,28,3,9,107096,77458
+1525,2025-09-01,District A,Center 17,Career Readiness,87,61,18,8,129537,388611
+1526,2025-09-01,District D,Center 10,Entrepreneurship,35,22,11,2,108701,86038
+1527,2025-05-01,District A,Center 18,Vocational Training,25,16,7,2,122812,85198
+1528,2025-11-01,District C,Center 09,Digital Skills,51,41,7,3,190140,196655
+1529,2025-11-01,District B,Center 01,Entrepreneurship,97,76,10,11,135081,79493
+1530,2025-12-01,District B,Center 18,Entrepreneurship,37,21,3,13,210296,215703
+1531,2025-11-01,District E,Center 11,Digital Skills,21,14,2,5,107482,64062
+1532,2025-01-01,District E,Center 06,Entrepreneurship,88,69,1,18,77903,67138
+1533,2025-08-01,District G,Center 09,Vocational Training,48,38,5,5,120462,82359
+1534,2025-03-01,District D,Center 19,Career Readiness,77,42,21,14,241315,249159
+1535,2025-08-01,District G,Center 12,Vocational Training,31,20,4,7,97582,86654
+1536,2025-04-01,District H,Center 06,Vocational Training,92,76,1,15,241228,206250
+1537,2025-05-01,District C,Center 10,Digital Skills,40,27,11,2,153336,105119
+1538,2025-02-01,District D,Center 03,Vocational Training,74,58,9,7,169281,166411
+1539,2025-12-01,District G,Center 04,Vocational Training,21,19,0,2,76143,45910
+1540,2025-02-01,District G,Center 13,Digital Skills,21,12,9,0,84649,86542
+1541,2025-03-01,District D,Center 03,Entrepreneurship,100,84,16,0,52463,52016
+1542,2025-12-01,District B,Center 18,Entrepreneurship,30,18,9,3,86498,72986
+1543,2025-03-01,District H,Center 19,Career Readiness,59,48,6,5,175542,156242
+1544,2025-09-01,District C,Center 08,Digital Skills,54,38,13,3,55559,30985
+1545,2025-02-01,District A,Center 04,Entrepreneurship,85,66,6,13,87181,58982
+1546,2025-04-01,District A,Center 08,Digital Skills,74,54,8,12,88633,91184
+1547,2025-11-01,District F,Center 10,Vocational Training,69,48,0,21,237393,230247
+1548,2025-02-01,District B,Center 16,Vocational Training,48,30,15,3,123875,109781
+1549,2025-02-01,District F,Center 03,Entrepreneurship,66,62,4,0,61363,36875
+1550,2025-09-01,District C,Center 06,Career Readiness,62,34,9,19,97543,74795
+1551,2025-10-01,District G,Center 05,Entrepreneurship,56,32,13,11,77242,71386
+1552,2025-05-01,District E,Center 16,Entrepreneurship,29,26,3,0,88965,68237
+1553,2025-07-01,,Center 11,Vocational Training,77,50,4,23,175418,134580
+1554,2025-12-01,District B,Center 04,Career Readiness,55,46,7,2,73710,40874
+1555,2025-07-01,District F,Center 05,Vocational Training,65,51,9,5,179553,153813
+1556,2025-10-01,District G,Center 16,Career Readiness,62,49,11,2,221430,148581
+1557,2025-09-01,District D,Center 13,Career Readiness,83,69,6,8,189924,113136
+1558,2025-07-01,District H,Center 18,Vocational Training,30,18,3,9,237412,234737
+1559,2025-12-01,District G,Center 17,Vocational Training,31,26,4,1,144819,80645
+1560,2025-06-01,District A,Center 07,Digital Skills,91,59,2,30,85020,55875
+1561,2025-06-01,District B,Center 02,Entrepreneurship,37,24,9,4,170688,115006
+1562,2025-04-01,District C,Center 18,Career Readiness,46,26,13,7,64644,50388
+1563,2025-07-01,District C,Center 04,Vocational Training,23,19,1,3,147434,125815
+1564,2025-08-01,District A,Center 04,Digital Skills,96,78,13,5,57913,34201
+1565,2025-02-01,District C,Center 12,Vocational Training,51,47,4,0,53270,51631
+1566,2025-08-01,District G,Center 05,Vocational Training,37,32,0,5,188267,181017
+1567,2025-12-01,District E,Center 16,Career Readiness,63,58,2,3,219042,180080
+1568,2025-03-01,District A,Center 10,Digital Skills,27,17,0,10,58419,50146
+1569,2025-01-01,District C,Center 17,Vocational Training,70,59,5,6,228232,209735
+1570,2025-10-01,District H,Center 18,Entrepreneurship,84,63,12,9,235952,137850
+1571,2025-05-01,District D,Center 14,Vocational Training,31,21,2,8,148975,150521
+1572,2025-10-01,District C,Center 07,Career Readiness,27,21,5,1,152836,125198
+1573,2025-12-01,District C,Center 18,Digital Skills,79,51,13,15,132100,96991
+1574,2025-01-01,District G,Center 13,Vocational Training,67,60,1,6,101047,89247
+1575,2025-02-01,District E,Center 04,Digital Skills,66,57,0,9,137941,107203
+1576,2025-03-01,District A,Center 08,Entrepreneurship,89,71,15,3,67123,45253
+1577,2025-05-01,District D,Center 20,Digital Skills,44,36,0,8,102881,78580
+1578,2025-02-01,District A,Center 08,Entrepreneurship,92,66,8,18,61763,54021
+1579,2025-06-01,District H,Center 02,Digital Skills,31,28,1,2,52222,30393
+1580,2025-09-01,District F,Center 10,Career Readiness,44,38,4,2,247090,172021
+1581,2025-12-01,District G,Center 12,Vocational Training,32,23,4,5,156767,87939
+1582,2025-01-01,District B,Center 17,Vocational Training,95,63,8,24,175030,140254
+1583,2025-03-01,District A,Center 10,Vocational Training,79,45,29,5,214089,170318
+1584,2025-11-01,District B,Center 08,Vocational Training,38,34,3,1,181496,109387
+1585,2025-06-01,District F,Center 15,Vocational Training,57,48,4,5,213439,161111
+1586,2025-04-01,District G,Center 02,Career Readiness,46,37,0,9,209089,142205
+1587,2025-02-01,District B,Center 05,Career Readiness,21,12,7,2,131144,82651
+1588,2025-08-01,District B,Center 16,Digital Skills,60,34,21,5,127491,81954
+1589,2025-10-01,District C,Center 03,Entrepreneurship,66,53,8,5,73390,72718
+1590,2025-05-01,District B,Center 06,Career Readiness,80,70,6,4,165879,148058
+1591,2025-01-01,District C,Center 04,Career Readiness,66,39,0,27,125137,86919
+1592,2025-08-01,District G,Center 14,Vocational Training,66,44,6,16,213743,144271
+1593,2025-11-01,District F,Center 12,Digital Skills,72,54,2,16,167988,137376
+1594,2025-12-01,District E,Center 02,Digital Skills,51,35,16,0,90517,271551
+1595,2025-03-01,District B,Center 10,Career Readiness,92,81,5,6,69130,65303
+1596,2025-11-01,District D,Center 13,Career Readiness,31,20,6,5,172127,173313
+1597,2025-02-01,District H,Center 18,Career Readiness,30,27,2,1,241831,172515
+1598,2025-04-01,District B,Center 13,Career Readiness,71,49,12,10,66900,53708
+1599,2025-04-01,District F,Center 11,Career Readiness,80,74,6,0,122974,121517
+1600,2025-08-01,District H,Center 02,Vocational Training,38,22,10,6,133935,99964
+1601,2025-01-01,District A,Center 20,Career Readiness,66,50,3,13,174101,139553
+1602,2025-01-01,District D,Center 02,Vocational Training,74,46,20,8,116078,113687
+1603,2025-02-01,District C,Center 03,Vocational Training,55,45,4,6,71419,69201
+1604,2025-09-01,District E,Center 15,Career Readiness,47,41,1,5,118012,109064
+1605,2025-07-01,District C,Center 02,Digital Skills,63,45,9,9,93131,79652
+1606,2025-08-01,District D,Center 12,Career Readiness,80,49,21,10,232633,206304
+1607,2025-01-01,District G,Center 12,Career Readiness,91,56,23,12,70397,63144
+1608,2025-01-01,District C,Center 11,Entrepreneurship,39,25,0,14,170234,103634
+1609,2025-02-01,District C,Center 16,Entrepreneurship,72,44,20,8,186496,102758
+1610,2025-11-01,District A,Center 15,Vocational Training,77,64,3,10,201618,184722
+1611,2025-12-01,District B,Center 02,Vocational Training,44,33,5,6,232569,146676
+1612,2025-04-01,District C,Center 20,Career Readiness,64,37,21,6,100111,56018
+1613,2025-01-01,District A,Center 12,Entrepreneurship,58,35,14,9,181618,180787
+1614,2025-07-01,District B,Center 16,Career Readiness,72,46,15,11,142330,103493
+1615,2025-02-01,District G,Center 17,Entrepreneurship,42,24,4,14,162298,107308
+1616,2025-09-01,District F,Center 06,Vocational Training,75,95,7,12,124718,106493
+1617,2025-02-01,District G,Center 10,Digital Skills,33,21,11,1,220295,127521
+1618,2025-02-01,District A,Center 20,Career Readiness,83,58,2,23,247060,164814
+1619,2025-11-01,District B,Center 15,Digital Skills,57,36,8,13,105540,108698
+1620,2025-02-01,District D,Center 15,Career Readiness,45,35,3,7,82621,68446
+1621,2025-11-01,District F,Center 15,Career Readiness,70,50,20,0,148210,113302
+1622,2025-05-01,District D,Center 17,Entrepreneurship,53,40,9,4,158715,142560
+1623,2025-01-01,District D,Center 01,Career Readiness,21,17,4,0,90206,57357
+1624,2025-06-01,District F,Center 17,Entrepreneurship,41,30,2,9,162727,123018
+1625,2025-04-01,District D,Center 18,Career Readiness,98,88,0,10,153105,132544
+1626,2025-03-01,District A,Center 19,Career Readiness,69,52,12,5,155675,94603
+1627,2025-07-01,District F,Center 17,Vocational Training,49,38,10,1,236128,143707
+1628,2025-11-01,District C,Center 17,Digital Skills,93,63,5,25,152763,94930
+1629,2025-06-01,District E,Center 18,Vocational Training,46,38,7,1,74448,48623
+1630,2025-11-01,District A,Center 14,Digital Skills,95,67,24,4,57292,57168
+1631,2025-01-01,District B,Center 19,Career Readiness,36,22,7,7,216320,173900
+1632,2025-11-01,District F,Center 06,Vocational Training,48,34,10,4,100811,56359
+1633,2025-11-01,District D,Center 13,Entrepreneurship,26,22,2,2,71748,41938
+1634,2025-02-01,District C,Center 01,Digital Skills,78,57,2,19,82160,68220
+1635,2025-05-01,District B,Center 05,Entrepreneurship,43,34,8,1,70285,62856
+1636,2025-07-01,District H,Center 12,Vocational Training,32,20,5,7,55755,30943
+1637,2025-11-01,District G,Center 03,Career Readiness,29,24,4,1,230181,188248
+1638,2025-11-01,District G,Center 13,Entrepreneurship,77,68,7,2,97135,93317
+1639,2025-11-01,District E,Center 01,Vocational Training,92,81,1,10,209030,165666
+1640,2025-06-01,District A,Center 04,Entrepreneurship,81,55,7,19,207284,196044
+1641,2025-02-01,,Center 06,Entrepreneurship,44,32,3,9,57747,37057
+1642,2025-04-01,District A,Center 17,Vocational Training,66,58,7,1,106874,105942
+1643,2025-04-01,,Center 11,Vocational Training,30,22,6,2,120147,70628
+1644,2025-02-01,District E,Center 16,Vocational Training,64,45,2,17,220898,662694
+1645,2025-07-01,District E,Center 15,Career Readiness,85,77,2,6,100608,65569
+1646,2025-11-01,District E,Center 06,Vocational Training,55,31,12,12,76973,76101
+1647,2025-12-01,District E,Center 06,Vocational Training,82,57,12,13,166957,137051
+1648,2025-06-01,District G,Center 20,Entrepreneurship,99,92,6,1,209198,122021
+1649,2025-10-01,District G,Center 14,Vocational Training,65,52,8,5,215858,126720
+1650,2025-01-01,District B,Center 15,Vocational Training,85,59,18,8,203844,194040
+1651,2025-07-01,District G,Center 10,Entrepreneurship,23,16,6,1,97160,101881
+1652,2025-06-01,District F,Center 14,Vocational Training,51,39,11,1,106409,75612
+1653,2025-06-01,District F,Center 12,Vocational Training,35,22,13,0,133516,96833
+1654,2025-08-01,District A,Center 11,Vocational Training,92,64,3,25,134295,78476
+1655,2025-07-01,District D,Center 18,Digital Skills,56,39,11,6,188218,147208
+1656,2025-12-01,District D,Center 04,Entrepreneurship,97,81,14,2,200457,176074
+1657,2025-06-01,District G,Center 14,Entrepreneurship,45,37,5,3,63018,34923
+1658,2025-05-01,District H,Center 16,Digital Skills,73,46,24,3,82530,72695
+1659,2025-10-01,District H,Center 06,Entrepreneurship,69,51,11,7,201103,111140
+1660,2025-11-01,District A,Center 10,Digital Skills,93,81,12,0,171050,160172
+1661,2025-01-01,District E,Center 05,Career Readiness,88,67,5,16,60255,35142
+1662,2025-08-01,District F,Center 01,Digital Skills,32,27,2,3,239596,201705
+1663,2025-06-01,District E,Center 09,Entrepreneurship,71,61,9,1,195870,587610
+1664,2025-07-01,District F,Center 16,Digital Skills,58,50,1,7,179325,145074
+1665,2025-01-01,District B,Center 12,Digital Skills,48,29,18,1,52725,46692
+1666,2025-12-01,District C,Center 04,Entrepreneurship,75,59,9,7,94614,87151
+1667,2025-09-01,District B,Center 07,Entrepreneurship,20,12,8,0,118075,76452
+1668,2025-05-01,District A,Center 04,Digital Skills,29,26,1,2,136331,126104
+1669,2025-03-01,District G,Center 09,Vocational Training,94,85,2,7,81431,75678
+1670,2025-10-01,District C,Center 11,Vocational Training,72,56,2,14,225173,197491
+1671,2025-10-01,District B,Center 17,Vocational Training,81,73,1,7,123542,103701
+1672,2025-02-01,District F,Center 16,Vocational Training,53,42,7,4,236484,148568
+1673,2025-11-01,District B,Center 12,Vocational Training,46,34,1,11,70451,63983
+1674,2025-04-01,District B,Center 16,Digital Skills,21,13,5,3,172722,112463
+1675,2025-02-01,District G,Center 07,Career Readiness,63,42,15,6,204802,137371
+1676,2025-11-01,District F,Center 10,Career Readiness,39,24,12,3,84094,64115
+1677,2025-08-01,District D,Center 12,Career Readiness,99,90,1,8,103220,82940
+1678,2025-05-01,District G,Center 07,Digital Skills,74,46,23,5,229900,135292
+1679,2025-03-01,District E,Center 19,Digital Skills,79,65,0,14,78094,57898
+1680,2025-08-01,District B,Center 08,Digital Skills,43,37,4,2,57493,50579
+1681,2025-06-01,District H,Center 17,Career Readiness,53,46,6,1,194258,133255
+1682,2025-04-01,District B,Center 12,Career Readiness,39,32,1,6,181646,123888
+1683,2025-01-01,District G,Center 17,Entrepreneurship,76,70,4,2,146935,127567
+1684,2025-12-01,District B,Center 02,Career Readiness,74,50,18,6,127071,87012
+1685,2025-10-01,District D,Center 13,Vocational Training,55,34,5,16,209238,187753
+1686,2025-02-01,District H,Center 17,Career Readiness,26,16,0,10,115259,97699
+1687,2025-01-01,District B,Center 08,Digital Skills,24,15,0,9,119777,105521
+1688,2025-05-01,District D,Center 03,Digital Skills,48,42,2,4,233372,219139
+1689,2025-02-01,District G,Center 13,Career Readiness,48,41,3,4,179806,115770
+1690,2025-06-01,District D,Center 06,Vocational Training,56,32,2,22,206319,185578
+1691,2025-03-01,District E,Center 01,Digital Skills,84,58,4,22,213084,163259
+1692,2025-03-01,District H,Center 10,Vocational Training,60,33,6,21,68207,46366
+1693,2025-08-01,District C,Center 06,Entrepreneurship,38,21,17,0,224596,222258
+1694,2025-01-01,District H,Center 14,Entrepreneurship,42,27,7,8,70179,58155
+1695,2025-08-01,District C,Center 01,Entrepreneurship,-5,53,41,0,178006,157254
+1696,2025-01-01,District D,Center 16,Digital Skills,22,14,4,4,109844,109729
+1697,2025-02-01,District C,Center 05,Digital Skills,58,52,0,6,242986,173162
+1698,2025-12-01,District F,Center 15,Career Readiness,64,58,2,4,117460,123107
+1699,2025-08-01,District H,Center 09,Entrepreneurship,21,18,1,2,128940,125385
+1700,2025-02-01,District F,Center 17,Career Readiness,54,35,3,16,240897,201956
+1701,2025-04-01,District A,Center 05,Career Readiness,38,21,6,11,180503,107843
+1702,2025-06-01,District A,Center 08,Career Readiness,46,43,3,0,100814,71912
+1703,2025-11-01,District G,Center 04,Entrepreneurship,89,75,0,14,167773,159943
+1704,2025-06-01,District C,Center 09,Entrepreneurship,70,62,2,6,122416,128391
+1705,2025-10-01,District E,Center 07,Digital Skills,86,55,10,21,210528,120037
+1706,2025-10-01,District B,Center 14,Career Readiness,64,45,10,9,78885,48517
+1707,2025-08-01,District A,Center 16,Vocational Training,39,21,2,16,125964,91980
+1708,2025-05-01,District C,Center 10,Career Readiness,28,24,2,2,54087,45059
+1709,2025-05-01,District H,Center 02,Vocational Training,95,64,24,7,63944,56089
+1710,2025-07-01,District H,Center 10,Digital Skills,65,41,3,21,50168,27953
+1711,2025-06-01,District A,Center 09,Vocational Training,56,47,1,8,224411,193413
+1712,2025-03-01,District C,Center 03,Entrepreneurship,45,38,1,6,203413,115837
+1713,2025-01-01,District B,Center 10,Vocational Training,80,70,5,5,115202,99046
+1714,2025-02-01,District G,Center 14,Career Readiness,53,41,8,4,206510,178075
+1715,2025-11-01,District E,Center 06,Career Readiness,61,54,5,2,229128,193262
+1716,2025-07-01,District D,Center 09,Vocational Training,90,70,14,6,128921,134766
+1717,2025-10-01,District E,Center 03,Entrepreneurship,100,85,1,14,193086,148897
+1718,2025-02-01,District C,Center 13,Career Readiness,37,30,0,7,231962,172722
+1719,2025-08-01,District F,Center 17,Entrepreneurship,65,41,11,13,172303,146186
+1720,2025-01-01,District G,Center 14,Career Readiness,91,83,8,0,160341,162677
+1721,2025-04-01,District B,Center 05,Entrepreneurship,94,64,14,16,147808,120291
+1722,2025-01-01,District C,Center 20,Entrepreneurship,70,44,22,4,155628,163069
+1723,2025-01-01,District A,Center 15,Career Readiness,30,28,2,0,120824,105691
+1724,2025-05-01,District B,Center 11,Digital Skills,92,80,5,7,231034,209674
+1725,2025-12-01,District F,Center 02,Digital Skills,94,74,4,16,243819,140604
+1726,2025-09-01,District A,Center 07,Vocational Training,83,60,19,4,108600,96370
+1727,2025-12-01,District C,Center 10,Entrepreneurship,20,16,1,3,213489,157247
+1728,2025-01-01,District D,Center 04,Digital Skills,39,36,3,0,186268,118034
+1729,2025-02-01,District B,Center 08,Vocational Training,80,60,20,0,182593,163501
+1730,2025-02-01,District H,Center 13,Digital Skills,58,48,4,6,176804,154583
+1731,2025-10-01,District C,Center 08,Entrepreneurship,76,50,5,21,211784,133022
+1732,2025-11-01,District B,Center 14,Vocational Training,22,17,4,1,87142,74040
+1733,2025-08-01,District D,Center 06,Vocational Training,81,50,13,18,125877,113612
+1734,2025-06-01,District B,Center 19,Career Readiness,55,40,3,12,151140,133589
+1735,2025-07-01,District B,Center 15,Career Readiness,38,33,5,0,124297,78911
+1736,2025-01-01,District H,Center 04,Career Readiness,94,52,23,19,58934,55371
+1737,2025-03-01,District H,Center 02,Entrepreneurship,79,62,3,14,122588,110307
+1738,2025-09-01,District A,Center 06,Entrepreneurship,84,74,7,3,141444,134570
+1739,2025-03-01,District G,Center 17,Digital Skills,39,36,1,2,221949,181547
+1740,2025-05-01,District F,Center 15,Vocational Training,58,43,3,12,67880,50974
+1741,2025-10-01,District H,Center 13,Career Readiness,43,26,1,16,222728,186268
+1742,2025-10-01,District E,Center 05,Entrepreneurship,94,62,10,22,203221,205386
+1743,2025-01-01,District G,Center 03,Digital Skills,40,31,6,3,75307,63741
+1744,2025-06-01,District B,Center 16,Career Readiness,49,33,9,7,77638,44719
+1745,2025-02-01,District C,Center 13,Career Readiness,27,15,3,9,115662,88095
+1746,2025-08-01,District B,Center 02,Digital Skills,67,39,9,19,215489,183903
+1747,2025-02-01,District A,Center 06,Entrepreneurship,77,69,2,6,84921,84195
+1748,2025-08-01,District D,Center 07,Entrepreneurship,76,61,6,9,109112,71535
+1749,2025-09-01,District D,Center 06,Career Readiness,44,39,5,0,202596,201187
+1750,2025-01-01,District A,Center 04,Vocational Training,37,23,0,14,51372,47196
+1751,2025-06-01,District F,Center 14,Digital Skills,43,28,0,15,99843,94982
+1752,2025-09-01,District D,Center 19,Career Readiness,65,61,2,2,212130,119856
+1753,2025-07-01,District C,Center 03,Career Readiness,100,90,4,6,68577,59066
+1754,2025-02-01,District B,Center 05,Entrepreneurship,35,32,0,3,110443,86422
+1755,2025-01-01,District A,Center 20,Entrepreneurship,48,42,0,6,125994,73227
+1756,2025-02-01,District E,Center 13,Entrepreneurship,40,27,9,4,69602,40613
+1757,2025-07-01,District D,Center 17,Entrepreneurship,99,93,6,0,193115,185098
+1758,2025-05-01,District B,Center 19,Career Readiness,23,20,3,0,138616,141247
+1759,2025-06-01,District G,Center 09,Vocational Training,27,15,10,2,103538,76907
+1760,2025-08-01,District F,Center 02,Vocational Training,29,16,1,12,197811,129644
+1761,2025-07-01,District A,Center 12,Digital Skills,96,61,30,5,194552,152636
+1762,2025-12-01,District H,Center 05,Entrepreneurship,25,16,8,1,59332,35628
+1763,2025-11-01,District H,Center 17,Vocational Training,64,39,12,13,175198,109260
+1764,2025-01-01,District E,Center 08,Digital Skills,23,21,2,0,190033,176663
+1765,2025-01-01,District G,Center 01,Career Readiness,69,64,2,3,232305,178844
+1766,2025-09-01,District C,Center 14,Career Readiness,37,24,12,1,164806,156425
+1767,2025-06-01,District B,Center 20,Entrepreneurship,44,29,5,10,164432,115051
+1768,2025-02-01,District A,Center 08,Vocational Training,95,61,34,0,109539,67348
+1769,2025-01-01,District G,Center 18,Digital Skills,51,33,17,1,70083,50996
+1770,2025-03-01,District A,Center 05,Career Readiness,56,45,11,0,132346,76930
+1771,2025-05-01,District F,Center 20,Vocational Training,36,22,5,9,154285,147266
+1772,2025-02-01,District H,Center 04,Digital Skills,52,31,4,17,103965,74992
+1773,2025-08-01,District H,Center 12,Vocational Training,58,51,2,5,194547,122070
+1774,2025-06-01,District E,Center 08,Entrepreneurship,89,51,6,32,77362,61291
+1775,2025-12-01,District A,Center 12,Career Readiness,99,66,2,31,123343,102584
+1776,2025-09-01,District B,Center 07,Vocational Training,49,42,3,4,244486,151232
+1777,2025-12-01,District D,Center 04,Entrepreneurship,38,29,9,0,111631,89612
+1778,2025-01-01,District H,Center 15,Digital Skills,83,50,31,2,120857,104178
+1779,2025-05-01,District E,Center 19,Career Readiness,30,19,11,0,123162,97780
+1780,2025-07-01,District G,Center 16,Digital Skills,69,40,15,14,61643,48068
+1781,2025-03-01,District D,Center 07,Career Readiness,75,50,8,17,63699,61226
+1782,2025-01-01,District E,Center 02,Entrepreneurship,97,55,21,21,118821,90221
+1783,2025-12-01,District D,Center 01,Entrepreneurship,99,72,14,13,162079,147897
+1784,2025-12-01,,Center 04,Career Readiness,56,43,0,13,190184,168047
+1785,2025-03-01,District H,Center 14,Entrepreneurship,68,58,3,7,245463,240824
+1786,2025-05-01,District D,Center 05,Digital Skills,55,37,16,2,115518,94610
+1787,2025-01-01,District E,Center 11,Career Readiness,98,86,8,4,144816,151292
+1788,2025-02-01,District E,Center 09,Digital Skills,59,53,2,4,223218,164228
+1789,2025-08-01,District F,Center 09,Vocational Training,79,49,30,0,165319,131378
+1790,2025-06-01,District A,Center 15,Digital Skills,81,68,3,10,195911,156000
+1791,2025-10-01,District D,Center 14,Digital Skills,30,22,4,4,209993,203507
+1792,2025-03-01,District F,Center 03,Career Readiness,53,36,9,8,118037,115664
+1793,2025-11-01,District H,Center 05,Vocational Training,42,29,11,2,211991,151386
+1794,2025-11-01,District A,Center 08,Digital Skills,24,17,5,2,229422,213643
+1795,2025-01-01,District H,Center 19,Entrepreneurship,90,54,22,14,65941,42743
+1796,2025-11-01,District E,Center 09,Digital Skills,65,60,1,4,238303,151976
+1797,2025-06-01,,Center 20,Vocational Training,33,25,7,1,182890,153564
+1798,2025-04-01,,Center 04,Digital Skills,46,34,7,5,199517,174053
+1799,2025-11-01,District F,Center 14,Digital Skills,74,47,18,9,87507,72309
+1800,2025-06-01,District A,Center 11,Entrepreneurship,72,50,2,20,148229,130565
+1592,2025-08-01,District G,Center 14,Vocational Training,66,44,6,16,213743,144271
+944,2025-08-01,District D,Center 13,Career Readiness,53,29,20,4,189052,127296
+870,2025-07-01,District F,Center 13,Digital Skills,90,62,26,2,126764,95968
+163,2025-01-01,District A,Center 10,Career Readiness,94,87,2,5,241983,222369
+1272,2025-01-01,District H,Center 20,Vocational Training,45,39,0,6,217362,186236
+71,2025-09-01,District C,Center 03,Entrepreneurship,99,92,2,5,74480,50340
+248,2025-07-01,District D,Center 05,Entrepreneurship,20,14,2,4,142488,103542
+323,2025-12-01,District C,Center 15,Entrepreneurship,43,25,18,0,243099,241947
+1660,2025-11-01,District A,Center 10,Digital Skills,93,81,12,0,171050,160172
+1005,2025-11-01,District F,Center 10,Vocational Training,31,17,14,0,175772,139525
+1663,2025-06-01,District E,Center 09,Entrepreneurship,71,61,9,1,195870,181350
+910,2025-07-01,District D,Center 19,Career Readiness,92,73,9,10,192744,142817
+1226,2025-09-01,District D,Center 04,Entrepreneurship,94,61,21,12,144704,149509
+902,2025-02-01,District B,Center 15,Vocational Training,79,54,22,3,169428,118306
+592,2025-04-01,District E,Center 16,Vocational Training,100,80,20,0,128935,130999
