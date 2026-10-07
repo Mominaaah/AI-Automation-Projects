@@ -1,0 +1,18 @@
+record_id,reporting_month,reporting_date,submission_date,district,training_center_id,program_type,participants_enrolled,participants_completed,participants_in_progress,participants_dropped,employment_outcomes,trainers_count,training_hours,budget_allocated,budget_spent,data_source
+131,2025-11-01,2025-11-30,2025-12-03,District G,CENTER_999,Entrepreneurship,71,56,14,1,31,4,106,169229,176848,monthly_center_report
+1592,2025-08-01,2025-08-31,2025-09-02,District G,CENTER_14,Vocational Training,66,44,6,16,28,5,64,213743,144271,monthly_center_report
+944,2025-08-01,2025-08-31,2025-09-07,District D,CENTER_13,Career Readiness,53,29,20,4,8,4,101,189052,127296,manual_submission
+870,2025-07-01,2025-07-31,2025-08-06,District F,CENTER_13,Digital Skills,90,62,26,2,14,5,77,126764,95968,monthly_center_report
+163,2025-01-01,2025-01-31,2025-02-04,District A,CENTER_10,Career Readiness,94,87,2,5,49,5,39,241983,222369,monthly_center_report
+1272,2025-01-01,2025-01-31,2025-02-07,District H,CENTER_20,Vocational Training,45,39,0,6,17,4,77,217362,186236,manual_submission
+71,2025-09-01,2025-09-30,2025-10-03,District C,CENTER_03,Entrepreneurship,99,92,2,5,57,6,108,74480,50340,monthly_center_report
+248,2025-07-01,2025-07-31,2025-08-02,District D,CENTER_05,Entrepreneurship,20,14,2,4,5,2,76,142488,103542,program_database
+323,2025-12-01,2025-12-31,2026-01-03,District C,CENTER_15,Entrepreneurship,43,25,18,0,7,3,96,243099,241947,monthly_center_report
+1660,2025-11-01,2025-11-30,2025-12-02,District A,CENTER_10,Digital Skills,93,81,12,0,50,5,87,171050,160172,monthly_center_report
+1005,2025-11-01,2025-11-30,2025-12-07,District F,CENTER_10,Vocational Training,31,17,14,0,8,2,97,175772,139525,manual_submission
+1663,2025-06-01,2025-06-30,2025-07-01,District E,CENTER_09,Entrepreneurship,71,61,9,1,18,4,116,195870,181350,monthly_center_report
+910,2025-07-01,2025-07-31,2025-08-06,District D,CENTER_19,Career Readiness,92,73,9,10,41,6,111,192744,142817,program_database
+1226,2025-09-01,2025-09-30,2025-10-07,District D,CENTER_04,Entrepreneurship,94,61,21,12,28,7,71,144704,149509,monthly_center_report
+902,2025-02-01,2025-02-28,2025-03-03,District B,CENTER_15,Vocational Training,79,54,22,3,27,4,56,169428,118306,monthly_center_report
+592,2025-04-01,2025-04-30,2025-05-04,District E,CENTER_16,Vocational Training,100,80,20,0,34,7,27,128935,130999,monthly_center_report
+251,2025-06-01,2025-06-30,2025-07-07,District A,CENTER_12,Digital Skills,50,41,8,1,8,5,72,202542,165689,program_database

@@ -1,0 +1,31 @@
+record_id,issue_type,field_name,action,old_value,new_value,reason
+131,unknown_training_center,training_center_id,quarantined,CENTER_999,,Training center does not exist in reference table
+1592,duplicate_record,business_key,quarantined,"(1592, Timestamp('2025-08-01 00:00:00'), 'CENTER_14', 'Vocational Training')",,Duplicate business record; first occurrence retained
+944,duplicate_record,business_key,quarantined,"(944, Timestamp('2025-08-01 00:00:00'), 'CENTER_13', 'Career Readiness')",,Duplicate business record; first occurrence retained
+870,duplicate_record,business_key,quarantined,"(870, Timestamp('2025-07-01 00:00:00'), 'CENTER_13', 'Digital Skills')",,Duplicate business record; first occurrence retained
+163,duplicate_record,business_key,quarantined,"(163, Timestamp('2025-01-01 00:00:00'), 'CENTER_10', 'Career Readiness')",,Duplicate business record; first occurrence retained
+1272,duplicate_record,business_key,quarantined,"(1272, Timestamp('2025-01-01 00:00:00'), 'CENTER_20', 'Vocational Training')",,Duplicate business record; first occurrence retained
+71,duplicate_record,business_key,quarantined,"(71, Timestamp('2025-09-01 00:00:00'), 'CENTER_03', 'Entrepreneurship')",,Duplicate business record; first occurrence retained
+248,duplicate_record,business_key,quarantined,"(248, Timestamp('2025-07-01 00:00:00'), 'CENTER_05', 'Entrepreneurship')",,Duplicate business record; first occurrence retained
+323,duplicate_record,business_key,quarantined,"(323, Timestamp('2025-12-01 00:00:00'), 'CENTER_15', 'Entrepreneurship')",,Duplicate business record; first occurrence retained
+1660,duplicate_record,business_key,quarantined,"(1660, Timestamp('2025-11-01 00:00:00'), 'CENTER_10', 'Digital Skills')",,Duplicate business record; first occurrence retained
+1005,duplicate_record,business_key,quarantined,"(1005, Timestamp('2025-11-01 00:00:00'), 'CENTER_10', 'Vocational Training')",,Duplicate business record; first occurrence retained
+1663,duplicate_record,business_key,quarantined,"(1663, Timestamp('2025-06-01 00:00:00'), 'CENTER_09', 'Entrepreneurship')",,Duplicate business record; first occurrence retained
+910,duplicate_record,business_key,quarantined,"(910, Timestamp('2025-07-01 00:00:00'), 'CENTER_19', 'Career Readiness')",,Duplicate business record; first occurrence retained
+1226,duplicate_record,business_key,quarantined,"(1226, Timestamp('2025-09-01 00:00:00'), 'CENTER_04', 'Entrepreneurship')",,Duplicate business record; first occurrence retained
+902,duplicate_record,business_key,quarantined,"(902, Timestamp('2025-02-01 00:00:00'), 'CENTER_15', 'Vocational Training')",,Duplicate business record; first occurrence retained
+592,duplicate_record,business_key,quarantined,"(592, Timestamp('2025-04-01 00:00:00'), 'CENTER_16', 'Vocational Training')",,Duplicate business record; first occurrence retained
+251,duplicate_record,business_key,quarantined,"(251, Timestamp('2025-06-01 00:00:00'), 'CENTER_12', 'Digital Skills')",,Duplicate business record; first occurrence retained
+223,negative_value,participants_enrolled,set_null,-5,,Participant count cannot be negative
+582,negative_value,participants_enrolled,set_null,-5,,Participant count cannot be negative
+769,negative_value,participants_enrolled,set_null,-5,,Participant count cannot be negative
+853,negative_value,participants_enrolled,set_null,-5,,Participant count cannot be negative
+978,negative_value,participants_enrolled,set_null,-5,,Participant count cannot be negative
+1100,negative_value,participants_enrolled,set_null,-5,,Participant count cannot be negative
+1304,negative_value,participants_enrolled,set_null,-5,,Participant count cannot be negative
+1382,negative_value,participants_enrolled,set_null,-5,,Participant count cannot be negative
+1477,negative_value,participants_enrolled,set_null,-5,,Participant count cannot be negative
+1695,negative_value,participants_enrolled,set_null,-5,,Participant count cannot be negative
+191,negative_value,participants_dropped,set_null,-3,,Participant count cannot be negative
+206,negative_value,budget_spent,set_null,-1000,,Budget value cannot be negative
+176,invalid_date,submission_date,set_null,,,Date could not be parsed
